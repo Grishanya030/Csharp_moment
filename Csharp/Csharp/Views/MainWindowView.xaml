@@ -5,14 +5,188 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Csharp.views"
         mc:Ignorable="d"
-        Title="Pathfinder 2e" Height="450" Width="800">
-    <ContentControl> 
-        
-        <Button>
-            <Label Height="63" Width="190">
-                Кто прочитал тот...
-            </Label>
-        </Button>
+        Title="Pathfinder 2e" Height="900" Width="1600">
+    <ContentControl>
+        <Grid x:Name="MainGrid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*" />
+                <ColumnDefinition Width="11*" />
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="LeftPanel" Grid.Column="0">
+                <StackPanel Margin="10" Background="LightGray">
+                    <StackPanel Name="Name" Orientation="Horizontal" Margin="10">
+                        <Label>
+                            Имя
+                        </Label>
+                        <TextBox Width="372">
+
+                        </TextBox>
+                        <Label>
+                            Ур
+                        </Label>
+                        <TextBox Width="30">
+
+                        </TextBox>
+                    </StackPanel>
+                    <StackPanel Name="Health" Orientation="Horizontal" Margin="10">
+                        <ContentControl Margin="10">
+                            <StackPanel Width="85">
+                                <TextBox Height="77" Width="85" HorizontalAlignment="Center"
+                                         VerticalAlignment="Center">
+                                </TextBox>
+                                <TextBlock Background="White" TextAlignment="Center"> 
+                                    КД</TextBlock>
+                            </StackPanel>
+                        </ContentControl>
+                        <ContentControl Margin="10">
+                            <StackPanel Width="160">
+                                <TextBox Height="77" Width="160" HorizontalAlignment="Center"
+                                         VerticalAlignment="Center">
+
+                                </TextBox>
+                                <TextBlock Background="White" TextAlignment="Center"> 
+                                    Хп</TextBlock>
+                            </StackPanel>
+                        </ContentControl>
+                        <ContentControl Margin="10">
+                            <StackPanel Width="85">
+                                <TextBox Height="77" Width="85" HorizontalAlignment="Center"
+                                         VerticalAlignment="Center">
+
+                                </TextBox>
+                                <TextBlock Background="White" TextAlignment="Center"> 
+                                    Врем</TextBlock>
+                            </StackPanel>
+                        </ContentControl>
+                    </StackPanel>
+                    <StackPanel Name="Death" Orientation="Horizontal" Margin="10">
+                        <Label>
+                            При смерти
+                        </Label>
+                        <TextBox Width="21" >
+
+                        </TextBox>
+                        <Label>
+                            Ранен
+                        </Label>
+                        <TextBox Width="24" >
+
+                        </TextBox>
+                    </StackPanel>
+                    <StackPanel Name="Spas" Orientation="Horizontal" Margin="10">
+                        <ContentControl Margin="10">
+                            <StackPanel Width="85" Background="White">
+                                <TextBlock Background="White" TextAlignment="Center"> 
+                                    Стойкость</TextBlock>
+                                <StackPanel Orientation="Horizontal">
+                                    <ContentControl>
+                                        <Button  Margin="5" Height="10" Width="10">
+                                        </Button>
+                                    </ContentControl>
+                                    <TextBlock TextAlignment="Center" VerticalAlignment="Center" Width="55"> 
+                                        +10</TextBlock>
+                                </StackPanel>
+                            </StackPanel>
+                        </ContentControl>
+                        <ContentControl Margin="10">
+                            <StackPanel Width="85" Background="White">
+                                <TextBlock Background="White" TextAlignment="Center"> 
+                                    Рефлексы</TextBlock>
+                                <StackPanel Orientation="Horizontal">
+                                    <ContentControl>
+                                        <Button  Margin="5" Height="10" Width="10">
+                                        </Button>
+                                    </ContentControl>
+                                    <TextBlock TextAlignment="Center" VerticalAlignment="Center" Width="55"> 
+                                        +10</TextBlock>
+                                </StackPanel>
+                            </StackPanel>
+                        </ContentControl>
+                        <ContentControl Margin="10">
+                            <StackPanel Width="85" Background="White">
+                                <TextBlock Background="White" TextAlignment="Center"> 
+                                    Воля</TextBlock>
+                                <StackPanel Orientation="Horizontal">
+                                    <ContentControl>
+                                        <Button  Margin="5" Height="10" Width="10">
+                                        </Button>
+                                    </ContentControl>
+                                    <TextBlock TextAlignment="Center" VerticalAlignment="Center" Width="55"> 
+                                        +10</TextBlock>
+                                </StackPanel>
+                            </StackPanel>
+                        </ContentControl>
+                    </StackPanel>
+                    <StackPanel Name="Shield">
+                        <StackPanel Name="Shield_Name" Orientation="Horizontal" Margin="10" Background="White">
+                            <Label >
+                                Щит:
+                            </Label>
+                            <TextBox Width="396"/>
+                            <ContentControl Width="28">
+                                <Button  Margin="5" Height="10" Width="10">
+                                </Button>
+                            </ContentControl>
+                        </StackPanel>
+                        <StackPanel Name="Shield_Hp" Orientation="Horizontal" Margin="10">
+                            <ContentControl Margin="10">
+                                <StackPanel Width="85">
+                                    <TextBox Height="77" Width="85" HorizontalAlignment="Center"
+                                             VerticalAlignment="Center">
+
+                                    </TextBox>
+                                    <TextBlock Background="White" TextAlignment="Center"> 
+                                        Твёрдость</TextBlock>
+                                </StackPanel>
+                            </ContentControl>
+                            <ContentControl Margin="10">
+                                <StackPanel Width="160">
+                                    <TextBox Height="77" Width="160" HorizontalAlignment="Center"
+                                             VerticalAlignment="Center">
+
+                                    </TextBox>
+                                    <TextBlock Background="White" TextAlignment="Center"> 
+                                        Хп</TextBlock>
+                                </StackPanel>
+                            </ContentControl>
+                            <ContentControl Margin="10">
+                                <StackPanel Width="85">
+                                    <TextBox Height="77" Width="85" HorizontalAlignment="Center"
+                                             VerticalAlignment="Center">
+
+                                    </TextBox>
+                                    <TextBlock Background="White" TextAlignment="Center"> 
+                                        Порог</TextBlock>
+                                </StackPanel>
+                            </ContentControl>
+                        </StackPanel>
+                        <Button Name="Shield_Up" Margin="10" Background="White"
+                                >
+                            <Label>
+                                Поднять щит
+                            </Label>
+                        </Button>
+                     </StackPanel>
+                    <StackPanel Name="Vnimatelnost" Orientation="Horizontal" Margin="10" Background="White">
+                        <ContentControl>
+                            <Button  Margin="5" Height="10" Width="10">
+                            </Button>
+                        </ContentControl>
+                        <Label Background="White" Width="395">
+                            Внимательность
+                        </Label>
+                        <TextBlock TextAlignment="Center" VerticalAlignment="Center" Width="38"> 
+                            +10
+                        </TextBlock>
+                    </StackPanel>
+                </StackPanel>
+
+            </Grid>
+
+
+        </Grid>
+
+
 
     </ContentControl>
 </Window>
