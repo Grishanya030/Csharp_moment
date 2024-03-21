@@ -130,3 +130,4 @@ D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp.csproj.Fody.RuntimeCopyLo
 D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp.csproj.CopyComplete
 D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp.exe
 D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp.pdb
+C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\GeneratedInternalTypeHelper.g.cs
