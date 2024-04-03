@@ -24,13 +24,15 @@
                         <Label>
                             Имя
                         </Label>
-                        <TextBox Width="310"/>
-                    <Label>
+                        <TextBox Width="267" Text="{Binding Name}">
+
+                        </TextBox>
+                        <Label> 
                             Ур
                         </Label>
-                    <TextBox Width="30" Text="{Binding Level}">
+                        <TextBlock Width="30" Text="{Binding Level}">
                         
-                        </TextBox>
+                        </TextBlock>
                     </WrapPanel>
                     <StackPanel Name="Health" Orientation="Horizontal" Margin="10">
                         <ContentControl Margin="10">
@@ -166,7 +168,7 @@
                             </ContentControl>
                         </StackPanel>
                         <Button Name="Shield_Up" Margin="10" Background="White"
-                               Command="{Binding Shild_Up_ClickCommand}" >
+                               Command="{Binding ShildUpClickCommand}" >
                             <Label>
                                 Поднять щит
                             </Label>

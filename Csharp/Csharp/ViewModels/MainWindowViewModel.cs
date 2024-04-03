@@ -14,25 +14,34 @@ namespace Csharp.ViewModels
 
         public MainWindowViewModel()
         {
-            Shild_Up_ClickCommand=new DelegateCommand(Shild_Up_Click);  
+            ShildUpClickCommand=new DelegateCommand(ShildUpClick);  
         }
         private readonly IRegionManager _regionManager;
 
-
-
-        public ICommand Shild_Up_ClickCommand { get; set; } 
+        public ICommand ShildUpClickCommand { get; set; } 
         
 
-        public int Shild_Up;
-
+        public string Name { get; set; }
         public int Level { get; set; } = 1;
-        public string Name { get; set; } 
-        public int Health { get; set; } 
+        public int Defence { get; set; }
+        public int Health { get; set; }   
         public int TempHealth { get; set; }
 
-        public void Shild_Up_Click()
+        public int Death { get; set; }
+        public int Injured { get; set; }   
+        public int Fortitude { get; set; }
+        public int Will { get; set; }
+        public int Reflex { get; set; }
+        public string ShildName { get; set; }
+        public int Hardness { get; set; }
+        public int ShildHealth { get; set; }
+        public int ShildLimit { get; set; } 
+
+        public int Perception { get; set; }
+
+        public void ShildUpClick()
         {
-            Level = 10;
+            Level += 1;
         }
     }
 }
