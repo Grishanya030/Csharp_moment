@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="Csharp.Views.TabSkills"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Csharp.Views"
+             mc:Ignorable="d" >
+    <StackPanel Orientation="Horizontal" Background="White" Margin="5">
+        <StackPanel Width="243" Margin="0,30,0,0">
+            <local:Skills SkillName="Акробатика" Value=""></local:Skills>
+            <local:Skills SkillName="Аркана" Value=""></local:Skills>
+            <local:Skills SkillName="Атлетика" Value=""></local:Skills>
+            <local:Skills SkillName="Создание" Value=""></local:Skills>
+            <local:Skills SkillName="Убежедение" Value=""></local:Skills>
+            <local:Skills SkillName="Дипломатия" Value=""></local:Skills>
+            <local:Skills SkillName="Запугивание" Value=""></local:Skills>
+            <local:Skills SkillName="Знание: " Value=""/>
+            <local:Skills SkillName="Медицина" Value=""></local:Skills>
+            <local:Skills SkillName="Природа" Value=""></local:Skills>
+            <local:Skills SkillName="Оккультизм" Value=""></local:Skills>
+            <local:Skills SkillName="Выступление" Value=""></local:Skills>
+            <local:Skills SkillName="Религия" Value=""></local:Skills>
+            <local:Skills SkillName="Общество" Value=""></local:Skills>
+            <local:Skills SkillName="Воровство" Value=""></local:Skills>
+            <local:Skills SkillName="Выживание" Value=""></local:Skills>
+            <local:Skills SkillName="Скрытность" Value=""></local:Skills>
+            <local:Skills SkillName="Внимательность" Value=""></local:Skills>
+        </StackPanel>
+        <StackPanel  Margin="0,30,0,0">
+            <DockPanel> </DockPanel>
+            <DockPanel>
+                <local:HighBlock Type="Сила" Value="4"></local:HighBlock>
+                <local:HighBlock Type="Ловкость" Value="1"></local:HighBlock>
+                <local:HighBlock Type="Телосложение" Value="2"></local:HighBlock>
+                <local:HighBlock Type="Интелект" Value="0"></local:HighBlock>
+                <local:HighBlock Type="Мудрость" Value="1"></local:HighBlock>
+                <local:HighBlock Type="Харизма" Value="1"></local:HighBlock>
+
+
+            </DockPanel>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

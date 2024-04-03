@@ -1,5 +1,7 @@
 ﻿using Prism.Commands;
+using Prism.Events;
 using Prism.Regions;
+using ReactiveUI.Fody.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,19 +13,24 @@ namespace Csharp.ViewModels
 {
     public class MainWindowViewModel
     {
+        [Reactive] public string Title { get; set; } = "PRISM";
 
-        public MainWindowViewModel()
-        {
-            ShildUpClickCommand=new DelegateCommand(ShildUpClick);  
-        }
         private readonly IRegionManager _regionManager;
+        public MainWindowViewModel(IEventAggregator eventAggregator, IRegionManager regionManager)
+        {
+            var eventAggregator1 = eventAggregator;
+            _regionManager = regionManager;
 
-        public ICommand ShildUpClickCommand { get; set; } 
+            ShildUpClickCommand =new DelegateCommand(ShildUpClick);  
+        }
         
 
-        public string Name { get; set; }
-        public int Level { get; set; } = 1;
-        public int Defence { get; set; }
+        public ICommand ShildUpClickCommand { get; set; }
+
+
+        public string Name { get; set; } = "Игорёчек";
+        public int Level { get; set; } = 121;
+        public int Defence { get; set; } = 14;
         public int Health { get; set; }   
         public int TempHealth { get; set; }
 

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\
+D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\
 Csharp
 none
 false
 DEBUG;TRACE
-C:\GitHub\Csharp_moment\Csharp\Csharp\App.xaml
-1-1509167164
+D:\Github\Csharp_moment\Csharp\Csharp\App.xaml
+71660648755
 
-7-297284928
-41-1130481875
-Views\MainWindowView.xaml;
+13270463937
+41-809596663
+Views\HighBlock.xaml;Views\LeftPanel.xaml;Views\MainWindowView.xaml;Views\RightPanel.xaml;Views\Skills.xaml;Views\SmallBlock.xaml;Views\TabSkills.xaml;
 
 True
 

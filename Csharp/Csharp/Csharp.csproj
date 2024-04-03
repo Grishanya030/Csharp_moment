@@ -134,8 +134,26 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
+    <Compile Include="Views\HighBlock.xaml.cs">
+      <DependentUpon>HighBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LeftPanel.xaml.cs">
+      <DependentUpon>LeftPanel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\MainWindowView.xaml.cs">
       <DependentUpon>MainWindowView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RightPanel.xaml.cs">
+      <DependentUpon>RightPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Skills.xaml.cs">
+      <DependentUpon>Skills.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SmallBlock.xaml.cs">
+      <DependentUpon>SmallBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TabSkills.xaml.cs">
+      <DependentUpon>TabSkills.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -166,7 +184,31 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Views\HighBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LeftPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MainWindowView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\RightPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Skills.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SmallBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TabSkills.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
