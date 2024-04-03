@@ -3,44 +3,40 @@
   "WorkspaceRootPath": "D:\\Github\\Csharp_moment\\Csharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\components\\smallblock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\components\\smallblock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\views\\mainwindowview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\views\\mainwindowview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\components\\smallblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\components\\smallblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\views\\leftpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\views\\leftpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\views\\skills.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\views\\skills.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\views\\tabskills.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\views\\tabskills.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\views\\smallblock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\views\\smallblock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\views\\smallblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\views\\smallblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\views\\rightpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\views\\rightpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\components\\skills.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\components\\skills.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|D:\\Github\\Csharp_moment\\Csharp\\csharp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\components\\leftpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\components\\leftpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|D:\\Github\\Csharp_moment\\Csharp\\csharp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\components\\hightblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\components\\hightblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|D:\\Github\\Csharp_moment\\Csharp\\csharp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\views\\mainwindowview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\views\\mainwindowview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,124 +54,114 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindowView.xaml",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\MainWindowView.xaml",
-              "RelativeDocumentMoniker": "Csharp\\Views\\MainWindowView.xaml",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\MainWindowView.xaml",
-              "RelativeToolTip": "Csharp\\Views\\MainWindowView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T09:59:12.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "Csharp\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "Csharp\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAtAAAA",
+              "Title": "SmallBlock.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\SmallBlock.xaml.cs",
+              "RelativeDocumentMoniker": "Csharp\\Components\\SmallBlock.xaml.cs",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\SmallBlock.xaml.cs",
+              "RelativeToolTip": "Csharp\\Components\\SmallBlock.xaml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwBoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T09:58:50.218Z",
+              "WhenOpened": "2024-04-03T14:06:30.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "SmallBlock.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\SmallBlock.xaml.cs",
+              "RelativeDocumentMoniker": "Csharp\\Views\\SmallBlock.xaml.cs",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\SmallBlock.xaml.cs",
+              "RelativeToolTip": "Csharp\\Views\\SmallBlock.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T14:06:22.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SmallBlock.xaml",
               "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\SmallBlock.xaml",
               "RelativeDocumentMoniker": "Csharp\\Views\\SmallBlock.xaml",
               "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\SmallBlock.xaml",
               "RelativeToolTip": "Csharp\\Views\\SmallBlock.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T11:52:44.836Z",
+              "WhenOpened": "2024-04-03T14:05:21.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SmallBlock.xaml",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\SmallBlock.xaml",
+              "RelativeDocumentMoniker": "Csharp\\Components\\SmallBlock.xaml",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\SmallBlock.xaml",
+              "RelativeToolTip": "Csharp\\Components\\SmallBlock.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-03T14:05:18.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TabSkills.xaml",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\TabSkills.xaml",
-              "RelativeDocumentMoniker": "Csharp\\Views\\TabSkills.xaml",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\TabSkills.xaml",
-              "RelativeToolTip": "Csharp\\Views\\TabSkills.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T10:12:49.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LeftPanel.xaml",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\LeftPanel.xaml",
-              "RelativeDocumentMoniker": "Csharp\\Views\\LeftPanel.xaml",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\LeftPanel.xaml",
-              "RelativeToolTip": "Csharp\\Views\\LeftPanel.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T09:59:09.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Skills.xaml",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\Skills.xaml",
-              "RelativeDocumentMoniker": "Csharp\\Views\\Skills.xaml",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\Skills.xaml",
-              "RelativeToolTip": "Csharp\\Views\\Skills.xaml",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\Skills.xaml",
+              "RelativeDocumentMoniker": "Csharp\\Components\\Skills.xaml",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\Skills.xaml",
+              "RelativeToolTip": "Csharp\\Components\\Skills.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T10:07:47.036Z",
+              "WhenOpened": "2024-04-03T14:04:18.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "RightPanel.xaml",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\RightPanel.xaml",
-              "RelativeDocumentMoniker": "Csharp\\Views\\RightPanel.xaml",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\RightPanel.xaml",
-              "RelativeToolTip": "Csharp\\Views\\RightPanel.xaml",
+              "Title": "HightBlock.xaml",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\HightBlock.xaml",
+              "RelativeDocumentMoniker": "Csharp\\Components\\HightBlock.xaml",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\HightBlock.xaml",
+              "RelativeToolTip": "Csharp\\Components\\HightBlock.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T10:10:41.815Z",
+              "WhenOpened": "2024-04-03T14:04:14.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LeftPanel.xaml",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\LeftPanel.xaml",
+              "RelativeDocumentMoniker": "Csharp\\Components\\LeftPanel.xaml",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\LeftPanel.xaml",
+              "RelativeToolTip": "Csharp\\Components\\LeftPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-03T14:02:43.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\App.xaml",
-              "RelativeDocumentMoniker": "Csharp\\App.xaml",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\App.xaml",
-              "RelativeToolTip": "Csharp\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T09:58:50.275Z",
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "Csharp\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "Csharp\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T14:00:44.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\App.config",
-              "RelativeDocumentMoniker": "Csharp\\App.config",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\App.config",
-              "RelativeToolTip": "Csharp\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJzSURBVDhPjVNLaBpRFL0zPmPU\u002BEFrEjVYbMEsipASqCZ2kYUglISW4spVcJmsC4EskkKhG5fSbRfNJtkIJXFjdVVB6qJiJVpQCUFD/MRP2vghk0nvHRJIKCQ58GaG\u002B849786593GA2NjYYJVKRTscDtnZ2RmFbkGtVsPExAQsLi6KCwsLLY7jxKstkASCweD0yMjIe41GM42b0sZNnJ\u002BfS\u002B\u002B5ubk/Vqt1DTk/5\u002Bfn\u002BxST2IFAYMZsNn9eWlqaUalUFLqFRqMB8XgcLi8vBY/H80Ov128i7zuJ8ESgE2QyGUxOTgKe8N8ymUyUDEdHRyyRSLi73e4mY\u002Bw5xnhJ4D6QOFU2NjYG6BOfyWRejI6OfsQtAyOCxWKB8fFxQB\u002BAR006jdY1jEYj\u002BP1\u002BqdJerwfpdJqJoqijCmT4YDqdbhbXKzTnESWQ0E0zqQLqhFarBYVCAaVSCex2ew0784VHg56g2sru7u7j9fV12NnZgZOTk1sCd4FvtVpfUfmb2\u002B3\u002Bhf8nRiIR2Nvbg9PT0weJ8KFQ6GkymXxTq9VS6MPffr8P\u002B/v7QO\u002BHgD84OGDRaHQWRV4Xi0UVGYWVgCAID6vA5XJBu91W5vN5G/aXURIldzodiXCfCL\u002B8vFz3er11dLRuMBiaNptNPDw8hK2tLcD7IQncJcIrlUofDolPLpf7HA7H29XV1ZTT6eyXy2UIh8NQKBRgMBhAs9mEarUKx8fHcHFxcZUOwKampjJX3zQ8DBPeoQebsVjsZS6XU25vbws4RKVsNjugZGw54KWj2fiNKYI0idfAUgUUSeE0fkDSJ5yHZ/V6vYNiK\u002BhLDjsl8WioiMtxXOcfwx4W4evhE2QAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-04-03T09:58:50.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Csharp\\App.xaml.cs",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\App.xaml.cs",
-              "RelativeToolTip": "Csharp\\App.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowBsAAAAbAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHiSURBVDhPY2SAgpb1Vww4WNh2SguwM7EyMQYL/5I95ujI\u002BAcqjRMwMsTvNAAxfPWF1cwUeKfvvvqBz1GNb7\u002BW4Ocp25ZOffTt2zewQikpKYaAgACQgTccHR3hBrMw/GUsADGO3vok9P7LH66bL76xKIuy2hiJ/pdTVFT8DjLg9\u002B/fYMVv3rz5JCkpWXHs2LELVlZW30FijAwxO8VAjHIvaR0FEc6Vi469FEm3k2CwVeFk\u002BPvjM8O/f/8YXrx4wbBp0yaGHz9\u002B/PPz87vNw8OTCDT0NMglTAxL3F\u002BBsAQf67s/f/7\u002Bq/CUZbBV42HgYmVg4ObmZuDl5WXg4uJi\u002BP//P8O7d\u002B\u002BYgAapPn/\u002BvANopwbIYiYQAQIKrM8YlDleMehJsTBwMv8D2wwDrKysDGJiYgxA5zNwcHAwAb3At2HDBhaQHDNYBRBICAtIvH7\u002BJFZPR4ubhQUuDAZsbGwMMjIyDFpaWgxKSkoMt27devH06dON165dewF3wbNnz8D4zx/MmIO5QFpaGuwKEB8G4AaQC0YNQDIAFLKMjIzgVAeMIpwYJA\u002BKKVhMgBMDCAATyHcmJqYrW7duFQYZhAuAEtjXr19vgdSD\u002BHCV9fX1LMAkKgDMPAS9xc7O/geYsD41Njb\u002BAQB9hMCogeGQ7QAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-04-03T09:58:50.277Z"
+              "Title": "MainWindowView.xaml",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\MainWindowView.xaml",
+              "RelativeDocumentMoniker": "Csharp\\Views\\MainWindowView.xaml",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\MainWindowView.xaml",
+              "RelativeToolTip": "Csharp\\Views\\MainWindowView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-03T14:00:38.695Z",
+              "EditorCaption": ""
             }
           ]
         }

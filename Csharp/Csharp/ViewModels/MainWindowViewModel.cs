@@ -13,13 +13,10 @@ namespace Csharp.ViewModels
 {
     public class MainWindowViewModel
     {
-        [Reactive] public string Title { get; set; } = "PRISM";
 
         private readonly IRegionManager _regionManager;
-        public MainWindowViewModel(IEventAggregator eventAggregator, IRegionManager regionManager)
+        public MainWindowViewModel()
         {
-            var eventAggregator1 = eventAggregator;
-            _regionManager = regionManager;
 
             ShildUpClickCommand =new DelegateCommand(ShildUpClick);  
         }

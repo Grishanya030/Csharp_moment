@@ -143,3 +143,15 @@ D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Views\HighBlock.g.cs
 D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Views\HighBlock.baml
 D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Views\SmallBlock.g.cs
 D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Views\SmallBlock.baml
+D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\HightBlock.g.cs
+D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\LeftPanel.g.cs
+D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\Skills.g.cs
+D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\SmallBlock.g.cs
+D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\TabRightPanel.g.cs
+D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\TabSkills.g.cs
+D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\HightBlock.baml
+D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\Skills.baml
+D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\SmallBlock.baml
+D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\TabRightPanel.baml
+D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\TabSkills.baml
+D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\LeftPanel.baml

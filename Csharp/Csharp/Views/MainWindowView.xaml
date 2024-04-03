@@ -5,10 +5,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Csharp.Views" 
+        xmlns:cmp="clr-namespace:Csharp.Components" 
         xmlns:wm="clr-namespace:Csharp.ViewModels"
-        mc:Ignorable="d"
         d:DataContext="{d:DesignInstance wm:MainWindowViewModel}"
-        Title="Pathfinder 2e" Height="750" Width="1400">
+        Title="Pathfinder 2e" Height="750" Width="1400"
+        mc:Ignorable="d">
 
     <Window.DataContext>
         <wm:MainWindowViewModel/>
@@ -19,10 +20,10 @@
                 <ColumnDefinition Width="11*" />
             </Grid.ColumnDefinitions>
             <Border x:Name="LeftPanel" Grid.Column="0">
-                <local:LeftPanel></local:LeftPanel>
+                <cmp:LeftPanel></cmp:LeftPanel>
             </Border>
         <Border Grid.Column="1">
-            <local:RightPanel></local:RightPanel>
+            <cmp:TabRightPanel></cmp:TabRightPanel>
         </Border>
 
 
