@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Csharp.Events;
+using ReactiveUI;
 
 namespace Csharp.ViewModels
 {
@@ -15,14 +17,25 @@ namespace Csharp.ViewModels
     {
 
         private readonly IRegionManager _regionManager;
-        public MainWindowViewModel()
+        public MainWindowViewModel(/*IEventAggregator eventAggregator, IRegionManager regionManager*/)
         {
+            //var eventAggregator1 = eventAggregator;
+            //_regionManager = regionManager;
 
-            ShildUpClickCommand =new DelegateCommand(ShildUpClick);  
+            //eventAggregator1
+            //    .GetEvent<ShildChange>()
+            //    .Subscribe(OnInputChanged);
+
+
+            //ShildUpClickCommand = ReactiveCommand.Create(ShildUpClick);
+            ShildUpClickCommand = new DelegateCommand(ShildUpClick);  
         }
-        
+
 
         public ICommand ShildUpClickCommand { get; set; }
+
+
+        [Reactive] public bool ShieldCheck { get; set; } = true;
 
 
         public string Name { get; set; } = "Игорёчек";
@@ -45,7 +58,12 @@ namespace Csharp.ViewModels
 
         public void ShildUpClick()
         {
+            ShieldCheck = false;
             Level += 1;
         }
+        //private void OnInputChanged(bool? value)
+        //{
+        //    ShieldCheck = value;
+        //}
     }
 }

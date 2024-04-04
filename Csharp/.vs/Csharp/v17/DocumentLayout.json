@@ -3,40 +3,32 @@
   "WorkspaceRootPath": "D:\\Github\\Csharp_moment\\Csharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\components\\smallblock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\components\\smallblock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\converters\\booleanconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\converters\\booleanconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\components\\smallblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\components\\smallblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\converters\\converterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\converters\\converterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\views\\smallblock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\views\\smallblock.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\converters\\shieldconvertor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\converters\\shieldconvertor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\views\\smallblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\views\\smallblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\components\\skills.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\components\\skills.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\components\\leftpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|D:\\Github\\Csharp_moment\\Csharp\\csharp\\components\\leftpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\components\\leftpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\components\\hightblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\components\\hightblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\views\\mainwindowview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\views\\mainwindowview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\components\\tabskills.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\components\\tabskills.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|d:\\github\\csharp_moment\\csharp\\csharp\\views\\mainwindowview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9A7D065-D2FD-4F29-A38A-C77E568208CB}|Csharp\\Csharp.csproj|solutionrelative:csharp\\views\\mainwindowview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,81 +46,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SmallBlock.xaml.cs",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\SmallBlock.xaml.cs",
-              "RelativeDocumentMoniker": "Csharp\\Components\\SmallBlock.xaml.cs",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\SmallBlock.xaml.cs",
-              "RelativeToolTip": "Csharp\\Components\\SmallBlock.xaml.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAgwBoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T14:06:30.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SmallBlock.xaml.cs",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\SmallBlock.xaml.cs",
-              "RelativeDocumentMoniker": "Csharp\\Views\\SmallBlock.xaml.cs",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\SmallBlock.xaml.cs",
-              "RelativeToolTip": "Csharp\\Views\\SmallBlock.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T14:06:22.851Z",
+              "DocumentIndex": 4,
+              "Title": "TabSkills.xaml",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\TabSkills.xaml",
+              "RelativeDocumentMoniker": "Csharp\\Components\\TabSkills.xaml",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\TabSkills.xaml",
+              "RelativeToolTip": "Csharp\\Components\\TabSkills.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-04T14:15:40.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SmallBlock.xaml",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\SmallBlock.xaml",
-              "RelativeDocumentMoniker": "Csharp\\Views\\SmallBlock.xaml",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\SmallBlock.xaml",
-              "RelativeToolTip": "Csharp\\Views\\SmallBlock.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T14:05:21.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SmallBlock.xaml",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\SmallBlock.xaml",
-              "RelativeDocumentMoniker": "Csharp\\Components\\SmallBlock.xaml",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\SmallBlock.xaml",
-              "RelativeToolTip": "Csharp\\Components\\SmallBlock.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T14:05:18.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Skills.xaml",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\Skills.xaml",
-              "RelativeDocumentMoniker": "Csharp\\Components\\Skills.xaml",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\Skills.xaml",
-              "RelativeToolTip": "Csharp\\Components\\Skills.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T14:04:18.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HightBlock.xaml",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\HightBlock.xaml",
-              "RelativeDocumentMoniker": "Csharp\\Components\\HightBlock.xaml",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\HightBlock.xaml",
-              "RelativeToolTip": "Csharp\\Components\\HightBlock.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T14:04:14.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "LeftPanel.xaml",
               "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Components\\LeftPanel.xaml",
               "RelativeDocumentMoniker": "Csharp\\Components\\LeftPanel.xaml",
@@ -140,27 +70,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "Csharp\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "Csharp\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T14:00:44.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "MainWindowView.xaml",
               "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\MainWindowView.xaml",
               "RelativeDocumentMoniker": "Csharp\\Views\\MainWindowView.xaml",
               "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Views\\MainWindowView.xaml",
               "RelativeToolTip": "Csharp\\Views\\MainWindowView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T14:00:38.695Z",
+              "WhenOpened": "2024-04-04T13:57:55.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "Csharp\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "Csharp\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T12:23:08.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConverterBase.cs",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Converters\\ConverterBase.cs",
+              "RelativeDocumentMoniker": "Csharp\\Converters\\ConverterBase.cs",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Converters\\ConverterBase.cs",
+              "RelativeToolTip": "Csharp\\Converters\\ConverterBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:57:21.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShieldConvertor.cs",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Converters\\ShieldConvertor.cs",
+              "RelativeDocumentMoniker": "Csharp\\Converters\\ShieldConvertor.cs",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Converters\\ShieldConvertor.cs",
+              "RelativeToolTip": "Csharp\\Converters\\ShieldConvertor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T12:17:34.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooleanConverters.cs",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Converters\\BooleanConverters.cs",
+              "RelativeDocumentMoniker": "Csharp\\Converters\\BooleanConverters.cs",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Csharp\\Csharp\\Converters\\BooleanConverters.cs",
+              "RelativeToolTip": "Csharp\\Converters\\BooleanConverters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T14:02:33.403Z",
               "EditorCaption": ""
             }
           ]

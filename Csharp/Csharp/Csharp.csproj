@@ -151,6 +151,10 @@
     <Compile Include="Components\TabSkills.xaml.cs">
       <DependentUpon>TabSkills.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converters\BooleanConverters.cs" />
+    <Compile Include="Converters\ConverterBase.cs" />
+    <Compile Include="Converters\ShieldConvertor.cs" />
+    <Compile Include="Events\ShildChange.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="Views\HighBlock.xaml.cs">
       <DependentUpon>HighBlock.xaml</DependentUpon>

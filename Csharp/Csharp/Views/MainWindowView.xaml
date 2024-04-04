@@ -14,7 +14,12 @@
     <Window.DataContext>
         <wm:MainWindowViewModel/>
     </Window.DataContext>
-    <Grid x:Name="MainGrid">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10,0,10,0" HorizontalAlignment="Right">
+            <Button Margin="2"> Сохранить</Button>
+            <Button Margin="2">Загрузить</Button>
+        </StackPanel>
+        <Grid x:Name="MainGrid" Height="705">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="5*" />
                 <ColumnDefinition Width="11*" />
@@ -22,11 +27,11 @@
             <Border x:Name="LeftPanel" Grid.Column="0">
                 <cmp:LeftPanel></cmp:LeftPanel>
             </Border>
-        <Border Grid.Column="1">
-            <cmp:TabRightPanel></cmp:TabRightPanel>
-        </Border>
-
+            <Border Grid.Column="1">
+                <cmp:TabRightPanel></cmp:TabRightPanel>
+            </Border>
 
         </Grid>
+    </StackPanel>
 
 </Window>

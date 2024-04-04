@@ -4,8 +4,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Csharp.Components"
+             xmlns:cnv="clr-namespace:Csharp.Converters"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800"
+             d:DesignHeight="770" d:DesignWidth="428.702"
              xmlns:wm="clr-namespace:Csharp.ViewModels"
              d:DataContext="{d:DesignInstance wm:MainWindowViewModel}">
     <StackPanel Margin="10" Background="LightGray">
@@ -35,35 +36,28 @@
             <local:HighBlock isBlock="False" Type="Врем"></local:HighBlock>
         </StackPanel>
         <StackPanel Name="Death" Orientation="Horizontal" Margin="10">
-            <Label>
-                При смерти
-            </Label>
-            <TextBox Width="21" >
-
-            </TextBox>
-            <Label>
-                Ранен
-            </Label>
-            <TextBox Width="24" >
-
-            </TextBox>
+            <Label>При смерти</Label>
+            <TextBox Width="25" />
+            <Label>Ранен</Label>
+            <TextBox Width="25" />
         </StackPanel>
         <DockPanel Name="Spas" LastChildFill="False" HorizontalAlignment="Center">
             <local:SmallBlock Type="Стойкость" Value=""/>
-            <local:SmallBlock Type="Рефлексы" Value="7"></local:SmallBlock>
+            <local:SmallBlock Type="Рефлексы" Value="7"/>
             <local:SmallBlock Type="Воля" Value="9"/>
         </DockPanel>
-        <StackPanel Name="Shield">
-            <StackPanel Name="Shield_Name" Orientation="Horizontal" Margin="10" Background="White">
-                <Label >
-                    Щит:
-                </Label>
-                <TextBox Width="321"/>
-                <ContentControl Width="28">
-                    <CheckBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5,0,5,0"/>
-                </ContentControl>
-            </StackPanel>
-            <DockPanel Name="Shield_Hp"  Margin="10">
+        <StackPanel Name="Shield_Name" Orientation="Horizontal" Margin="10" Background="White">
+            <Label >
+                Щит:
+            </Label>
+            <TextBox Width="321"/>
+            <ContentControl Width="28">
+                <CheckBox Name="ShieldCheck" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5,0,5,0"
+                          IsChecked="{Binding ShieldCheck}"/>
+            </ContentControl>
+        </StackPanel>
+        <StackPanel Name="Shield" Visibility="{Binding ShieldCheck, Converter={cnv:ShieldConvertor}}">
+            <DockPanel Name="Shield_Hp">
                 <local:HighBlock Value="10" Type="Твердость"></local:HighBlock>
                 <ContentControl Margin="10">
                     <StackPanel Width="160">
