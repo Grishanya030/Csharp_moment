@@ -6,12 +6,12 @@
              xmlns:local="clr-namespace:Pathfinder2E.Components"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Margin="10">
-        <StackPanel Width="85" Background="White">
+    <Grid Margin="5">
+        <StackPanel Width="80" Background="White" VerticalAlignment="Center">
             <Label Background="White" Content="{Binding Type}" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="5,5,5,0"></Label>
-            <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                 <Button Height="10" Width="10" Margin="5,0,5,0"/>
-                <Label  VerticalAlignment="Center" Width="55" Content="{Binding Value}" HorizontalContentAlignment="Center" FontWeight="Bold"  ScrollViewer.CanContentScroll="True"/>
+                <Label  VerticalAlignment="Center" Width="45" Content="{Binding PlusValue}" HorizontalContentAlignment="Center" FontWeight="Bold"  ScrollViewer.CanContentScroll="True"/>
             </StackPanel>
         </StackPanel>
     </Grid>

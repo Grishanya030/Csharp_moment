@@ -20,10 +20,14 @@
                 <cmp:LeftPanel></cmp:LeftPanel>
             </Border>
             <Grid Grid.Column="1">
-                <cmp:TabRightPanel></cmp:TabRightPanel>
-                <StackPanel Orientation="Horizontal" Margin="10,0,10,0" HorizontalAlignment="Right" VerticalAlignment="Top">
-                    <Button Margin="2" Height="27">Сохранить</Button>
-                    <Button Margin="2" Height="25">Загрузить</Button>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="807*"/>
+                    <ColumnDefinition Width="155*"/>
+                </Grid.ColumnDefinitions>
+                <cmp:TabRightPanel Grid.ColumnSpan="2"></cmp:TabRightPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,12,20,0" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Column="1">
+                    <Button Margin="2" Height="20">Сохранить</Button>
+                    <Button Margin="2" Height="20">Загрузить</Button>
                 </StackPanel>
             </Grid>
 

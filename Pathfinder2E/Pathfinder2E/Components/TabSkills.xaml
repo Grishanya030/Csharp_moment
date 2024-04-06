@@ -35,12 +35,12 @@
                 <Label Content="Средний"/>
             </DockPanel>
             <DockPanel>
-                <local:HighBlock Type="Сила" Value="4"/>
-                <local:HighBlock Type="Ловкость" Value="1"/>
-                <local:HighBlock Type="Телосложение" Value="2"/>
-                <local:HighBlock Type="Интелект" Value="0"/>
-                <local:HighBlock Type="Мудрость" Value="1"/>
-                <local:HighBlock Type="Харизма" Value="1"/>
+                <local:HighBlock DataContext="{Binding Defence}"/>
+                <local:HighBlock DataContext="{Binding Defence}"/>
+                <local:HighBlock DataContext="{Binding Defence}"/>
+                <local:HighBlock DataContext="{Binding Defence}"/>
+                <local:HighBlock DataContext="{Binding Defence}"/>
+                <local:HighBlock DataContext="{Binding Defence}"/>
             </DockPanel>
         </StackPanel>
     </StackPanel>

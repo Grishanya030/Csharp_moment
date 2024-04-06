@@ -23,26 +23,7 @@ namespace Pathfinder2E.Components
         public SmallBlock()
         {
             InitializeComponent();
-            this.DataContext = this;
         }
-        //public string value;
-        //public string Value
-        //{
-        //    get { return "+" + this.value; }
-        //    set { this.value = value; }
-        //}
-
-
-        public string Value
-        {
-            get { return "+" + (string)GetValue(ValueProperty); }
-            set { SetValue(ValueProperty, value); }
-        }
-
-        // Using a DependencyProperty as the backing store for Value.  This enables animation, styling, binding, etc...
-        public static readonly DependencyProperty ValueProperty =
-            DependencyProperty.Register("Value", typeof(string), typeof(SmallBlock), new PropertyMetadata("00"));
-
-        public string Type { get; set; } = " ";
+  
     }
 }

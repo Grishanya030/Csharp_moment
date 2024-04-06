@@ -10,6 +10,9 @@
     <Compile Update="Components\HighBlock.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Components\HpBlock.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Components\LeftPanel.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -31,6 +34,9 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="Components\HighBlock.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\HpBlock.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Components\LeftPanel.xaml">

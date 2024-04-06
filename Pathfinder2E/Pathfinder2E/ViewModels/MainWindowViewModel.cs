@@ -10,6 +10,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
+using Pathfinder2E.Components;
+
 namespace Pathfinder2E.ViewModels
 {
     public class MainWindowViewModel : ReactiveObject
@@ -38,30 +40,17 @@ namespace Pathfinder2E.ViewModels
 
         public string Name { get; set; } = "Игорёчек";
         [Reactive] public int Level { get; set; } = 121;
-        public int Defence { get; set; } = 14;
-        public int Health { get; set; }
-        public int TempHealth { get; set; }
+        [Reactive] public BlockClass Defence { get; set; } = new("КД", 10);
 
-        public int Death { get; set; }
-        public int Injured { get; set; }
-        public int Fortitude { get; set; }
-        public int Will { get; set; }
-        public int Reflex { get; set; }
-        public string ShildName { get; set; } = " ";
-        public int Hardness { get; set; }
-        public int ShildHealth { get; set; }
-        public int ShildLimit { get; set; }
+        [Reactive] public BlockClass Fortitude {  get; set; } = new("Стойкость", 10);
+        [Reactive] public BlockClass Reflex { get; set; } = new("Рефлексы", 10);
+        [Reactive] public BlockClass Will { get; set; } = new("Воля", 10);
 
-        public int Perception { get; set; }
+        [Reactive] public HpBlockClass Hp { get; set; } = new("Нр", 22, 22);
 
         public void ShildUpClick()
         {
-            ShieldCheck = false;
-            Level += 1;
+            Level += 2;
         }
-        //private void OnInputChanged(bool? value)
-        //{
-        //    ShieldCheck = value;
-        //}
     }
 }

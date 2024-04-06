@@ -23,10 +23,6 @@ namespace Pathfinder2E.Components
         public HighBlock()
         {
             InitializeComponent();
-            this.DataContext = this;
         }
-        public int Value { get; set; }
-        public string Type { get; set; }
-        public bool isBlock { get; set; }
     }
 }

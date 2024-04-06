@@ -12,68 +12,50 @@
 
     <StackPanel Margin="10" Background="LightGray">
         <DockPanel Name="Name" Margin="10">
-            <Label>
-                Имя
-            </Label>
+            <Label>Имя</Label>
             <TextBox Width="306" Text="{Binding Name}" VerticalContentAlignment="Center"/>
-            <Label Width="27">
-                Ур
-            </Label>
-            <Label Width="30" Content="{Binding Level}" HorizontalAlignment="Right"></Label>
+            <Label Width="27">Ур</Label>
+            <Label Width="30" Content="{Binding Level}" HorizontalAlignment="Right"/>
         </DockPanel>
-        <StackPanel Name="Health" Orientation="Horizontal" Margin="10">
-            <local:HighBlock Value="16" Type="Кд"/>
-            <ContentControl Margin="10">
-                <StackPanel Width="160">
-                    <TextBox Height="77" Width="160" HorizontalAlignment="Center"
-                       VerticalAlignment="Center"
-                       >
+        <StackPanel Name="Health" Orientation="Horizontal" Margin="10,0,10,0" HorizontalAlignment="Center">
+            <local:HighBlock DataContext="{Binding Defence}"/>
+            <local:HpBlock DataContext="{Binding Hp}"/>
+            <local:HighBlock/>
+        </StackPanel>
 
-                    </TextBox>
-                    <TextBlock Background="White" TextAlignment="Center"> 
-                  Хп</TextBlock>
-                </StackPanel>
-            </ContentControl>
-            <local:HighBlock isBlock="False" Type="Врем"></local:HighBlock>
-        </StackPanel>
-        <StackPanel Name="Death" Orientation="Horizontal" Margin="10">
-            <Label>При смерти</Label>
-            <TextBox Width="25" />
-            <Label>Ранен</Label>
-            <TextBox Width="25" />
-        </StackPanel>
-        <DockPanel Name="Spas" LastChildFill="False" HorizontalAlignment="Center">
-            <local:SmallBlock DataContext="{Binding Level}"/>
-            <local:SmallBlock Type="Рефлексы" Value="7"/>
-            <local:SmallBlock Type="Воля" Value="9"/>
+        <DockPanel Name="Spas" LastChildFill="False" Margin="10,0,10,0" HorizontalAlignment="Center">
+            <StackPanel Name="Death" Margin="0,0,4,0">
+                <DockPanel >
+                    <Label>При смерти</Label>
+                    <TextBox Width="25" HorizontalAlignment="Right" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+                </DockPanel>
+                <DockPanel Margin="0,3,0,0">
+                    <Label>Ранен</Label>
+                    <TextBox Width="25" HorizontalAlignment="Right" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+                </DockPanel>
+            </StackPanel>
+            <local:SmallBlock DataContext="{Binding Fortitude}"/>
+            <local:SmallBlock DataContext="{Binding Reflex}" />
+            <local:SmallBlock DataContext="{Binding Will}"/>
         </DockPanel>
-        <StackPanel Name="Shield_Name" Orientation="Horizontal" Margin="10" Background="White">
+        <DockPanel Name="Shield_Name" Margin="10,10,10,10" Background="White">
             <Label >
                 Щит:
             </Label>
-            <TextBox Width="321"/>
-            <ContentControl Width="28">
+            <TextBox HorizontalContentAlignment="Stretch" HorizontalAlignment="Center"/>
+            <Grid HorizontalAlignment="Right" >
                 <CheckBox Name="ShieldCheck" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5,0,5,0"
                        IsChecked="{Binding ShieldCheck}"/>
-            </ContentControl>
-        </StackPanel>
-        <StackPanel Name="Shield" Visibility="{Binding ShieldCheck, Converter={cnv:VisibilityConvertor}}">
-            <DockPanel Name="Shield_Hp">
-                <local:HighBlock Value="10" Type="Твердость"></local:HighBlock>
-                <ContentControl Margin="10">
-                    <StackPanel Width="160">
-                        <TextBox Height="77" Width="160" HorizontalAlignment="Center"
-                           VerticalAlignment="Center">
-
-                        </TextBox>
-                        <TextBlock Background="White" TextAlignment="Center"> 
-                      Хп</TextBlock>
-                    </StackPanel>
-                </ContentControl>
-                <local:HighBlock Value="40" Type="Порог"></local:HighBlock>
+            </Grid>
+        </DockPanel>
+        <StackPanel Name="Shield" Visibility="{Binding ShieldCheck, Converter={cnv:VisibilityConvertor}}" Margin="10,0,10,0" HorizontalAlignment="Center">
+            <DockPanel Name="Shield_Hp" Margin="-5,0,0,0" LastChildFill="False">
+                <local:HighBlock/>
+                <local:HpBlock DataContext="{Binding Hp}"/>
+                <local:HighBlock/>
             </DockPanel>
-            <Button Name="Shield_Up" Margin="10" Background="White"
-             Command="{Binding ShildUpClickCommand}" >
+            <Button Name="Shield_Up" Background="White"
+             Command="{Binding ShildUpClickCommand}" Margin="0,0,0,10" >
                 <Label>
                     Поднять щит
                 </Label>

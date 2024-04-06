@@ -48,3 +48,5 @@ D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Compo
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Components\Skills.baml
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Components\SmallBlock.baml
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Components\TabSkills.baml
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Components\HpBlock.g.cs
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Components\HpBlock.baml
