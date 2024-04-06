@@ -1,0 +1,32 @@
+﻿<Window x:Class="Pathfinder2E.Views.MainWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pathfinder2E.Views"
+        xmlns:cmp="clr-namespace:Pathfinder2E.Components"
+        xmlns:vm="clr-namespace:Pathfinder2E.ViewModels"
+        d:DataContext="{d:DesignInstance vm:MainWindowViewModel}"
+        Title="Pathfinder 2e" Height="750" Width="1400"
+        mc:Ignorable="d">
+
+    <StackPanel>
+        <Grid x:Name="MainGrid" Height="705">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*" />
+                <ColumnDefinition Width="11*" />
+            </Grid.ColumnDefinitions>
+            <Border x:Name="LeftPanel" Grid.Column="0">
+                <cmp:LeftPanel></cmp:LeftPanel>
+            </Border>
+            <Grid Grid.Column="1">
+                <cmp:TabRightPanel></cmp:TabRightPanel>
+                <StackPanel Orientation="Horizontal" Margin="10,0,10,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+                    <Button Margin="2" Height="27">Сохранить</Button>
+                    <Button Margin="2" Height="25">Загрузить</Button>
+                </StackPanel>
+            </Grid>
+
+        </Grid>
+    </StackPanel>
+</Window>
