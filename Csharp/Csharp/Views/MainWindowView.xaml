@@ -1,4 +1,4 @@
-﻿<Window x:Class="Csharp.views.MainWindowView"
+﻿<Window x:Class="Csharp.Views.MainWindowView"
         
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -15,10 +15,7 @@
         <wm:MainWindowViewModel/>
     </Window.DataContext>
     <StackPanel>
-        <StackPanel Orientation="Horizontal" Margin="10,0,10,0" HorizontalAlignment="Right">
-            <Button Margin="2"> Сохранить</Button>
-            <Button Margin="2">Загрузить</Button>
-        </StackPanel>
+
         <Grid x:Name="MainGrid" Height="705">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="5*" />
@@ -27,9 +24,13 @@
             <Border x:Name="LeftPanel" Grid.Column="0">
                 <cmp:LeftPanel></cmp:LeftPanel>
             </Border>
-            <Border Grid.Column="1">
+            <Grid Grid.Column="1">
                 <cmp:TabRightPanel></cmp:TabRightPanel>
-            </Border>
+                <StackPanel Orientation="Horizontal" Margin="10,0,10,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+                    <Button Margin="2" Height="27">Сохранить</Button>
+                    <Button Margin="2" Height="25">Загрузить</Button>
+                </StackPanel>
+            </Grid>
 
         </Grid>
     </StackPanel>

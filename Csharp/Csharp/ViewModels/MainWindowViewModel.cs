@@ -13,7 +13,7 @@ using ReactiveUI;
 
 namespace Csharp.ViewModels
 {
-    public class MainWindowViewModel
+    public class MainWindowViewModel : ReactiveObject
     {
 
         private readonly IRegionManager _regionManager;
@@ -39,7 +39,7 @@ namespace Csharp.ViewModels
 
 
         public string Name { get; set; } = "Игорёчек";
-        public int Level { get; set; } = 121;
+        [Reactive] public int Level { get; set; } = 121;
         public int Defence { get; set; } = 14;
         public int Health { get; set; }   
         public int TempHealth { get; set; }

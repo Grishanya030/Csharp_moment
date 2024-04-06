@@ -1,5 +1,5 @@
 ﻿using Csharp.ViewModels;
-using Csharp.views;
+using Csharp.Views;
 using Prism.Ioc;
 using Prism.Modularity;
 using System;

@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Csharp.views
+namespace Csharp.Views
 {
     /// <summary>
     /// Логика взаимодействия для MainWindowView.xaml

@@ -42,7 +42,7 @@
             <TextBox Width="25" />
         </StackPanel>
         <DockPanel Name="Spas" LastChildFill="False" HorizontalAlignment="Center">
-            <local:SmallBlock Type="Стойкость" Value=""/>
+            <local:SmallBlock DataContext="{Binding Level}"/>
             <local:SmallBlock Type="Рефлексы" Value="7"/>
             <local:SmallBlock Type="Воля" Value="9"/>
         </DockPanel>

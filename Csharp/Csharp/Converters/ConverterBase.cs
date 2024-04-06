@@ -20,7 +20,9 @@ namespace Csharp.Converters
 
         public sealed override object ProvideValue(IServiceProvider serviceProvider) => Converter;
 
-        private static readonly T Converter;
+        //private static readonly T Converter;
+
+        private static readonly T Converter = new T();
         #endregion
 
     }

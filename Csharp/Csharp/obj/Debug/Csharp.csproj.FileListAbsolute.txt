@@ -1,5 +1,4 @@
 C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp.csproj.AssemblyReference.cache
-C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp.csproj.SuggestedBindingRedirects.cache
 C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\App.g.cs
 C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp_MarkupCompile.cache
 C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Views\MainWindowView.g.cs
@@ -61,7 +60,6 @@ C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp.csproj.GenerateResource.c
 C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp.csproj.CoreCompileInputs.cache
 C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp.csproj.Fody.CopyLocal.cache
 C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp.csproj.Fody.RuntimeCopyLocal.cache
-C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp.csproj.CopyComplete
 C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp.exe
 C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp.pdb
 D:\Github\Csharp_moment\Csharp\Csharp\bin\Debug\Csharp.exe.config
@@ -155,3 +153,16 @@ D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\SmallBlock.baml
 D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\TabRightPanel.baml
 D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\TabSkills.baml
 D:\Github\Csharp_moment\Csharp\Csharp\obj\Debug\Components\LeftPanel.baml
+C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Components\HightBlock.g.cs
+C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Components\LeftPanel.g.cs
+C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Components\Skills.g.cs
+C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Components\SmallBlock.g.cs
+C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Components\TabRightPanel.g.cs
+C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Components\TabSkills.g.cs
+C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Components\HightBlock.baml
+C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Components\LeftPanel.baml
+C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Components\Skills.baml
+C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Components\SmallBlock.baml
+C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Components\TabRightPanel.baml
+C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Components\TabSkills.baml
+C:\GitHub\Csharp_moment\Csharp\Csharp\obj\Debug\Csharp.csproj.Up2Date
