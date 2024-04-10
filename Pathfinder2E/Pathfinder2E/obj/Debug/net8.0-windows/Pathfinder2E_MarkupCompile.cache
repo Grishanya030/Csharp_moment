@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\
+C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\
 Pathfinder2E
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\App.xaml
+C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Pathfinder2E\App.xaml
 8-2124048104
 
-16579710709
-210824361290
+181083969432
+210503235704
 Components\HighBlock.xaml;Components\HpBlock.xaml;Components\LeftPanel.xaml;Components\Skills.xaml;Components\SmallBlock.xaml;Components\TabRightPanel.xaml;Components\TabSkills.xaml;Views\MainWindowView.xaml;
 
 False
