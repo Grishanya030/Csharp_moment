@@ -89,11 +89,11 @@ namespace Pathfinder2E.Main.ViewModels
 
         public string Name { get; set; } = "Игорёчек";
         //[Reactive] public int Level { get; set; } = 121;
-        [Reactive] public BlockClass Defence { get; set; } = new("КД", 10);
+        [Reactive] public MicroModel Defence { get; set; } = new("КД", 10);
 
-        [Reactive] public BlockClass Fortitude { get; set; } = new("Стойкость", 10);
-        [Reactive] public BlockClass Reflex { get; set; } = new("Рефлексы", 10);
-        [Reactive] public BlockClass Will { get; set; } = new("Воля", 10);
+        [Reactive] public MicroModel Fortitude { get; set; } = new("Стойкость", 10);
+        [Reactive] public MicroModel Reflex { get; set; } = new("Рефлексы", 10);
+        [Reactive] public MicroModel Will { get; set; } = new("Воля", 10);
 
         //[Reactive] public HpBlockClass Hp { get; set; } = new("Нр", 22, 22);
         [Reactive] public HPData Hp { get; set; } = new HPData("Нр", 22, 22);

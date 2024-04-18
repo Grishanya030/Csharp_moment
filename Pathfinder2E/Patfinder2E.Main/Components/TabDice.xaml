@@ -45,8 +45,8 @@
                 </DockPanel>
                 <Button Content="Сброс"  Margin="10" Width="167" HorizontalAlignment="Left" Command="{Binding DiceClearCommand}" FontSize="25" Padding="5"/>
             </StackPanel>
-            <TextBlock Text="{Binding DiceResult}" Background="White" Height="377" Width="268" VerticalAlignment="Top" Margin="10" FontSize="25" Padding="5"/>
-            <TextBlock Text="{Binding DiceSumm}" Background="White" Height="41" Width="45" VerticalAlignment="Top" Margin="10"  FontSize="25" Padding="5"/>
+            <TextBlock Text="{Binding DiceResult}" Background="White" Height="377" Width="268" VerticalAlignment="Top" Margin="10" FontSize="25" Padding="5" TextWrapping="Wrap"/>
+            <TextBlock Text="{Binding DiceSumm}" Background="White" Height="41" Width="52" VerticalAlignment="Top" Margin="10"  FontSize="25" Padding="5"/>
         </StackPanel>
 
 
