@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Pathfinder2E.MicroModels
+namespace Pathfinder2E.Components
 {
     /// <summary>
     /// Логика взаимодействия для SmallBlock.xaml

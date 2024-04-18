@@ -102,3 +102,5 @@ C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debu
 C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Pathfind.857B02E9.Up2Date
 C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Pathfinder2E.genruntimeconfig.cache
 C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\ref\Pathfinder2E.dll
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Components\TabDice.g.cs
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Components\TabDice.baml

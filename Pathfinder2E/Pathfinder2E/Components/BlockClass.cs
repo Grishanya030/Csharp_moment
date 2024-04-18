@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pathfinder2E.MicroModels
+namespace Pathfinder2E.Components
 {
     public class BlockClass
     {
