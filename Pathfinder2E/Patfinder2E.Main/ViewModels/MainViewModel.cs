@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Pathfinder2E.Main.Models;
 using Pathfinder2E.Main.Components;
+using static Pathfinder2E.Main.Models.MicroModels;
 
 namespace Pathfinder2E.Main.ViewModels
 {
@@ -29,6 +30,7 @@ namespace Pathfinder2E.Main.ViewModels
             //    .GetEvent<ShildChange>()
             //    .Subscribe(OnInputChanged);
 
+            //Hp = new HPData("Нр", 22, 8 * Model.Level);
 
             ShildUpClickCommand = new DelegateCommand(ShildUpClick);
 
@@ -81,7 +83,7 @@ namespace Pathfinder2E.Main.ViewModels
         public ICommand RollD20_3Command { get; set; }
         #endregion
 
-
+        public Model Model { get; }
         [Reactive] public bool ShieldCheck { get; set; } = true;
 
 
@@ -94,10 +96,11 @@ namespace Pathfinder2E.Main.ViewModels
         [Reactive] public BlockClass Will { get; set; } = new("Воля", 10);
 
         //[Reactive] public HpBlockClass Hp { get; set; } = new("Нр", 22, 22);
+        [Reactive] public HPData Hp { get; set; } = new HPData("Нр", 22, 22);
 
         [Reactive] public string DiceResult { get; set; } = string.Empty;
         [Reactive] public int DiceSumm { get; set; } = 0;
-        public Model Model { get; }
+        
 
         bool shildUp = false;
 
@@ -105,7 +108,7 @@ namespace Pathfinder2E.Main.ViewModels
         {
             if (shildUp) { Defence.Value -= 2; shildUp = false; }
             else { Defence.Value += 2; shildUp = true; }
-            //Level += 2;
+            Model.Level += 2;
         }
 
         #region Функции для кубов

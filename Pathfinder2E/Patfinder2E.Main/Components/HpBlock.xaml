@@ -10,10 +10,10 @@
         <StackPanel>
             <DockPanel Background="White" LastChildFill="False">
                 <TextBox Height="77" Width="75" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" 
-                     Text="{Binding CurrHp}" FontSize="24" FontWeight="Bold" />
+                     Text="{Binding Value}" FontSize="24" FontWeight="Bold" />
                 <Label FontSize="24" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center">|</Label>
                 <TextBox Height="77" Width="75" VerticalContentAlignment="Center" 
-                     Text="{Binding MaxHp}" FontSize="24" FontWeight="Bold" IsReadOnly="True"/>
+                     Text="{Binding MaxValue}" FontSize="24" FontWeight="Bold" IsReadOnly="True"/>
             </DockPanel>
             <Label Background="White" 
                Content="{Binding Type}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>

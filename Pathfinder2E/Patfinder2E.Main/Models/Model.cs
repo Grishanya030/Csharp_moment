@@ -12,10 +12,9 @@ namespace Pathfinder2E.Main.Models
 {
     public class Model: ReactiveObject
     {
-        [Reactive] public int Level { get; set; } = 121;
-        [Reactive] public HpBlockClass Hp { get; set; } = new("Нр", 22, 22);
+        [Reactive] public int Level { get; set; } = 1;
 
-        public HPData hp = new HPData(22, "Нр", 22);
+        
 
 
 

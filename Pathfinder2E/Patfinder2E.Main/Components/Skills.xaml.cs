@@ -23,15 +23,6 @@ namespace Pathfinder2E.Main.Components
         public Skills()
         {
             InitializeComponent();
-            this.DataContext = this;
-        }
-
-        public string SkillName { get; set; }
-        public string value;
-        public string Value
-        {
-            get { return "+" + this.value; }
-            set { this.value = value; }
         }
     }
 }

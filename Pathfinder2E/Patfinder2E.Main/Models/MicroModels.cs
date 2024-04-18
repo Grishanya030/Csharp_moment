@@ -13,7 +13,7 @@ namespace Pathfinder2E.Main.Models
     {
         public class MicroModel: ReactiveObject
         {
-            public MicroModel(int _Value, string _Type) { 
+            public MicroModel(string _Type, int _Value) { 
                 Value = _Value;
                 Type = _Type;
             }
@@ -24,12 +24,12 @@ namespace Pathfinder2E.Main.Models
         }
         public class HPData : MicroModel
         {
-            public HPData(int Value, string Type, int _MaxValue):base(Value,Type)
+            public HPData(string Type, int Value, int _MaxValue):base(Type, Value)
             {
                 MaxValue = _MaxValue;
             }
 
-            public int MaxValue { get; set; }
+            [Reactive] public int MaxValue { get; set; }
         }
     }
 }

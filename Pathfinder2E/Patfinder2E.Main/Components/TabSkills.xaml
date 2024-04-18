@@ -8,24 +8,24 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <StackPanel Orientation="Horizontal" Background="White" Margin="5">
         <StackPanel Width="243" Margin="0,30,0,0">
-            <local:Skills SkillName="Акробатика" Value=""/>
-            <local:Skills SkillName="Аркана" Value=""/>
-            <local:Skills SkillName="Атлетика" Value=""/>
-            <local:Skills SkillName="Ремесло" Value=""/>
-            <local:Skills SkillName="Убежедение" Value=""/>
-            <local:Skills SkillName="Дипломатия" Value=""/>
-            <local:Skills SkillName="Запугивание" Value=""/>
-            <local:Skills SkillName="Знание: " Value=""/>
-            <local:Skills SkillName="Медицина" Value=""/>
-            <local:Skills SkillName="Природа" Value=""/>
-            <local:Skills SkillName="Оккультизм" Value=""/>
-            <local:Skills SkillName="Выступление" Value=""/>
-            <local:Skills SkillName="Религия" Value=""/>
-            <local:Skills SkillName="Общество" Value=""/>
-            <local:Skills SkillName="Воровство" Value=""/>
-            <local:Skills SkillName="Выживание" Value=""/>
-            <local:Skills SkillName="Скрытность" Value=""/>
-            <local:Skills SkillName="Внимательность" Value=""/>
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
+            <local:Skills />
         </StackPanel>
         <StackPanel  Margin="0,4,0,0">
             <DockPanel>

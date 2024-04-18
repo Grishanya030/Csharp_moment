@@ -61,6 +61,6 @@
                 </Label>
             </Button>
         </StackPanel>
-        <local:Skills SkillName="Внимательность" Value="10"></local:Skills>
+        <local:Skills />
     </StackPanel>
 </UserControl>
