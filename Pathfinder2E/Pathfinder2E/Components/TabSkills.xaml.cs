@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Pathfinder2E.Components
+namespace Pathfinder2E.MicroModels
 {
     /// <summary>
     /// Логика взаимодействия для TabSkills.xaml

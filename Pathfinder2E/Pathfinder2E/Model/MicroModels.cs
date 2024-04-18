@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Pathfinder2E.Model
 {
-    class MicroModels
+    public class MicroModels
     {
-        class MicroModel 
+        public class MicroModel 
         {
             public MicroModel(int _Value, string _Type) { 
                 Value = _Value;
@@ -19,20 +19,14 @@ namespace Pathfinder2E.Model
             public string Type { get; set; } = "";
 
         }
-        class HP : MicroModel
+        public class HPData : MicroModel
         {
-            public HP(int Value, string Type, int MaxValue):base(Value,Type)
+            public HPData(int Value, string Type, int _MaxValue):base(Value,Type)
             {
-                
+                MaxValue = _MaxValue;
             }
 
             public int MaxValue { get; set; }
-            //HP(int _Value, string _Type, int _MaxValue)
-            //{
-            //    Value = _Value;
-            //    Type = _Type;
-            //    MaxValue = _MaxValue;
-            //}
         }
     }
 }

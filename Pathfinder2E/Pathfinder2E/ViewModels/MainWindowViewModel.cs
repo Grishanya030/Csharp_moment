@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-using Pathfinder2E.Components;
+using Pathfinder2E.MicroModels;
 
 namespace Pathfinder2E.ViewModels
 {
