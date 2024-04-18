@@ -4,33 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pathfinder2E.Views"
-        xmlns:cmp="clr-namespace:Pathfinder2E.Components"
-        xmlns:vm="clr-namespace:Pathfinder2E.ViewModels"
-        d:DataContext="{d:DesignInstance vm:MainWindowViewModel}"
+        xmlns:prism="http://prismlibrary.com/"
         Title="Pathfinder 2e" Height="750" Width="1400"
         mc:Ignorable="d">
+    <ContentControl prism:RegionManager.RegionName="MainRegion"/> 
 
-    <StackPanel>
-        <Grid x:Name="MainGrid" Height="705">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="5*" />
-                <ColumnDefinition Width="11*" />
-            </Grid.ColumnDefinitions>
-            <Border x:Name="LeftPanel" Grid.Column="0">
-                <cmp:LeftPanel></cmp:LeftPanel>
-            </Border>
-            <Grid Grid.Column="1">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="807*"/>
-                    <ColumnDefinition Width="155*"/>
-                </Grid.ColumnDefinitions>
-                <cmp:TabRightPanel Grid.ColumnSpan="2"></cmp:TabRightPanel>
-                <StackPanel Orientation="Horizontal" Margin="0,12,20,0" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Column="1">
-                    <Button Margin="2" Height="20">Сохранить</Button>
-                    <Button Margin="2" Height="20">Загрузить</Button>
-                </StackPanel>
-            </Grid>
-
-        </Grid>
-    </StackPanel>
 </Window>

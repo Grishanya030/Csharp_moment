@@ -1,0 +1,66 @@
+﻿<UserControl x:Class="Pathfinder2E.Main.Components.LeftPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Pathfinder2E.Main.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="683.147" d:DesignWidth="426.463"
+             xmlns:cnv="clr-namespace:Pathfinder2E.Main.Converters"
+             xmlns:wm="clr-namespace:Pathfinder2E.Main.ViewModels"
+             d:DataContext="{d:DesignInstance wm:MainViewModel}">
+
+    <StackPanel Margin="10" Background="LightGray">
+        <DockPanel Name="Name" Margin="10">
+            <Label>Имя</Label>
+            <TextBox Width="306" Text="{Binding Name}" VerticalContentAlignment="Center"/>
+            <Label Width="27">Ур</Label>
+            <Label Width="30" Content="{Binding Model.Level}" HorizontalAlignment="Right"/>
+        </DockPanel>
+        <StackPanel Name="Health" Orientation="Horizontal" Margin="10,0,10,0" HorizontalAlignment="Center">
+            <local:HighBlock DataContext="{Binding Defence}"/>
+            <local:HpBlock DataContext="{Binding Hp}"/>
+            <local:HighBlock/>
+        </StackPanel>
+
+        <DockPanel Name="Spas" LastChildFill="False" Margin="10,0,10,0" HorizontalAlignment="Center">
+            <StackPanel Name="Death" Margin="0,0,4,0">
+                <DockPanel >
+                    <Label>При смерти</Label>
+                    <TextBox Width="25" HorizontalAlignment="Right" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+                </DockPanel>
+                <DockPanel Margin="0,3,0,0">
+                    <Label>Ранен</Label>
+                    <TextBox Width="25" HorizontalAlignment="Right" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+                </DockPanel>
+            </StackPanel>
+            <local:SmallBlock DataContext="{Binding Fortitude}"/>
+            <local:SmallBlock DataContext="{Binding Reflex}" />
+            <local:SmallBlock DataContext="{Binding Will}"/>
+        </DockPanel>
+        <DockPanel Name="Shield_Name" Margin="10,10,10,10" Background="White">
+            <Label >
+                Щит:
+            </Label>
+            <TextBox HorizontalContentAlignment="Stretch" HorizontalAlignment="Center"/>
+            <Grid HorizontalAlignment="Right" >
+                <CheckBox Name="ShieldCheck" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5,0,5,0"
+                       IsChecked="{Binding ShieldCheck}"/>
+            </Grid>
+        </DockPanel>
+        <StackPanel Name="Shield" Visibility="{Binding ShieldCheck, Converter={cnv:VisibilityConvertor}}" Margin="10,0,10,0" HorizontalAlignment="Center">
+            <DockPanel Name="Shield_Hp" Margin="-5,0,0,0" LastChildFill="False">
+                <local:HighBlock/>
+                <local:HpBlock DataContext="{Binding Hp}"/>
+                <local:HighBlock/>
+            </DockPanel>
+            <Button Name="Shield_Up" Background="White"
+             Command="{Binding ShildUpClickCommand}" Margin="0,0,0,10" >
+                <Label>
+                    Поднять щит
+                </Label>
+            </Button>
+        </StackPanel>
+        <local:Skills SkillName="Внимательность" Value="10"></local:Skills>
+    </StackPanel>
+</UserControl>
