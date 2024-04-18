@@ -16,5 +16,7 @@ namespace Pathfinder2E.Model
 
         public HPData hp = new HPData(22, "Нр", 22);
 
+
+
     }
 }
