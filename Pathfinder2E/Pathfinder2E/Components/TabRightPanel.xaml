@@ -24,7 +24,7 @@
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
             <TabItem Header="Кубы">
-                <Grid Background="#FFE5E5E5"/>
+                <local:TabDice/>
             </TabItem>
         </TabControl>
 

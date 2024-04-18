@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\App.xaml
-8-2124048104
+934213287
 
-16579710709
+20-1591660180
 210824361290
-Components\HighBlock.xaml;Components\HpBlock.xaml;Components\LeftPanel.xaml;Components\Skills.xaml;Components\SmallBlock.xaml;Components\TabRightPanel.xaml;Components\TabSkills.xaml;Views\MainWindowView.xaml;
+Components\HighBlock.xaml;Components\HpBlock.xaml;Components\LeftPanel.xaml;Components\Skills.xaml;Components\SmallBlock.xaml;Components\TabDice.xaml;Components\TabRightPanel.xaml;Components\TabSkills.xaml;Views\MainWindowView.xaml;
 
 False
 
