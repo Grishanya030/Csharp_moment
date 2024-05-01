@@ -12,6 +12,9 @@ using System.Windows.Input;
 using Pathfinder2E.Main.Models;
 using Pathfinder2E.Main.Components;
 using static Pathfinder2E.Main.Models.MicroModels;
+using DynamicData;
+using System.Collections.ObjectModel;
+using Microsoft.Xaml.Behaviors.Core;
 
 namespace Pathfinder2E.Main.ViewModels
 {
@@ -30,9 +33,9 @@ namespace Pathfinder2E.Main.ViewModels
             //    .GetEvent<ShildChange>()
             //    .Subscribe(OnInputChanged);
 
-            //Hp = new HPData("Нр", 22, 8 * Model.Level);
-
             ShildUpClickCommand = new DelegateCommand(ShildUpClick);
+            AddLangCommand = new ActionCommand(AddLang);
+            DelLangCommand = new DelegateCommand(DelLang);
             IntUp = new DelegateCommand(Model.IntUp);
             IntDown = new DelegateCommand(Model.IntDown);
 
@@ -62,6 +65,8 @@ namespace Pathfinder2E.Main.ViewModels
 
 
         public ICommand ShildUpClickCommand { get; set; }
+        public ICommand AddLangCommand { get; set; }
+        public ICommand DelLangCommand { get; set; }
         public ICommand IntUp { get; set; }
         public ICommand IntDown { get; set; }
 
@@ -90,11 +95,42 @@ namespace Pathfinder2E.Main.ViewModels
         public Model Model { get; }
         [Reactive] public bool ShieldCheck { get; set; } = true;
 
+        [Reactive] public string TempLang { get; set; } = "";
 
         [Reactive] public string DiceResult { get; set; } = string.Empty;
         [Reactive] public int DiceSumm { get; set; } = 0;
-        
 
+
+        public void AddLang()
+        {
+            bool flag = true;
+            foreach (string i in Model.Languages) if (i == TempLang) flag = false;
+
+            if (flag)
+            {
+                Model.Languages.Add(TempLang);
+                TempLang = "";
+            }
+        }
+        public void DelLang()
+        {
+            Model.Languages.Remove(TempLang);
+        }
+        public void AddObj(string str, ObservableCollection<string> col)
+        {
+            bool flag = true;
+            foreach(string i in col) if (i == str) flag = false;
+
+            if (flag)
+            {
+                col.Add(str);
+                str = "";
+            }
+        }
+        public void DelObj(string str, ObservableCollection<string> col)
+        {
+            col.Remove(str);
+        }
         public void ShildUpClick()
         {
             if (Model.shildUp) { Model.Defence.Value -= 2; Model.shildUp = false; }

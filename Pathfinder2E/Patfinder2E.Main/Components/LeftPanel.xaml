@@ -20,7 +20,14 @@
         <StackPanel Name="Health" Orientation="Horizontal" Margin="10,0,10,0" HorizontalAlignment="Center">
             <local:HighBlock DataContext="{Binding Model.Defence}"/>
             <local:HpBlock DataContext="{Binding Model.Hp}"/>
-            <local:HighBlock/>
+            <Grid Margin="10">
+                <StackPanel Width="85"  >
+                    <TextBox Height="77" Width="85" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+                  Text="{Binding TempHp}" FontSize="24" FontWeight="Bold" />
+                    <Label Background="White" 
+                Content="Временные" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                </StackPanel>
+                </Grid>
         </StackPanel>
 
         <DockPanel Name="Spas" LastChildFill="False" Margin="10,0,10,0" HorizontalAlignment="Center">

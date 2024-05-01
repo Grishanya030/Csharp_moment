@@ -10,10 +10,10 @@
              d:DataContext="{d:DesignInstance vm:MainViewModel}">
     <StackPanel Orientation="Horizontal" Background="White" Margin="5">
         <StackPanel Width="243" Margin="0,30,0,0">
-            <local:Skills DataContext="{Binding Model.Arcana}"/>
             <local:Skills />
             <local:Skills />
             <local:Skills />
+            <local:Skills DataContext="{Binding Model.Arcana}" />
             <local:Skills />
             <local:Skills />
             <local:Skills />
@@ -66,6 +66,38 @@
                 <StackPanel Margin="-10,15,0,10">
                     <Button Margin="1,1,1,1" Height="30" Content="^"/>
                     <Button Margin="1,1,1,1" Height="30" Content="v"/>
+                </StackPanel>
+            </DockPanel>
+            <DockPanel>
+                <StackPanel Margin="0,0,5,0">
+                    <Label Content="Языки:" Padding="5,0,5,0"/>
+                    <DockPanel>
+                        <Button Content="Добавить" Command="{Binding AddLangCommand}"/>
+                        <TextBox Text="{Binding TempLang}" Width="100"/>
+                        <Button Content="Удалить" Command="{Binding DelLangCommand}"/>
+                    </DockPanel>
+                    <ItemsControl ItemsSource="{Binding Model.Languages}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Margin="5,5,5,0"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
+                </StackPanel>
+                <StackPanel Margin="5,0,0,0" HorizontalAlignment="Right">
+                    <Label Content="Иструменты:" Padding="5,0,5,0"/>
+                    <DockPanel>
+                        <Button Content="Добавить" Command="{Binding AddInstCommand}"/>
+                        <TextBox Text="{Binding TempInst}" Width="100"/>
+                        <Button Content="Удалить" Command="{Binding DelInstCommand}"/>
+                    </DockPanel>
+                    <ItemsControl ItemsSource="{Binding Model.Instruments}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Margin="5,5,5,0"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
                 </StackPanel>
             </DockPanel>
         </StackPanel>
