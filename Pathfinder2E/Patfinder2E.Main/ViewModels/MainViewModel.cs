@@ -33,6 +33,8 @@ namespace Pathfinder2E.Main.ViewModels
             //Hp = new HPData("Нр", 22, 8 * Model.Level);
 
             ShildUpClickCommand = new DelegateCommand(ShildUpClick);
+            IntUp = new DelegateCommand(Model.IntUp);
+            IntDown = new DelegateCommand(Model.IntDown);
 
             #region Подключение кубов
             DiceClearCommand = new DelegateCommand(DiceClear);
@@ -60,6 +62,8 @@ namespace Pathfinder2E.Main.ViewModels
 
 
         public ICommand ShildUpClickCommand { get; set; }
+        public ICommand IntUp { get; set; }
+        public ICommand IntDown { get; set; }
 
         #region ICommand для кубов
         public ICommand DiceClearCommand { get; set; }
@@ -87,28 +91,15 @@ namespace Pathfinder2E.Main.ViewModels
         [Reactive] public bool ShieldCheck { get; set; } = true;
 
 
-        public string Name { get; set; } = "Игорёчек";
-        //[Reactive] public int Level { get; set; } = 121;
-        [Reactive] public MicroModel Defence { get; set; } = new("КД", 10);
-
-        [Reactive] public MicroModel Fortitude { get; set; } = new("Стойкость", 10);
-        [Reactive] public MicroModel Reflex { get; set; } = new("Рефлексы", 10);
-        [Reactive] public MicroModel Will { get; set; } = new("Воля", 10);
-
-        //[Reactive] public HpBlockClass Hp { get; set; } = new("Нр", 22, 22);
-        [Reactive] public HPData Hp { get; set; } = new HPData("Нр", 22, 22);
-
         [Reactive] public string DiceResult { get; set; } = string.Empty;
         [Reactive] public int DiceSumm { get; set; } = 0;
         
 
-        bool shildUp = false;
-
         public void ShildUpClick()
         {
-            if (shildUp) { Defence.Value -= 2; shildUp = false; }
-            else { Defence.Value += 2; shildUp = true; }
-            Model.Level += 2;
+            if (Model.shildUp) { Model.Defence.Value -= 2; Model.shildUp = false; }
+            else { Model.Defence.Value += 2; Model.shildUp = true; }
+            Model.Intelegence.Value += 2;
         }
 
         #region Функции для кубов

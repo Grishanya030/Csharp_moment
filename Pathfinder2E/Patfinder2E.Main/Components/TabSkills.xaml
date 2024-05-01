@@ -5,10 +5,12 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Pathfinder2E.Main.Components"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="450" d:DesignWidth="800"
+             xmlns:vm="clr-namespace:Pathfinder2E.Main.ViewModels"
+             d:DataContext="{d:DesignInstance vm:MainViewModel}">
     <StackPanel Orientation="Horizontal" Background="White" Margin="5">
         <StackPanel Width="243" Margin="0,30,0,0">
-            <local:Skills />
+            <local:Skills DataContext="{Binding Model.Arcana}"/>
             <local:Skills />
             <local:Skills />
             <local:Skills />
@@ -35,12 +37,36 @@
                 <Label Content="Средний"/>
             </DockPanel>
             <DockPanel>
-                <local:HighBlock DataContext="{Binding Defence}"/>
-                <local:HighBlock DataContext="{Binding Defence}"/>
-                <local:HighBlock DataContext="{Binding Defence}"/>
-                <local:HighBlock DataContext="{Binding Defence}"/>
-                <local:HighBlock DataContext="{Binding Defence}"/>
-                <local:HighBlock DataContext="{Binding Defence}"/>
+                <local:HighBlock DataContext="{Binding Model.Strengh}"/>
+                <StackPanel Margin="-10,15,0,10">
+                    <Button Margin="1,1,1,1" Height="30" Content="^"/>
+                    <Button Margin="1,1,1,1" Height="30" Content="v"/>
+                </StackPanel>
+                <local:HighBlock DataContext="{Binding Model.Dexterity}"/>
+                <StackPanel Margin="-10,15,0,10">
+                    <Button Margin="1,1,1,1" Height="30" Content="^"/>
+                    <Button Margin="1,1,1,1" Height="30" Content="v"/>
+                </StackPanel>
+                <local:HighBlock DataContext="{Binding Model.Constitution}"/>
+                <StackPanel Margin="-10,15,0,10">
+                    <Button Margin="1,1,1,1" Height="30" Content="^"/>
+                    <Button Margin="1,1,1,1" Height="30" Content="v"/>
+                </StackPanel>
+                <local:HighBlock DataContext="{Binding Model.Intelegence}"/>
+                <StackPanel Margin="-10,15,0,10">
+                    <Button Margin="1,1,1,1" Height="30" Content="^" Command="{Binding IntUp}" />
+                    <Button Margin="1,1,1,1" Height="30" Content="v" Command="{Binding IntDown}"/>
+                </StackPanel>
+                <local:HighBlock DataContext="{Binding Model.Wisdom}"/>
+                <StackPanel Margin="-10,15,0,10">
+                    <Button Margin="1,1,1,1" Height="30" Content="^"/>
+                    <Button Margin="1,1,1,1" Height="30" Content="v"/>
+                </StackPanel>
+                <local:HighBlock DataContext="{Binding Model.Charisma}"/>
+                <StackPanel Margin="-10,15,0,10">
+                    <Button Margin="1,1,1,1" Height="30" Content="^"/>
+                    <Button Margin="1,1,1,1" Height="30" Content="v"/>
+                </StackPanel>
             </DockPanel>
         </StackPanel>
     </StackPanel>

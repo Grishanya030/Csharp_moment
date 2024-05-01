@@ -13,13 +13,13 @@
     <StackPanel Margin="10" Background="LightGray">
         <DockPanel Name="Name" Margin="10">
             <Label>Имя</Label>
-            <TextBox Width="306" Text="{Binding Name}" VerticalContentAlignment="Center"/>
+            <TextBox Width="306" Text="{Binding Model.Name}" VerticalContentAlignment="Center"/>
             <Label Width="27">Ур</Label>
             <Label Width="30" Content="{Binding Model.Level}" HorizontalAlignment="Right"/>
         </DockPanel>
         <StackPanel Name="Health" Orientation="Horizontal" Margin="10,0,10,0" HorizontalAlignment="Center">
-            <local:HighBlock DataContext="{Binding Defence}"/>
-            <local:HpBlock DataContext="{Binding Hp}"/>
+            <local:HighBlock DataContext="{Binding Model.Defence}"/>
+            <local:HpBlock DataContext="{Binding Model.Hp}"/>
             <local:HighBlock/>
         </StackPanel>
 
@@ -34,9 +34,9 @@
                     <TextBox Width="25" HorizontalAlignment="Right" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
                 </DockPanel>
             </StackPanel>
-            <local:SmallBlock DataContext="{Binding Fortitude}"/>
-            <local:SmallBlock DataContext="{Binding Reflex}" />
-            <local:SmallBlock DataContext="{Binding Will}"/>
+            <local:SmallBlock DataContext="{Binding Model.Fortitude}"/>
+            <local:SmallBlock DataContext="{Binding Model.Reflex}" />
+            <local:SmallBlock DataContext="{Binding Model.Will}"/>
         </DockPanel>
         <DockPanel Name="Shield_Name" Margin="10,10,10,10" Background="White">
             <Label >
@@ -51,7 +51,7 @@
         <StackPanel Name="Shield" Visibility="{Binding ShieldCheck, Converter={cnv:VisibilityConvertor}}" Margin="10,0,10,0" HorizontalAlignment="Center">
             <DockPanel Name="Shield_Hp" Margin="-5,0,0,0" LastChildFill="False">
                 <local:HighBlock/>
-                <local:HpBlock DataContext="{Binding Hp}"/>
+                <local:HpBlock DataContext="{Binding Model.HPShield}"/>
                 <local:HighBlock/>
             </DockPanel>
             <Button Name="Shield_Up" Background="White"

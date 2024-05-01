@@ -66,9 +66,9 @@ D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\P
 D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Pathfinder2E.Main.AssemblyInfo.cs
 D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Pathfinder2E.Main.csproj.CoreCompileInputs.cache
 D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Pathfinder2E.Main.sourcelink.json
-D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Pathfinder2E.Main.csproj.Fody.CopyLocal.cache
-D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Pathfinder2E.Main.csproj.Fody.RuntimeCopyLocal.cache
 D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Pathfinder2E.Main.dll
 D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\refint\Pathfinder2E.Main.dll
 D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Pathfinder2E.Main.pdb
 D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\ref\Pathfinder2E.Main.dll
+D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Pathfinder2E.Main.csproj.Fody.CopyLocal.cache
+D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Pathfinder2E.Main.csproj.Fody.RuntimeCopyLocal.cache

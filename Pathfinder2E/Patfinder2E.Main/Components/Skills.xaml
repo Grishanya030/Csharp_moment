@@ -11,8 +11,8 @@
             </Button>
         </Grid>
         <Label Background="White" Width="130" VerticalAlignment="Center" 
-               Content="{Binding SkillName}"/>
+               Content="{Binding Type}"/>
         <Label VerticalAlignment="Center" Width="38"
-               Content="{Binding Value}" HorizontalAlignment="Right" UseLayoutRounding="False"/>
+               Content="{Binding SkillVal}" HorizontalAlignment="Right" UseLayoutRounding="False"/>
     </DockPanel>
 </UserControl>
