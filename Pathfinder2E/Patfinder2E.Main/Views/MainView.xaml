@@ -25,8 +25,8 @@
                 </Grid.ColumnDefinitions>
                 <cmp:TabRightPanel Grid.ColumnSpan="2"></cmp:TabRightPanel>
                 <StackPanel Orientation="Horizontal" Margin="0,12,20,0" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Column="1">
-                    <Button Margin="2" Height="20">Сохранить</Button>
-                    <Button Margin="2" Height="20">Загрузить</Button>
+                    <Button Margin="2" Height="20" Content="Сохранить" Command="{Binding SaveCommand}"/>
+                    <Button Margin="2" Height="20" Content="Загрузить" Command="{Binding LoadCommand}"/>
                 </StackPanel>
             </Grid>
 

@@ -11,12 +11,12 @@ namespace Pathfinder2E.Main.Services
 {
     internal class JSON_Converter
     {
-        public void ModelToJSON(string filepath, Model Model)
+        public static void ModelToJSON(string filepath, Model Model)
         {
             string json=JsonConvert.SerializeObject(Model);
             File.WriteAllText(filepath, json);
         }
-        public Model JSONToModel(string filepath)
+        public static Model JSONToModel(string filepath)
         {
             string json= File.ReadAllText(filepath);
             Model model = JsonConvert.DeserializeObject<Model>(json);

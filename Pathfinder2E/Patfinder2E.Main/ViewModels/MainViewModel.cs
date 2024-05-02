@@ -10,11 +10,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Pathfinder2E.Main.Models;
+using Pathfinder2E.Main.Services;
 using Pathfinder2E.Main.Components;
 using static Pathfinder2E.Main.Models.MicroModels;
 using DynamicData;
 using System.Collections.ObjectModel;
 using Microsoft.Xaml.Behaviors.Core;
+
 
 namespace Pathfinder2E.Main.ViewModels
 {
@@ -39,6 +41,9 @@ namespace Pathfinder2E.Main.ViewModels
 
             //AddInstCommand = new ActionCommand(AddObj(TempInst, Model.Instruments));
             //DelInstCommand = new DelegateCommand(DelObj(TempInst, Model.Instruments));
+
+            SaveCommand = new DelegateCommand(Save);
+            LoadCommand = new DelegateCommand(Load);
 
             #region стрелки на скилах
             StrUp = new DelegateCommand(this.model.StrUp);
@@ -74,6 +79,9 @@ namespace Pathfinder2E.Main.ViewModels
             RollD20_3Command = new DelegateCommand(RollD20_3);
             #endregion
         }
+
+        public ICommand SaveCommand { get; set; }
+        public ICommand LoadCommand { get; set; }
         public ICommand ShildUpClickCommand { get; set; }
         public ICommand AddLangCommand { get; set; }
         public ICommand DelLangCommand { get; set; }
@@ -117,7 +125,7 @@ namespace Pathfinder2E.Main.ViewModels
         public ICommand RollD20_3Command { get; set; }
         #endregion
 
-        public Model model { get; }
+        public Model model { get; set; }
 
         [Reactive] public bool ShieldCheck { get; set; } = true;
 
@@ -128,6 +136,14 @@ namespace Pathfinder2E.Main.ViewModels
         [Reactive] public int DiceSumm { get; set; } = 0;
 
 
+        public void Save()
+        {
+            JSON_Converter.ModelToJSON("C://Users/User/Downloads/output.txt", model);
+        }
+
+        public void Load() {
+            model = JSON_Converter.JSONToModel("C://Users/User/Downloads/output.txt");
+        }
         public void AddLang()
         {
             bool flag = true;

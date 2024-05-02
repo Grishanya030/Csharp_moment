@@ -76,3 +76,4 @@ D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Pathf
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\ref\Pathfinder2E.dll
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Pathfinder2E.csproj.Fody.CopyLocal.cache
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Pathfinder2E.csproj.Fody.RuntimeCopyLocal.cache
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
