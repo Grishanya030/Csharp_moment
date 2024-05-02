@@ -8,7 +8,8 @@ namespace Pathfinder2E.Main.DTO
 {
     public class ModelDTO
     {
-        public int Hp_Value { get; set; }
-        public int Hp_MaxValue { get; set; }
+        string Name { get; set; }
+        int Hp_Value { get; set; }
+        int Hp_MaxValue { get; set; }
     }
 }

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HI0QKFr7r1h4DMNzwmPB8w49JPsL+TXpo2sGzwPE4YvfHa/fIdjFWOb/pXh0i0FCdNgXbnycx3ZE9oJyQVTXEg==",
+  "dgSpecHash": "NzDVegshy1fnJ531g3MAgdZ/1LiT42Hm8rXddcEo7s7rpdSMc6lRJL5Q4c6n9aiDKdNPOCaFqBGwl318hBh/BA==",
   "success": true,
   "projectFilePath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\Pathfinder2E.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\dynamicdata\\8.3.27\\dynamicdata.8.3.27.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\fody\\6.8.0\\fody.6.8.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\prism.unity\\8.1.97\\prism.unity.8.1.97.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512",
@@ -25,6 +26,12 @@
     "C:\\Users\\User\\.nuget\\packages\\unity.container\\5.11.11\\unity.container.5.11.11.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
     {
       "code": "NU1701",
       "level": "Warning",

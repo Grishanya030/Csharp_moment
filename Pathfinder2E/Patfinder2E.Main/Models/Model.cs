@@ -7,6 +7,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Documents.Serialization;
 using static Pathfinder2E.Main.Models.MicroModels;
 
 namespace Pathfinder2E.Main.Models
@@ -67,7 +68,6 @@ namespace Pathfinder2E.Main.Models
             Arcana = new SkillBlock("Аркана", Intelegence.Value, 1, Level);
             Lores.Add(new SkillBlock("Знания: проба", Intelegence.Value, 1, Level));
         }
-
 
 
         #region Вверх/вниз скиллы
