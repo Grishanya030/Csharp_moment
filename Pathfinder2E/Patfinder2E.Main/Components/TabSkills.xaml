@@ -32,9 +32,9 @@
         <StackPanel  Margin="0,4,0,0">
             <DockPanel>
                 <Label>Скорсть:</Label>
-                <Label Content="25"/>
+                <Label Content="{Binding Model.Spped}"/>
                 <Label>Размер:</Label>
-                <Label Content="Средний"/>
+                <Label Content="{Binding Model.Size}"/>
             </DockPanel>
             <DockPanel>
                 <local:HighBlock DataContext="{Binding Model.Strengh}"/>
@@ -70,6 +70,15 @@
             </DockPanel>
             <DockPanel>
                 <StackPanel Margin="0,0,5,0">
+                    <Label Content="Знания:" Padding="5,0,5,0"/>
+                    <DockPanel>
+                        <Button Content="Добавить" Command="{Binding AddLangCommand}"/>
+                        <TextBox Text="{Binding TempLang}" Width="100"/>
+                        <Button Content="Удалить" Command="{Binding DelLangCommand}"/>
+                    </DockPanel>
+                    <ItemsControl ItemsSource="{Binding Model.Lores}">
+
+                    </ItemsControl>
                     <Label Content="Языки:" Padding="5,0,5,0"/>
                     <DockPanel>
                         <Button Content="Добавить" Command="{Binding AddLangCommand}"/>

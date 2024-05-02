@@ -36,6 +36,9 @@ namespace Pathfinder2E.Main.ViewModels
             ShildUpClickCommand = new DelegateCommand(ShildUpClick);
             AddLangCommand = new ActionCommand(AddLang);
             DelLangCommand = new DelegateCommand(DelLang);
+
+            //AddInstCommand = new ActionCommand(AddObj(TempInst, Model.Instruments));
+            //DelInstCommand = new DelegateCommand(DelObj(TempInst, Model.Instruments));
             IntUp = new DelegateCommand(Model.IntUp);
             IntDown = new DelegateCommand(Model.IntDown);
 
@@ -62,11 +65,11 @@ namespace Pathfinder2E.Main.ViewModels
             RollD20_3Command = new DelegateCommand(RollD20_3);
             #endregion
         }
-
-
         public ICommand ShildUpClickCommand { get; set; }
         public ICommand AddLangCommand { get; set; }
         public ICommand DelLangCommand { get; set; }
+        public ICommand AddInstCommand { get; set; }
+        public ICommand DelInstCommand { get; set; }
         public ICommand IntUp { get; set; }
         public ICommand IntDown { get; set; }
 
@@ -96,6 +99,7 @@ namespace Pathfinder2E.Main.ViewModels
         [Reactive] public bool ShieldCheck { get; set; } = true;
 
         [Reactive] public string TempLang { get; set; } = "";
+        [Reactive] public string TempInst { get; set; } = "";
 
         [Reactive] public string DiceResult { get; set; } = string.Empty;
         [Reactive] public int DiceSumm { get; set; } = 0;

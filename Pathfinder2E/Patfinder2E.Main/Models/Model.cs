@@ -16,6 +16,8 @@ namespace Pathfinder2E.Main.Models
         [Reactive] public string Name { get; set; }
 
         [Reactive] public int Level { get; set; }
+        [Reactive] public string Size { get; set; }
+        [Reactive] public string Speed { get; set; }
 
         [Reactive] public HPData Hp { get; set; }
 
@@ -37,6 +39,7 @@ namespace Pathfinder2E.Main.Models
         //Языки и тп 
         public ObservableCollection<string> Languages { get; } = new();
         public ObservableCollection<string> Instruments { get; } = new();
+        public ObservableCollection<SkillBlock> Lores { get; } = new();
 
         //навыки
         [Reactive] public SkillBlock Arcana { get; set; }
@@ -62,6 +65,7 @@ namespace Pathfinder2E.Main.Models
             Will = new("Воля", 10);
             //навыки
             Arcana = new SkillBlock("Аркана", Intelegence.Value, 1, Level);
+            Lores.Add(new SkillBlock("Знания: проба", Intelegence.Value, 1, Level));
         }
 
         
