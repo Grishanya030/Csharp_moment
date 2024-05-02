@@ -68,15 +68,47 @@ namespace Pathfinder2E.Main.Models
             Lores.Add(new SkillBlock("Знания: проба", Intelegence.Value, 1, Level));
         }
 
-        
+
 
         #region Вверх/вниз скиллы
+
+        public void StrUp()
+        {
+            Strengh.Value += 1;
+
+        }
+        public void StrDown()
+        {
+            Strengh.Value -= 1;
+
+        }
+        public void DexUp()
+        {
+            Dexterity.Value += 1;
+            Reflex.Value += 1;
+
+        }
+        public void DexDown()
+        {
+            Dexterity.Value -= 1;
+            Reflex.Value -= 1;
+        }
+        public void ConUp()
+        {
+            Constitution.Value += 1;
+            Fortitude.Value += 1;
+
+        }
+        public void ConDown()
+        {
+            Constitution.Value -= 1;
+            Fortitude.Value -= 1;
+        }
         public void IntUp() 
         {
             Intelegence.Value += 1;
             Arcana.Refresh(Intelegence.Value, 1, Level);
             Will.Value += 1;
-            Random rnd = new Random();
            
         }
         public void IntDown()
@@ -86,6 +118,8 @@ namespace Pathfinder2E.Main.Models
             Will.Value -= 1;
             
         }
+
+
         #endregion
 
     }

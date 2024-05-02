@@ -27,7 +27,7 @@ namespace Pathfinder2E.Main.ViewModels
         {
             var eventAggregator1 = eventAggregator;
             _regionManager = regionManager;
-            Model = model;
+            this.model = model;
 
             //eventAggregator1
             //    .GetEvent<ShildChange>()
@@ -39,8 +39,17 @@ namespace Pathfinder2E.Main.ViewModels
 
             //AddInstCommand = new ActionCommand(AddObj(TempInst, Model.Instruments));
             //DelInstCommand = new DelegateCommand(DelObj(TempInst, Model.Instruments));
-            IntUp = new DelegateCommand(Model.IntUp);
-            IntDown = new DelegateCommand(Model.IntDown);
+
+            #region стрелки на скилах
+            StrUp = new DelegateCommand(this.model.StrUp);
+            StrDown = new DelegateCommand(this.model.StrDown);
+            ConUp = new DelegateCommand(this.model.ConUp);
+            ConDown = new DelegateCommand(this.model.ConDown);
+            StrUp = new DelegateCommand(this.model.StrUp);
+            StrDown = new DelegateCommand(this.model.StrDown);
+            IntUp = new DelegateCommand(this.model.IntUp);
+            IntDown = new DelegateCommand(this.model.IntDown);
+            #endregion
 
             #region Подключение кубов
             DiceClearCommand = new DelegateCommand(DiceClear);
@@ -70,8 +79,21 @@ namespace Pathfinder2E.Main.ViewModels
         public ICommand DelLangCommand { get; set; }
         public ICommand AddInstCommand { get; set; }
         public ICommand DelInstCommand { get; set; }
+
+        #region Повыешение понижение статы
+        public ICommand StrUp { get; set; }
+        public ICommand StrDown { get; set; }
+        public ICommand DexUp { get; set; }
+        public ICommand DexDown { get; set; }
+        public ICommand ConUp { get; set; }
+        public ICommand ConDown { get; set; }
         public ICommand IntUp { get; set; }
         public ICommand IntDown { get; set; }
+        public ICommand WisUp { get; set; }
+        public ICommand WisDown { get; set; }
+        public ICommand ChaUp { get; set; }
+        public ICommand ChaDown { get; set; }
+        #endregion
 
         #region ICommand для кубов
         public ICommand DiceClearCommand { get; set; }
@@ -95,7 +117,8 @@ namespace Pathfinder2E.Main.ViewModels
         public ICommand RollD20_3Command { get; set; }
         #endregion
 
-        public Model Model { get; }
+        public Model model { get; }
+
         [Reactive] public bool ShieldCheck { get; set; } = true;
 
         [Reactive] public string TempLang { get; set; } = "";
@@ -108,17 +131,17 @@ namespace Pathfinder2E.Main.ViewModels
         public void AddLang()
         {
             bool flag = true;
-            foreach (string i in Model.Languages) if (i == TempLang) flag = false;
+            foreach (string i in model.Languages) if (i == TempLang) flag = false;
 
             if (flag)
             {
-                Model.Languages.Add(TempLang);
+                model.Languages.Add(TempLang);
                 TempLang = "";
             }
         }
         public void DelLang()
         {
-            Model.Languages.Remove(TempLang);
+            model.Languages.Remove(TempLang);
         }
         public void AddObj(string str, ObservableCollection<string> col)
         {
@@ -137,10 +160,11 @@ namespace Pathfinder2E.Main.ViewModels
         }
         public void ShildUpClick()
         {
-            if (Model.shildUp) { Model.Defence.Value -= 2; Model.shildUp = false; }
-            else { Model.Defence.Value += 2; Model.shildUp = true; }
-            Model.Intelegence.Value += 2;
+            if (model.shildUp) { model.Defence.Value -= 2; model.shildUp = false; }
+            else { model.Defence.Value += 2; model.shildUp = true; }
+            model.Intelegence.Value += 2;
         }
+
 
         #region Функции для кубов
         public void DiceClear()

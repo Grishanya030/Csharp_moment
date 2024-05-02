@@ -13,7 +13,7 @@
             <local:Skills />
             <local:Skills />
             <local:Skills />
-            <local:Skills DataContext="{Binding Model.Arcana}" />
+            <local:Skills DataContext="{Binding model.Arcana}" />
             <local:Skills />
             <local:Skills />
             <local:Skills />
@@ -32,37 +32,37 @@
         <StackPanel  Margin="0,4,0,0">
             <DockPanel>
                 <Label>Скорсть:</Label>
-                <Label Content="{Binding Model.Spped}"/>
+                <Label Content="{Binding model.Speed}"/>
                 <Label>Размер:</Label>
-                <Label Content="{Binding Model.Size}"/>
+                <Label Content="{Binding model.Size}"/>
             </DockPanel>
             <DockPanel>
-                <local:HighBlock DataContext="{Binding Model.Strengh}"/>
+                <local:HighBlock DataContext="{Binding model.Strengh}"/>
                 <StackPanel Margin="-10,15,0,10">
                     <Button Margin="1,1,1,1" Height="30" Content="^"/>
                     <Button Margin="1,1,1,1" Height="30" Content="v"/>
                 </StackPanel>
-                <local:HighBlock DataContext="{Binding Model.Dexterity}"/>
+                <local:HighBlock DataContext="{Binding model.Dexterity}"/>
                 <StackPanel Margin="-10,15,0,10">
                     <Button Margin="1,1,1,1" Height="30" Content="^"/>
                     <Button Margin="1,1,1,1" Height="30" Content="v"/>
                 </StackPanel>
-                <local:HighBlock DataContext="{Binding Model.Constitution}"/>
+                <local:HighBlock DataContext="{Binding model.Constitution}"/>
                 <StackPanel Margin="-10,15,0,10">
                     <Button Margin="1,1,1,1" Height="30" Content="^"/>
                     <Button Margin="1,1,1,1" Height="30" Content="v"/>
                 </StackPanel>
-                <local:HighBlock DataContext="{Binding Model.Intelegence}"/>
+                <local:HighBlock DataContext="{Binding model.Intelegence}"/>
                 <StackPanel Margin="-10,15,0,10">
                     <Button Margin="1,1,1,1" Height="30" Content="^" Command="{Binding IntUp}" />
                     <Button Margin="1,1,1,1" Height="30" Content="v" Command="{Binding IntDown}"/>
                 </StackPanel>
-                <local:HighBlock DataContext="{Binding Model.Wisdom}"/>
+                <local:HighBlock DataContext="{Binding model.Wisdom}"/>
                 <StackPanel Margin="-10,15,0,10">
                     <Button Margin="1,1,1,1" Height="30" Content="^"/>
                     <Button Margin="1,1,1,1" Height="30" Content="v"/>
                 </StackPanel>
-                <local:HighBlock DataContext="{Binding Model.Charisma}"/>
+                <local:HighBlock DataContext="{Binding model.Charisma}"/>
                 <StackPanel Margin="-10,15,0,10">
                     <Button Margin="1,1,1,1" Height="30" Content="^"/>
                     <Button Margin="1,1,1,1" Height="30" Content="v"/>
@@ -76,7 +76,7 @@
                         <TextBox Text="{Binding TempLang}" Width="100"/>
                         <Button Content="Удалить" Command="{Binding DelLangCommand}"/>
                     </DockPanel>
-                    <ItemsControl ItemsSource="{Binding Model.Lores}">
+                    <ItemsControl ItemsSource="{Binding model.Lores}">
 
                     </ItemsControl>
                     <Label Content="Языки:" Padding="5,0,5,0"/>
@@ -85,7 +85,7 @@
                         <TextBox Text="{Binding TempLang}" Width="100"/>
                         <Button Content="Удалить" Command="{Binding DelLangCommand}"/>
                     </DockPanel>
-                    <ItemsControl ItemsSource="{Binding Model.Languages}">
+                    <ItemsControl ItemsSource="{Binding model.Languages}">
                         <ItemsControl.ItemsPanel>
                             <ItemsPanelTemplate>
                                 <StackPanel Margin="5,5,5,0"/>
@@ -100,7 +100,7 @@
                         <TextBox Text="{Binding TempInst}" Width="100"/>
                         <Button Content="Удалить" Command="{Binding DelInstCommand}"/>
                     </DockPanel>
-                    <ItemsControl ItemsSource="{Binding Model.Instruments}">
+                    <ItemsControl ItemsSource="{Binding model.Instruments}">
                         <ItemsControl.ItemsPanel>
                             <ItemsPanelTemplate>
                                 <StackPanel Margin="5,5,5,0"/>

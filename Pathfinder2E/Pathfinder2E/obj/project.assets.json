@@ -1050,23 +1050,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\artem\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\artem\\Documents\\GitHub\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\Pathfinder2E.csproj",
+      "projectUniqueName": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\Pathfinder2E.csproj",
       "projectName": "Pathfinder2E",
-      "projectPath": "C:\\Users\\artem\\Documents\\GitHub\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\Pathfinder2E.csproj",
-      "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\artem\\Documents\\GitHub\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\obj\\",
+      "projectPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\Pathfinder2E.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1080,8 +1076,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\artem\\Documents\\GitHub\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj": {
-              "projectPath": "C:\\Users\\artem\\Documents\\GitHub\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj"
+            "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj": {
+              "projectPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj"
             }
           }
         }
