@@ -74,9 +74,6 @@ D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\refin
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Pathfinder2E.pdb
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Pathfinder2E.genruntimeconfig.cache
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\ref\Pathfinder2E.dll
-D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Pathfinder2E.csproj.Fody.CopyLocal.cache
-D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Pathfinder2E.csproj.Fody.RuntimeCopyLocal.cache
-D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
 C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\Pathfinder2E.exe
 C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\Pathfinder2E.deps.json
 C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\Pathfinder2E.runtimeconfig.json
@@ -116,3 +113,5 @@ C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debu
 C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Pathfinder2E.pdb
 C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Pathfinder2E.genruntimeconfig.cache
 C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\ref\Pathfinder2E.dll
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Pathfinder2E.csproj.Fody.CopyLocal.cache
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Pathfinder2E.csproj.Fody.RuntimeCopyLocal.cache

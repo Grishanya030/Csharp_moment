@@ -50,10 +50,14 @@ namespace Pathfinder2E.Main.ViewModels
             StrDown = new DelegateCommand(this.model.StrDown);
             ConUp = new DelegateCommand(this.model.ConUp);
             ConDown = new DelegateCommand(this.model.ConDown);
-            StrUp = new DelegateCommand(this.model.StrUp);
-            StrDown = new DelegateCommand(this.model.StrDown);
+            DexUp = new DelegateCommand(this.model.DexUp);
+            DexDown = new DelegateCommand(this.model.DexDown);
             IntUp = new DelegateCommand(this.model.IntUp);
             IntDown = new DelegateCommand(this.model.IntDown);
+            WisUp = new DelegateCommand(this.model.WisUp);
+            WisDown = new DelegateCommand(this.model.WisDown);
+            ChaUp = new DelegateCommand(this.model.ChaUp);
+            ChaDown = new DelegateCommand(this.model.ChaDown);
             #endregion
 
             #region Подключение кубов
@@ -136,13 +140,38 @@ namespace Pathfinder2E.Main.ViewModels
         [Reactive] public int DiceSumm { get; set; } = 0;
 
 
+
         public void Save()
         {
-            JSON_Converter.ModelToJSON("C://Users/artem/Downloads/output.txt", model);
+            var dialog = new Microsoft.Win32.SaveFileDialog();
+            dialog.FileName = "Character_" + model.Name;
+            dialog.DefaultExt = ".json";
+            dialog.Filter = "Text documents (.json)|*.json";
+
+            bool? result = dialog.ShowDialog();
+
+            if (result == true)
+            {
+                string filename = dialog.FileName;
+                JSON_Converter.ModelToJSON(filename, model);
+            }
         }
 
-        public void Load() {
-            model = JSON_Converter.JSONToModel("C://Users/artem/Downloads/output.txt");
+        public void Load()
+        {
+            var dialog = new Microsoft.Win32.OpenFileDialog();
+            dialog.DefaultExt = ".json";
+            dialog.Filter = "Text documents (.json)|*.json";
+
+            bool? result = dialog.ShowDialog();
+
+            if (result == true)
+            {
+                string filename = dialog.FileName;
+                model = JSON_Converter.JSONToModel(filename);
+            }
+            else { }
+
         }
         public void AddLang()
         {

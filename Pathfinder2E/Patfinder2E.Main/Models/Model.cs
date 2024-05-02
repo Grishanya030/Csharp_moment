@@ -1,4 +1,5 @@
-﻿using Pathfinder2E.Main.Components;
+﻿using DynamicData.Binding;
+using Pathfinder2E.Main.Components;
 using ReactiveUI;
 using ReactiveUI.Fody.Helpers;
 using System;
@@ -67,6 +68,17 @@ namespace Pathfinder2E.Main.Models
             //навыки
             Arcana = new SkillBlock("Аркана", Intelegence.Value, 1, Level);
             Lores.Add(new SkillBlock("Знания: проба", Intelegence.Value, 1, Level));
+
+            Intelegence.WhenPropertyChanged(x => x.Value).Subscribe(x =>
+            {
+                Arcana.Refresh(Intelegence.Value, 1, Level);
+                foreach(SkillBlock lor in Lores)
+                {
+                    lor.Refresh(Intelegence.Value, 1, Level);
+                }
+
+
+            });
         }
 
 
@@ -107,20 +119,38 @@ namespace Pathfinder2E.Main.Models
         public void IntUp() 
         {
             Intelegence.Value += 1;
-            Arcana.Refresh(Intelegence.Value, 1, Level);
-            Will.Value += 1;
+           
            
         }
         public void IntDown()
         {
             Intelegence.Value -= 1;
             Arcana.Refresh(Intelegence.Value, 1, Level);
-            Will.Value -= 1;
             
         }
+        public void WisUp()
+        {
+            Wisdom.Value += 1;
+            Will.Value += 1;
 
+        }
+        public void WisDown()
+        {
+            Wisdom.Value -= 1;
+            Will.Value -= 1;
+        }
+        public void ChaUp()
+        {
+            Charisma.Value += 1;
 
-        #endregion
+        }
+        public void ChaDown()
+        {
+            Charisma.Value -= 1;
 
+        }
+
+            #endregion
+
+        }
     }
-}
