@@ -32,7 +32,7 @@
         <StackPanel  Margin="0,4,0,0">
             <DockPanel>
                 <Label>Скорсть:</Label>
-                <Label Content="{Binding Model.Spped}"/>
+                <Label Content="{Binding Model.Speed}"/>
                 <Label>Размер:</Label>
                 <Label Content="{Binding Model.Size}"/>
             </DockPanel>
