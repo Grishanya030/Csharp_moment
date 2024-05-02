@@ -20,7 +20,7 @@ namespace Pathfinder2E.Main.Models
         [Reactive] public string Size { get; set; }
         [Reactive] public string Speed { get; set; }
 
-        [Reactive] public HPData Hp { get; set; }
+        //[Reactive] public HPData Hp { get; set; }
 
         [Reactive] public MicroModel Defence { get; set; }
         public bool shildUp;
@@ -49,7 +49,7 @@ namespace Pathfinder2E.Main.Models
             Name = "Игорёчек";
             Level = 3;
 
-            Hp= new HPData("Нр", 22, 22);
+           // Hp= new HPData("Нр", 22, 22);
 
             Defence = new("КД", 10);
             shildUp = false;

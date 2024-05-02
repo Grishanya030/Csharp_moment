@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj": {}
+    "C:\\Users\\artem\\Documents\\GitHub\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj": {}
   },
   "projects": {
-    "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj": {
+    "C:\\Users\\artem\\Documents\\GitHub\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj",
+        "projectUniqueName": "C:\\Users\\artem\\Documents\\GitHub\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj",
         "projectName": "Pathfinder2E.Main",
-        "projectPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\obj\\",
+        "projectPath": "C:\\Users\\artem\\Documents\\GitHub\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj",
+        "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\artem\\Documents\\GitHub\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,10 +48,6 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
             "Prism.Core": {
               "target": "Package",
               "version": "[8.1.97, )"
@@ -72,6 +71,10 @@
             "ReactiveUI.WPF": {
               "target": "Package",
               "version": "[19.6.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             }
           },
           "imports": [

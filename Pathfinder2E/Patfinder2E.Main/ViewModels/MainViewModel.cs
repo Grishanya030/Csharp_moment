@@ -138,11 +138,11 @@ namespace Pathfinder2E.Main.ViewModels
 
         public void Save()
         {
-            JSON_Converter.ModelToJSON("C://Users/User/Downloads/output.txt", model);
+            JSON_Converter.ModelToJSON("C://Users/artem/Downloads/output.txt", model);
         }
 
         public void Load() {
-            model = JSON_Converter.JSONToModel("C://Users/User/Downloads/output.txt");
+            model = JSON_Converter.JSONToModel("C://Users/artem/Downloads/output.txt");
         }
         public void AddLang()
         {
