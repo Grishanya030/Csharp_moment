@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pathfinder2E")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbb9c4b6e471f292dc9318c5a81afc3ec1bd998f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+179275046257ce3d72c8d7ccf61a35d76bec77ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pathfinder2E")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pathfinder2E")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

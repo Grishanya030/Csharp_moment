@@ -43,10 +43,10 @@ namespace Pathfinder2E.Main.Models
 
             [Reactive] public string SkillVal { get; set; } = "";
             
-            public void Refresh(int Skill, int Train, int Lvl)
+            public void Refresh(int Ability, int Train, int Lvl)
             {
-                if (Train > 0) Value = Skill + Lvl + Train * 3 - 10;
-                else Value = Skill - 10;
+                if (Train > 0) Value = + Lvl + (Train * 2)+((Ability - 10)/2);
+                else Value = (Ability - 10) / 2;
                 if (Value < 0) SkillVal = Value.ToString();
                 else SkillVal = "+" + Value.ToString();
             }

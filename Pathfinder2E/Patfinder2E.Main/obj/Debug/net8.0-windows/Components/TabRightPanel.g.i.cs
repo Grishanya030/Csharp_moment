@@ -53,7 +53,7 @@ namespace Pathfinder2E.Main.Components {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Pathfinder2E.Main;component/components/tabrightpanel.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Pathfinder2E.Main;V1.0.0.0;component/components/tabrightpanel.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Components\TabRightPanel.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
