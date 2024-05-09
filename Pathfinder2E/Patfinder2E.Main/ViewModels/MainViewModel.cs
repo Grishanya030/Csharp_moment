@@ -153,7 +153,7 @@ namespace Pathfinder2E.Main.ViewModels
             if (result == true)
             {
                 string filename = dialog.FileName;
-                JSON_Converter.ModelToJSON(filename, model);
+                JSON_DTO_Converter.ModelToJSON(model,filename);
             }
         }
 
@@ -168,7 +168,7 @@ namespace Pathfinder2E.Main.ViewModels
             if (result == true)
             {
                 string filename = dialog.FileName;
-                model = JSON_Converter.JSONToModel(filename);
+                JSON_DTO_Converter.JSONToModel(filename,model);
             }
             else { }
 
