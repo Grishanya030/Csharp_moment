@@ -44,7 +44,22 @@ namespace Pathfinder2E.Main.Models
         public ObservableCollection<SkillBlock> Lores { get; } = new();
 
         //навыки
+        [Reactive] public SkillBlock Acrobatics { get; set; }
         [Reactive] public SkillBlock Arcana { get; set; }
+        [Reactive] public SkillBlock Athletics { get; set; }
+        [Reactive] public SkillBlock Crafting { get; set; }
+        [Reactive] public SkillBlock Deception { get; set; }
+        [Reactive] public SkillBlock Diplomacy { get; set; }
+        [Reactive] public SkillBlock Intimidation { get; set; }
+        [Reactive] public SkillBlock Medicine { get; set; }
+        [Reactive] public SkillBlock Nature { get; set; }
+        [Reactive] public SkillBlock Occultism { get; set; }
+        [Reactive] public SkillBlock Perfomance { get; set; }
+        [Reactive] public SkillBlock Religion { get; set; }
+        [Reactive] public SkillBlock Society { get; set; }
+        [Reactive] public SkillBlock Stealth { get; set; }
+        [Reactive] public SkillBlock Survival { get; set; }
+        [Reactive] public SkillBlock Thievery { get; set; }
         public Model()
         {
             Name = "Игорёчек";
@@ -66,7 +81,22 @@ namespace Pathfinder2E.Main.Models
             Reflex = new("Рефлексы", 10);
             Will = new("Воля", 10);
             //навыки
+            Acrobatics = new SkillBlock("Акробатика", Dexterity.Value, 1, Level);
             Arcana = new SkillBlock("Аркана", Intelegence.Value, 1, Level);
+            Athletics = new SkillBlock("Атлетика", Strengh.Value, 1, Level);
+            Crafting = new SkillBlock("Ремесло", Intelegence.Value, 1, Level);
+            Deception = new SkillBlock("Обман", Charisma.Value, 1, Level);
+            Diplomacy = new SkillBlock("Дипломатия", Charisma.Value, 1, Level);
+            Intimidation = new SkillBlock("Запугивание", Charisma.Value, 1, Level);
+            Medicine = new SkillBlock("Медицина", Wisdom.Value, 1, Level);
+            Nature = new SkillBlock("Природа", Wisdom.Value, 1, Level);
+            Occultism = new SkillBlock("Оккультизм", Intelegence.Value, 1, Level);
+            Perfomance = new SkillBlock("Исполнение", Charisma.Value, 1, Level);
+            Religion = new SkillBlock("Религия", Wisdom.Value, 1, Level);
+            Society = new SkillBlock("Общество", Intelegence.Value, 1, Level);
+            Stealth = new SkillBlock("Скрытность", Dexterity.Value, 1, Level);
+            Survival = new SkillBlock("Выживание", Wisdom.Value, 1, Level);
+            Thievery = new SkillBlock("Воровство", Intelegence.Value, 1, Level);
             Lores.Add(new SkillBlock("Знания: проба", Intelegence.Value, 1, Level));
 
             Intelegence.WhenPropertyChanged(x => x.Value).Subscribe(x =>
