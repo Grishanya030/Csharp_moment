@@ -20,7 +20,7 @@ namespace Pathfinder2E.Main.Converters
 
         public T FalseValue { get; set; } 
 
-        public override object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        public override object? Convert(object value, Type targetType, object parameter, CultureInfo culture)
             => value is true ? TrueValue : FalseValue;
 
         public override object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

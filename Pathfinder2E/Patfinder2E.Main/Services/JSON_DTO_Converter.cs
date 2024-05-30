@@ -18,10 +18,6 @@ namespace Pathfinder2E.Main.Services
     {
         public static void ModelToDTO(Model model, ModelDTO DTO)
         {
-            List<string> LanguagesDTO=new List<string>();
-            List<string> LoresDTO = new List<string>();
-            List<string> InstrumentsDTO = new List<string>();
-
             DTO.Name=model.Name;
             DTO.Level=model.Level;
             DTO.Size=model.Size;
@@ -47,21 +43,26 @@ namespace Pathfinder2E.Main.Services
             DTO.For=model.Fortitude.Value;
             DTO.Ref=model.Reflex.Value;
             DTO.Wil=model.Will.Value;
+            DTO.BIO = model.BIO;
+            DTO.Notes = model.Notes;
+            int i = 0;
             foreach (string value in model.Languages)
             {
-                LanguagesDTO.Add(value);
+                DTO.Languages[i]=value;
+                i++;
             }
-            DTO.Languages = LanguagesDTO;
-            //foreach (var value in model.Lores)
-            //{
-            //    LoresDTO.Append(value.Type);
-            //}
-            //DTO.Lores = LoresDTO;
+            i = 0;
+            foreach (var value in model.Lores)
+            {
+                DTO.Lores[i] = value.Type;
+                i++;
+            }
+            i = 0;
             foreach (string value in model.Instruments)
             {
-                InstrumentsDTO.Add(value);
+                DTO.Instruments[i] = value;
+                i++;
             }
-            DTO.Instruments = InstrumentsDTO;
         }
         public static void DTOToModel (ModelDTO DTO,Model model) 
         {
@@ -92,19 +93,29 @@ namespace Pathfinder2E.Main.Services
             model.Fortitude.Value = DTO.For;
             model.Reflex.Value = DTO.Ref;
             model.Will.Value = DTO.Wil;
+            model.BIO = DTO.BIO;
+            model.Notes = DTO.Notes;
+            model.Languages.Clear();
+            model.Lores.Clear();
+            model.Instruments.Clear();  
 
-            foreach (string value in DTO.Languages)
-            {
-                model.Languages.Append(value);
-            }
-            //foreach (string value in DTO.Lores)
-            //{
-            //    .Append(value.Type);
-            //}
-            foreach (string value in DTO.Instruments)
-            {
-                model.Instruments.Append(value);
-            }
+            if(DTO.Languages.Any())
+                foreach (string value in DTO.Languages)
+                {   if(value!=null)
+                    model.Languages.Add(value);
+                }
+            if (DTO.Lores.Any())
+                foreach (string value in DTO.Lores)
+                {
+                    if (value != null)
+                        model.Lores.Add(new MicroModels.SkillBlock( value, DTO.Intel, 1, DTO.Level));
+                }
+            if (DTO.Instruments.Any())
+                foreach (string value in DTO.Instruments)
+                {
+                    if (value != null)
+                        model.Instruments.Add(value);
+                }
         
         }
         

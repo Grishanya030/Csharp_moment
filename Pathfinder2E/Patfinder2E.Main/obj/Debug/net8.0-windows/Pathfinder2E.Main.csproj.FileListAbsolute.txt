@@ -109,3 +109,7 @@ C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\
 C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\refint\Pathfinder2E.Main.dll
 C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Pathfinder2E.Main.pdb
 C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\ref\Pathfinder2E.Main.dll
+D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Components\StatBlock.g.cs
+D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Components\StatBlock.baml
+D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Components\TabBio.g.cs
+D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Components\TabBio.baml

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ReactiveUI.Fody.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,10 +36,13 @@ namespace Pathfinder2E.Main.DTO
         public int For { get; set; }
         public int Ref { get; set; }
         public int Wil { get; set; }
-        public List<string> Languages { get; set; }
-        public List<string> Instruments { get; set; }
-        public List<string> Lores { get; set; }
 
+        public string[] Languages = new string[20];
+        public string[] Instruments = new string[20];
+        public string[] Lores = new string[20];
+
+        public string BIO { get; set; }
+        public string Notes { get; set; }
 
     }
 }

@@ -2,6 +2,12 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Components\StatBlock.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\TabBio.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\MainView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -20,6 +26,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Components\SmallBlock.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\StatBlock.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\TabBio.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Components\TabDice.xaml">

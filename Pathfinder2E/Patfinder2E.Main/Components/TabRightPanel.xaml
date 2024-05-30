@@ -11,17 +11,8 @@
             <TabItem Header="Навыки">
                 <local:TabSkills/>
             </TabItem>
-            <TabItem Header="Способности">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="Снаряжение">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="Уровни">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
             <TabItem Header="БИО">
-                <Grid Background="#FFE5E5E5"/>
+                <local:TabBio/>
             </TabItem>
             <TabItem Header="Кубы">
                 <local:TabDice/>

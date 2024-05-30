@@ -11,6 +11,7 @@
     <Grid>
         <StackPanel Orientation="Horizontal">
             <StackPanel>
+                <Label Content="Кубы:"/>
                 <DockPanel LastChildFill="False">
                     <Button Content=" D4 " Margin="10" Command="{Binding RollD4_1Command}" FontSize="25" Padding="5"/>
                     <Button Content="x2" Margin="10" Command="{Binding RollD4_2Command}" FontSize="25" Padding="5"/>
@@ -45,8 +46,20 @@
                 </DockPanel>
                 <Button Content="Сброс"  Margin="10" Width="167" HorizontalAlignment="Left" Command="{Binding DiceClearCommand}" FontSize="25" Padding="5"/>
             </StackPanel>
-            <TextBlock Text="{Binding DiceResult}" Background="White" Height="377" Width="268" VerticalAlignment="Top" Margin="10" FontSize="25" Padding="5" TextWrapping="Wrap"/>
-            <TextBlock Text="{Binding DiceSumm}" Background="White" Height="41" Width="52" VerticalAlignment="Top" Margin="10"  FontSize="25" Padding="5"/>
+            <StackPanel>
+                <Label Content="Бросок:"/>
+                <TextBlock Text="{Binding DiceResult}" Background="White" Height="377" Width="268" VerticalAlignment="Top" Margin="10" FontSize="25" Padding="5" TextWrapping="Wrap"/>
+            </StackPanel>
+
+            <StackPanel>
+                <Label Content="Результат:"/>
+                <TextBlock Text="{Binding DiceSumm}" Background="White" Height="41" Width="52" VerticalAlignment="Top" Margin="10"  FontSize="25" Padding="5"/>
+            </StackPanel>
+
+            <StackPanel>
+                <Label Content="История:"/>
+                <TextBlock Text="{Binding DiceHistory}" Background="White" Height="377" Width="268" VerticalAlignment="Top" Margin="10" FontSize="15" Padding="5" TextWrapping="Wrap"/>
+            </StackPanel>
         </StackPanel>
 
 

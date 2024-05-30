@@ -36,32 +36,32 @@
                 <TextBox Text="{Binding model.Size}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
             </DockPanel>
             <DockPanel>
-                <local:HighBlock DataContext="{Binding model.Strengh}"/>
+                <local:StatBlock DataContext="{Binding model.Strengh}"/>
                 <StackPanel Margin="-10,15,0,10">
                     <Button Margin="1,1,1,1" Height="30" Content="^" Command="{Binding StrUp}" />
                     <Button Margin="1,1,1,1" Height="30" Content="v" Command="{Binding StrDown}"/>
                 </StackPanel>
-                <local:HighBlock DataContext="{Binding model.Dexterity}"/>
+                <local:StatBlock DataContext="{Binding model.Dexterity}"/>
                 <StackPanel Margin="-10,15,0,10">
                     <Button Margin="1,1,1,1" Height="30" Content="^" Command="{Binding DexUp}" />
                     <Button Margin="1,1,1,1" Height="30" Content="v" Command="{Binding DexDown}"/>
                 </StackPanel>
-                <local:HighBlock DataContext="{Binding model.Constitution}"/>
+                <local:StatBlock DataContext="{Binding model.Constitution}"/>
                 <StackPanel Margin="-10,15,0,10">
                     <Button Margin="1,1,1,1" Height="30" Content="^" Command="{Binding ConUp}" />
                     <Button Margin="1,1,1,1" Height="30" Content="v" Command="{Binding ConDown}"/>
                 </StackPanel>
-                <local:HighBlock DataContext="{Binding model.Intelegence}"/>
+                <local:StatBlock DataContext="{Binding model.Intelegence}"/>
                 <StackPanel Margin="-10,15,0,10">
                     <Button Margin="1,1,1,1" Height="30" Content="^" Command="{Binding IntUp}" />
                     <Button Margin="1,1,1,1" Height="30" Content="v" Command="{Binding IntDown}"/>
                 </StackPanel>
-                <local:HighBlock DataContext="{Binding model.Wisdom}"/>
+                <local:StatBlock DataContext="{Binding model.Wisdom}"/>
                 <StackPanel Margin="-10,15,0,10">
                     <Button Margin="1,1,1,1" Height="30" Content="^" Command="{Binding WisUp}" />
                     <Button Margin="1,1,1,1" Height="30" Content="v" Command="{Binding WisDown}"/>
                 </StackPanel>
-                <local:HighBlock DataContext="{Binding model.Charisma}"/>
+                <local:StatBlock DataContext="{Binding model.Charisma}"/>
                 <StackPanel Margin="-10,15,0,10">
                     <Button Margin="1,1,1,1" Height="30" Content="^" Command="{Binding ChaUp}" />
                     <Button Margin="1,1,1,1" Height="30" Content="v" Command="{Binding ChaDown}"/>

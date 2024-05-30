@@ -26,7 +26,7 @@ namespace Pathfinder2E.Main.Models
         [Reactive] public int TempHp { get; set; }
         [Reactive] public HPData Hp { get; set; }
         [Reactive] public MicroModel Defence { get; set; }
-        public bool shildUp;
+        [Reactive] public bool shildUp { get; set; }
 
         [Reactive] public int Dying { get; set; }
         [Reactive] public int Wounded { get; set; }
@@ -51,9 +51,9 @@ namespace Pathfinder2E.Main.Models
         [Reactive] public MicroModel Reflex { get; set; }
         [Reactive] public MicroModel Will { get; set; }
         //Языки и тп 
-        public ObservableCollection<string> Languages { get; } = new();
-        public ObservableCollection<string> Instruments { get; } = new();
-        public ObservableCollection<SkillBlock> Lores { get; } = new();
+        [Reactive] public ObservableCollection<string> Languages { get; set; } = new();
+        [Reactive] public ObservableCollection<string> Instruments { get; set; } = new();
+        [Reactive] public ObservableCollection<SkillBlock> Lores { get; set; } = new();
 
         //навыки
         [Reactive] public SkillBlock Acrobatics { get; set; }
@@ -73,12 +73,14 @@ namespace Pathfinder2E.Main.Models
         [Reactive] public SkillBlock Survival { get; set; }
         [Reactive] public SkillBlock Thievery { get; set; }
         [Reactive] public SkillBlock Perception { get; set; }
+        [Reactive] public string BIO { get; set; }
+        [Reactive] public string Notes { get; set; }
         public Model()
         {
             Name = "Игорёчек";
             Level = 3;
 
-            Hp = new HPData("Нр", 22, 22);
+            Hp = new HPData("ХП", 22, 22);
             TempHp = 0;
 
             Defence = new("КД", 10);
@@ -92,7 +94,7 @@ namespace Pathfinder2E.Main.Models
 
             //щит
             ShieldName = "Cтандартный щит";
-            ShieldHp = new HPData(ShieldName, 55, 60);
+            ShieldHp = new HPData("ХП щита", 55, 60);
             ShieldHardness = new MicroModel("Твердость", 11);
             ShieldBroken = new MicroModel("Сломан", 48);
             // скилы
@@ -124,7 +126,13 @@ namespace Pathfinder2E.Main.Models
             Survival = new SkillBlock("Выживание", Wisdom.Value, 1, Level);
             Thievery = new SkillBlock("Воровство", Dexterity.Value, 1, Level);
             Perception = new SkillBlock("Внимание", Wisdom.Value, 1, Level);
-            Lores.Add(new SkillBlock("Знания: проба", Intelegence.Value, 1, Level));
+            Languages.Add("Общий");
+            Lores.Add(new SkillBlock("Знания: дела", Intelegence.Value, 1, Level));
+            Instruments.Add("Молотки");
+
+            BIO = "Это биография, тут многострочное описание персонажа";
+            Notes = "Это просто завметки";
+
 
             Intelegence.WhenPropertyChanged(x => x.Value).Subscribe(x =>
             {
@@ -133,11 +141,13 @@ namespace Pathfinder2E.Main.Models
                 Crafting.Refresh(Intelegence.Value, 1, Level);
                 Occultism.Refresh(Intelegence.Value, 1, Level);
                 Society.Refresh(Intelegence.Value, 1, Level);
+                Intelegence.Refresh(Intelegence.Value);
 
             });
             Strengh.WhenPropertyChanged(x => x.Value).Subscribe(x =>
             {
                 Athletics.Refresh(Strengh.Value, 1, Level);
+                Strengh.Refresh(Strengh.Value);
             });
             Dexterity.WhenPropertyChanged(x => x.Value).Subscribe(x =>
             {
@@ -145,10 +155,12 @@ namespace Pathfinder2E.Main.Models
                 Reflex.Refresh(Dexterity.Value);
                 Stealth.Refresh(Dexterity.Value, 1, Level);
                 Thievery.Refresh(Dexterity.Value, 1, Level);
+                Dexterity.Refresh(Dexterity.Value);
             });
             Constitution.WhenPropertyChanged(x => x.Value).Subscribe(x =>
             {
                 Fortitude.Refresh(Constitution.Value);
+                Constitution.Refresh(Constitution.Value);
             });
             Wisdom.WhenPropertyChanged(x => x.Value).Subscribe(x =>
             {
@@ -158,6 +170,7 @@ namespace Pathfinder2E.Main.Models
                 Religion.Refresh(Wisdom.Value, 1, Level);
                 Survival.Refresh(Wisdom.Value, 1, Level);
                 Perception.Refresh(Wisdom.Value, 1, Level);
+                Wisdom.Refresh(Wisdom.Value);
             });
             Charisma.WhenPropertyChanged(x => x.Value).Subscribe(x =>
             {
@@ -165,6 +178,7 @@ namespace Pathfinder2E.Main.Models
                 Diplomacy.Refresh(Charisma.Value, 1, Level);
                 Intimidation.Refresh(Charisma.Value, 1, Level);
                 Perfomance.Refresh(Charisma.Value, 1, Level);
+                Charisma.Refresh(Charisma.Value);
             });
         }
 
@@ -202,8 +216,6 @@ namespace Pathfinder2E.Main.Models
         public void IntUp() 
         {
             Intelegence.Value += 1;
-           
-           
         }
         public void IntDown()
         {
@@ -213,7 +225,6 @@ namespace Pathfinder2E.Main.Models
         public void WisUp()
         {
             Wisdom.Value += 1;
-
         }
         public void WisDown()
         {
@@ -227,10 +238,7 @@ namespace Pathfinder2E.Main.Models
         public void ChaDown()
         {
             Charisma.Value -= 1;
-
         }
-
-            #endregion
-
+        #endregion
         }
     }

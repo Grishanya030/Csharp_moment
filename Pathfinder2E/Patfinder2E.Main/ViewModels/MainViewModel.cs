@@ -16,6 +16,9 @@ using static Pathfinder2E.Main.Models.MicroModels;
 using DynamicData;
 using System.Collections.ObjectModel;
 using Microsoft.Xaml.Behaviors.Core;
+using Prism.Services.Dialogs;
+using System.IO;
+using System.Windows.Shapes;
 
 
 namespace Pathfinder2E.Main.ViewModels
@@ -24,16 +27,19 @@ namespace Pathfinder2E.Main.ViewModels
     {
 
         private readonly IRegionManager _regionManager;
-        
-        public MainViewModel(IEventAggregator eventAggregator, IRegionManager regionManager, Model model)
+        private readonly string path = "latestFile.txt";
+        public MainViewModel(IEventAggregator eventAggregator, IRegionManager regionManager, Model _model)
         {
             var eventAggregator1 = eventAggregator;
             _regionManager = regionManager;
-            this.model = model;
+            model = _model;
 
-            //eventAggregator1
-            //    .GetEvent<ShildChange>()
-            //    .Subscribe(OnInputChanged);
+            try
+            {
+                string filename = File.ReadAllText(path);
+                JSON_DTO_Converter.JSONToModel(filename, model);
+            }
+            catch (Exception ex) { Console.WriteLine(ex.Message); }
 
             ShildUpClickCommand = new DelegateCommand(ShildUpClick);
             AddLangCommand = new ActionCommand(AddLang);
@@ -142,6 +148,7 @@ namespace Pathfinder2E.Main.ViewModels
         [Reactive] public string TempLore { get; set; } = "";
 
         [Reactive] public string DiceResult { get; set; } = string.Empty;
+        [Reactive] public string DiceHistory { get; set; } = string.Empty;
         [Reactive] public int DiceSumm { get; set; } = 0;
 
 
@@ -159,7 +166,9 @@ namespace Pathfinder2E.Main.ViewModels
             {
                 string filename = dialog.FileName;
                 JSON_DTO_Converter.ModelToJSON(model,filename);
+                File.WriteAllTextAsync(path, filename);
             }
+            
         }
 
         public void Load()
@@ -174,20 +183,24 @@ namespace Pathfinder2E.Main.ViewModels
             {
                 string filename = dialog.FileName;
                 JSON_DTO_Converter.JSONToModel(filename,model);
+                File.WriteAllTextAsync(path, filename);
             }
-            else { }
 
         }
         public void AddLang()
         {
-            bool flag = true;
-            foreach (string i in model.Languages) if (i == TempLang) flag = false;
-
-            if (flag)
+            if (model.Languages.Count < 20)
             {
-                model.Languages.Add(TempLang);
-                TempLang = "";
+                bool flag = true;
+                foreach (string i in model.Languages) if (i == TempLang) flag = false;
+
+                if (flag)
+                {
+                    model.Languages.Add(TempLang);
+                    TempLang = "";
+                }
             }
+            else { TempLang = "Превышено максимальное количесвто языков!"; }
         }
         public void DelLang()
         {
@@ -195,18 +208,22 @@ namespace Pathfinder2E.Main.ViewModels
         }
         public void AddLores()
         {
-            bool flag = true;
-            foreach (var i in model.Lores) if (i.Type == TempLore) flag = false;
-
-            if (flag)
+            if (model.Lores.Count < 20)
             {
-                model.Lores.Add(new SkillBlock(TempLore, model.Intelegence.Value, 1, model.Level));
-                TempLore = "";
+                bool flag = true;
+                foreach (var i in model.Lores) if (i.Type == ("Знания: " + TempLore)) flag = false;
+
+                if (flag)
+                {
+                    model.Lores.Add(new SkillBlock("Знания: " + TempLore, model.Intelegence.Value, 1, model.Level));
+                    TempLore = "";
+                }
             }
+            else { TempLore = "Превышено максимальное количесвто знаний!"; }
         }
         public void DelLores()
         {
-            foreach (var i in model.Lores) if (i.Type == TempLore)
+            foreach (var i in model.Lores) if (i.Type == ("Знания: " + TempLore))
                 {
                     model.Lores.Remove(i);
                     break;
@@ -214,7 +231,9 @@ namespace Pathfinder2E.Main.ViewModels
         }
         public void AddInst()
         {
-            bool flag = true;
+            if (model.Instruments.Count < 20)
+            {
+                bool flag = true;
             foreach (string i in model.Instruments) if (i == TempInst) flag = false;
 
             if (flag)
@@ -222,6 +241,8 @@ namespace Pathfinder2E.Main.ViewModels
                 model.Instruments.Add(TempInst);
                 TempInst = "";
             }
+            }
+            else { TempInst = "Превышено максимальное количесвто знаний!"; }
         }
         public void DelInst()
         {
@@ -232,13 +253,13 @@ namespace Pathfinder2E.Main.ViewModels
         {
             if (model.shildUp) { model.Defence.Value -= 2; model.shildUp = false; }
             else { model.Defence.Value += 2; model.shildUp = true; }
-            model.Intelegence.Value += 2;
         }
 
 
         #region Функции для кубов
         public void DiceClear()
         {
+            DiceHistory +=  DiceResult + "| " + DiceSumm + "\n";
             DiceResult = string.Empty;
             DiceSumm = 0;
         }
@@ -254,7 +275,7 @@ namespace Pathfinder2E.Main.ViewModels
             }
             int v = rnd.Next(dice) + 1;
             DiceSumm += v;
-            DiceResult += v;
+            DiceResult += v + " (" + dice + "x" + numb+") ";
         }
         public void RollD4_1() { Roll(4, 1); }
         public void RollD4_2() { Roll(4, 2); }

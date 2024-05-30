@@ -21,12 +21,12 @@ namespace Pathfinder2E.Main.Models
             }
 
             [Reactive] public int Value { get; set; }
-            [Reactive] public string SkillVal { get; set; }
+            [Reactive] public string SkillVal { get; set; } = "";
             public string Type { get; set; } = "";
             public void Refresh(int _Value)
             {
                 Value= _Value;
-                if (Value - 10 < 0) SkillVal = (((Value - 10) / 2)-1).ToString();
+                if (Value - 10 < 0) SkillVal = (((Value - 11) / 2)).ToString();
                 else SkillVal = "+" + ((Value - 10) / 2).ToString();
             }
         }
@@ -51,9 +51,10 @@ namespace Pathfinder2E.Main.Models
             
             public void Refresh(int Ability, int Train, int Lvl)
             {
+                if (Ability - 10 < 0) Ability--;
                 if (Train > 0) Value = + Lvl + (Train * 2)+((Ability - 10)/2);
                 else Value = (Ability - 10) / 2;
-                if (Value < 0) SkillVal = (Value-1).ToString();
+                if (Value < 0) SkillVal = (Value).ToString();
                 else SkillVal = "+" + Value.ToString();
             }
         }

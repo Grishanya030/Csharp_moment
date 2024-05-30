@@ -64,11 +64,9 @@
                 <local:HpBlock DataContext="{Binding model.ShieldHp}"/>
                 <local:HighBlock DataContext="{Binding model.ShieldBroken}"/>
             </DockPanel>
-            <Button Name="Shield_Up" Background="White"
+            <Button Name="Shield_Up" 
              Command="{Binding ShildUpClickCommand}" Margin="0,0,0,10" >
-                <Label>
-                    Поднять щит
-                </Label>
+                <Label Content="{Binding model.shildUp, Converter={cnv:ShildUpConvertor}}"/>
             </Button>
         </StackPanel>
         <local:Skills  DataContext="{Binding model.Perception}"/>
