@@ -35,12 +35,12 @@
                 <DockPanel >
                     <Label>При смерти</Label>
                     <TextBox Width="25" HorizontalAlignment="Right" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
-                              Text="{Binding model.Diying}"/>
+                              Text="{Binding model.Dying}"/>
                 </DockPanel>
                 <DockPanel Margin="0,3,0,0">
                     <Label>Ранен</Label>
                     <TextBox Width="25" HorizontalAlignment="Right" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" 
-                              Text="{Binding model.Wunded}"/>
+                              Text="{Binding model.Wounded}"/>
                 </DockPanel>
             </StackPanel>
             <local:SmallBlock DataContext="{Binding model.Fortitude}"/>
@@ -60,7 +60,7 @@
         </DockPanel>
         <StackPanel Name="Shield" Visibility="{Binding ShieldCheck, Converter={cnv:VisibilityConvertor}}" Margin="10,0,10,0" HorizontalAlignment="Center">
             <DockPanel Name="Shield_Hp" Margin="-5,0,0,0" LastChildFill="False">
-                <local:HighBlock DataContext="{Binding model.ShieldHardnes}"/>
+                <local:HighBlock DataContext="{Binding model.ShieldHardness}"/>
                 <local:HpBlock DataContext="{Binding model.ShieldHp}"/>
                 <local:HighBlock DataContext="{Binding model.ShieldBroken}"/>
             </DockPanel>

@@ -28,14 +28,14 @@ namespace Pathfinder2E.Main.Models
         [Reactive] public MicroModel Defence { get; set; }
         public bool shildUp;
 
-        [Reactive] public int Diying { get; set; }
-        [Reactive] public int Wunded { get; set; }
+        [Reactive] public int Dying { get; set; }
+        [Reactive] public int Wounded { get; set; }
 
         //щит
 
         [Reactive] public string ShieldName { get; set; }
         [Reactive] public HPData ShieldHp { get; set; }
-        [Reactive] public MicroModel ShieldHardnes { get; set; }
+        [Reactive] public MicroModel ShieldHardness { get; set; }
         [Reactive] public MicroModel ShieldBroken { get; set; }
 
         // скилы
@@ -87,13 +87,13 @@ namespace Pathfinder2E.Main.Models
             Speed = "25";
             Size = "Средний";
 
-            Diying = 0;
-            Wunded = 0;
+            Dying = 0;
+            Wounded = 0;
 
             //щит
             ShieldName = "Cтандартный щит";
             ShieldHp = new HPData(ShieldName, 55, 60);
-            ShieldHardnes = new MicroModel("Твердость", 11);
+            ShieldHardness = new MicroModel("Твердость", 11);
             ShieldBroken = new MicroModel("Сломан", 48);
             // скилы
             Intelegence = new MicroModel("Интелект", 10);

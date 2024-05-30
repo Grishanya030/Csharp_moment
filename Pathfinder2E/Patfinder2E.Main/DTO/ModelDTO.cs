@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Pathfinder2E.Main.Models.MicroModels;
 
 namespace Pathfinder2E.Main.DTO
 {
@@ -10,10 +11,20 @@ namespace Pathfinder2E.Main.DTO
     {
         public string Name { get; set; }
         public int Level { get; set; }
+        public string Size { get; set; }
+        public string Speed { get; set; }
+        public int TempHp { get; set; }
         public int HP { get; set; }
         public int MaxHP { get; set; }
         public int Defence { get; set; }
         public bool shieldUp { get; set; }
+        public int Dying { get; set; }
+        public int Wounded { get; set; }
+        public string ShieldName { get; set; }
+        public int ShieldHP { get; set; }
+        public int ShieldMaxHP { get; set; }
+        public int ShieldHardness { get; set; }
+        public int ShieldBroken { get; set; }
         public int Intel {  get; set; }
 
         public int Dex { get; set; }
@@ -24,8 +35,10 @@ namespace Pathfinder2E.Main.DTO
         public int For { get; set; }
         public int Ref { get; set; }
         public int Wil { get; set; }
+        public List<string> Languages { get; set; }
+        public List<string> Instruments { get; set; }
+        public List<string> Lores { get; set; }
 
-        public int Hp_Value { get; set; }
-        public int Hp_MaxValue { get; set; }
+
     }
 }

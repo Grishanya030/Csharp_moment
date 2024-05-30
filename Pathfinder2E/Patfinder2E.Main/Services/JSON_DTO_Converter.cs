@@ -1,4 +1,5 @@
 ﻿
+using DynamicData;
 using Pathfinder2E.Main.DTO;
 using Pathfinder2E.Main.Models;
 using System;
@@ -8,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System.Windows.Media;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Pathfinder2E.Main.Services
 {
@@ -15,12 +18,26 @@ namespace Pathfinder2E.Main.Services
     {
         public static void ModelToDTO(Model model, ModelDTO DTO)
         {
+            List<string> LanguagesDTO=new List<string>();
+            List<string> LoresDTO = new List<string>();
+            List<string> InstrumentsDTO = new List<string>();
+
             DTO.Name=model.Name;
             DTO.Level=model.Level;
+            DTO.Size=model.Size;
+            DTO.Speed=model.Speed;
+            DTO.TempHp=model.TempHp;
             DTO.HP=model.Hp.Value;
             DTO.MaxHP=model.Hp.MaxValue;
             DTO.Defence = model.Defence.Value;
             DTO.shieldUp=model.shildUp;
+            DTO.Dying=model.Dying;
+            DTO.Wounded=model.Wounded;
+            DTO.ShieldName=model.ShieldName;
+            DTO.ShieldHP=model.ShieldHp.Value;
+            DTO.ShieldMaxHP=model.ShieldHp.MaxValue;
+            DTO.ShieldHardness=model.ShieldHardness.Value;
+            DTO.ShieldBroken=model.ShieldBroken.Value;
             DTO.Intel=model.Intelegence.Value;
             DTO.Dex=model.Dexterity.Value;
             DTO.Con=model.Constitution.Value;
@@ -30,16 +47,42 @@ namespace Pathfinder2E.Main.Services
             DTO.For=model.Fortitude.Value;
             DTO.Ref=model.Reflex.Value;
             DTO.Wil=model.Will.Value;
-
+            foreach (string value in model.Languages)
+            {
+                LanguagesDTO.Add(value);
+            }
+            DTO.Languages = LanguagesDTO;
+            //foreach (var value in model.Lores)
+            //{
+            //    LoresDTO.Append(value.Type);
+            //}
+            //DTO.Lores = LoresDTO;
+            foreach (string value in model.Instruments)
+            {
+                InstrumentsDTO.Add(value);
+            }
+            DTO.Instruments = InstrumentsDTO;
         }
         public static void DTOToModel (ModelDTO DTO,Model model) 
         {
+            model.Languages.Clear();
+            model.Instruments.Clear();
             model.Name = DTO.Name;  
             model.Level = DTO.Level;
+            model.Size = DTO.Size;
+            model.Speed = DTO.Speed;
+            model.TempHp = DTO.TempHp;
             model.Hp.Value = DTO.HP;
             model.Hp.MaxValue=DTO.MaxHP;
             model.Defence.Value=DTO.Defence;
             model.shildUp=DTO.shieldUp;
+            model.Dying=DTO.Dying;
+            model.Wounded=DTO.Wounded;
+            model.ShieldName=DTO.ShieldName;
+            model.ShieldHp.Value=DTO.ShieldHP;
+            model.ShieldHp.MaxValue=DTO.ShieldMaxHP;
+            model.ShieldHardness.Value = DTO.ShieldHardness;
+            model.ShieldBroken.Value = DTO.ShieldBroken;
             model.Intelegence.Value = DTO.Intel;
             model.Dexterity.Value = DTO.Dex;
             model.Constitution.Value = DTO.Con;
@@ -49,6 +92,20 @@ namespace Pathfinder2E.Main.Services
             model.Fortitude.Value = DTO.For;
             model.Reflex.Value = DTO.Ref;
             model.Will.Value = DTO.Wil;
+
+            foreach (string value in DTO.Languages)
+            {
+                model.Languages.Append(value);
+            }
+            //foreach (string value in DTO.Lores)
+            //{
+            //    .Append(value.Type);
+            //}
+            foreach (string value in DTO.Instruments)
+            {
+                model.Instruments.Append(value);
+            }
+        
         }
         
        
