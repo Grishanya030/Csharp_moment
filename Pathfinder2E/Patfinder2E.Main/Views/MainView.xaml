@@ -10,7 +10,7 @@
              d:DataContext="{d:DesignInstance vm:MainViewModel}"
              d:DesignHeight="450" d:DesignWidth="800">
     <StackPanel>
-        <Grid x:Name="MainGrid" Height="1705">
+        <Grid x:Name="MainGrid" MinHeight="705">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="5*" />
                 <ColumnDefinition Width="11*" />

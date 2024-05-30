@@ -11,7 +11,7 @@
              d:DataContext="{d:DesignInstance wm:MainViewModel}">
 
     <StackPanel Margin="10" Background="LightGray">
-        <DockPanel Name="Name" Margin="10">
+        <DockPanel Name="Name" Margin="10" LastChildFill="False">
             <Label>Имя</Label>
             <TextBox Width="306" Text="{Binding model.Name}" VerticalContentAlignment="Center"/>
             <Label Width="27">Ур</Label>
@@ -64,7 +64,7 @@
                 <local:HpBlock DataContext="{Binding model.ShieldHp}"/>
                 <local:HighBlock DataContext="{Binding model.ShieldBroken}"/>
             </DockPanel>
-            <Button Name="Shield_Up" 
+            <Button Name="Shield_Up" Background="{Binding model.shildUp, Converter={cnv:ColorConvertor}}"
              Command="{Binding ShildUpClickCommand}" Margin="0,0,0,10" >
                 <Label Content="{Binding model.shildUp, Converter={cnv:ShildUpConvertor}}"/>
             </Button>

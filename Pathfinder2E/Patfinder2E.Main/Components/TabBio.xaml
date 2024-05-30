@@ -12,11 +12,11 @@
         <DockPanel LastChildFill="False">
             <StackPanel Margin="20">
                 <Label Content="Био"/>
-                <TextBox Text="{Binding model.BIO}" Height="700" Width="400" TextWrapping="Wrap" ScrollViewer.CanContentScroll="True"/>
+                <TextBox Text="{Binding model.BIO}" Height="600" Width="400" TextWrapping="Wrap" ScrollViewer.CanContentScroll="True"/>
             </StackPanel>
             <StackPanel Margin="20">
                 <Label Content="Заметки"/>
-                <TextBox Text="{Binding model.Notes}" Width="400" Height="700" TextWrapping="Wrap" ScrollViewer.CanContentScroll="True"/>
+                <TextBox Text="{Binding model.Notes}" Width="400" Height="600" TextWrapping="Wrap" ScrollViewer.CanContentScroll="True"/>
             </StackPanel>
         </DockPanel>
     </Grid>

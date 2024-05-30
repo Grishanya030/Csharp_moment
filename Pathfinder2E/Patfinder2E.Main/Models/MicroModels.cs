@@ -3,6 +3,7 @@ using ReactiveUI;
 using ReactiveUI.Fody.Helpers;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -45,12 +46,12 @@ namespace Pathfinder2E.Main.Models
             public SkillBlock(string _Type, int skill, int _Train, int lvl, int _Value = 0) : base(_Type, _Value)
             {
                 Refresh(skill, _Train, lvl);
-            }
 
-            [Reactive] public string SkillVal { get; set; } = "";
-            
-            public void Refresh(int Ability, int Train, int Lvl)
+            }
+            [Reactive] public int Train { get; set; }
+            public void Refresh(int Ability, int _Train, int Lvl)
             {
+                Train = _Train;
                 if (Ability - 10 < 0) Ability--;
                 if (Train > 0) Value = + Lvl + (Train * 2)+((Ability - 10)/2);
                 else Value = (Ability - 10) / 2;
