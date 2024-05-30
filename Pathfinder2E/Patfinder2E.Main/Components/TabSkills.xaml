@@ -1,0 +1,119 @@
+﻿<UserControl x:Class="Pathfinder2E.Main.Components.TabSkills"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Pathfinder2E.Main.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             xmlns:vm="clr-namespace:Pathfinder2E.Main.ViewModels"
+             d:DataContext="{d:DesignInstance vm:MainViewModel}">
+    <StackPanel Orientation="Horizontal" Background="White" Margin="5">
+        <StackPanel Width="243" Margin="0,30,0,0">
+            <local:Skills DataContext="{Binding model.Acrobatics}"/>
+            <local:Skills DataContext="{Binding model.Athletics}"/>
+            <local:Skills DataContext="{Binding model.Arcana}"/>
+            <local:Skills DataContext="{Binding model.Crafting}" />
+            <local:Skills DataContext="{Binding model.Deception}"/>
+            <local:Skills DataContext="{Binding model.Diplomacy}"/>
+            <local:Skills DataContext="{Binding model.Intimidation}"/>
+            <local:Skills DataContext="{Binding model.Medicine}"/>
+            <local:Skills DataContext="{Binding model.Nature}"/>
+            <local:Skills DataContext="{Binding model.Occultism}"/>
+            <local:Skills DataContext="{Binding model.Perfomance}"/>
+            <local:Skills DataContext="{Binding model.Religion}"/>
+            <local:Skills DataContext="{Binding model.Society}"/>
+            <local:Skills DataContext="{Binding model.Stealth}"/>
+            <local:Skills DataContext="{Binding model.Survival}"/>
+            <local:Skills DataContext="{Binding model.Thievery}"/>
+            <local:Skills DataContext="{Binding model.Perception}"/>
+        </StackPanel>
+        <StackPanel  Margin="0,4,0,0">
+            <DockPanel>
+                <Label>Скорсть:</Label>
+                <TextBox Text="{Binding model.Speed}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label>Размер:</Label>
+                <TextBox Text="{Binding model.Size}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            </DockPanel>
+            <DockPanel>
+                <local:StatBlock DataContext="{Binding model.Strengh}"/>
+                <StackPanel Margin="-10,15,0,10">
+                    <Button Margin="1,1,1,1" Height="30" Content="^" Command="{Binding StrUp}" />
+                    <Button Margin="1,1,1,1" Height="30" Content="v" Command="{Binding StrDown}"/>
+                </StackPanel>
+                <local:StatBlock DataContext="{Binding model.Dexterity}"/>
+                <StackPanel Margin="-10,15,0,10">
+                    <Button Margin="1,1,1,1" Height="30" Content="^" Command="{Binding DexUp}" />
+                    <Button Margin="1,1,1,1" Height="30" Content="v" Command="{Binding DexDown}"/>
+                </StackPanel>
+                <local:StatBlock DataContext="{Binding model.Constitution}"/>
+                <StackPanel Margin="-10,15,0,10">
+                    <Button Margin="1,1,1,1" Height="30" Content="^" Command="{Binding ConUp}" />
+                    <Button Margin="1,1,1,1" Height="30" Content="v" Command="{Binding ConDown}"/>
+                </StackPanel>
+                <local:StatBlock DataContext="{Binding model.Intelegence}"/>
+                <StackPanel Margin="-10,15,0,10">
+                    <Button Margin="1,1,1,1" Height="30" Content="^" Command="{Binding IntUp}" />
+                    <Button Margin="1,1,1,1" Height="30" Content="v" Command="{Binding IntDown}"/>
+                </StackPanel>
+                <local:StatBlock DataContext="{Binding model.Wisdom}"/>
+                <StackPanel Margin="-10,15,0,10">
+                    <Button Margin="1,1,1,1" Height="30" Content="^" Command="{Binding WisUp}" />
+                    <Button Margin="1,1,1,1" Height="30" Content="v" Command="{Binding WisDown}"/>
+                </StackPanel>
+                <local:StatBlock DataContext="{Binding model.Charisma}"/>
+                <StackPanel Margin="-10,15,0,10">
+                    <Button Margin="1,1,1,1" Height="30" Content="^" Command="{Binding ChaUp}" />
+                    <Button Margin="1,1,1,1" Height="30" Content="v" Command="{Binding ChaDown}"/>
+                </StackPanel>
+            </DockPanel>
+            <DockPanel>
+                <StackPanel Margin="0,0,5,0">
+                    <Label Content="Знания:" Padding="5,0,5,0"/>
+                    <DockPanel>
+                        <Button Content="Добавить" Command="{Binding AddLoresCommand}"/>
+                        <TextBox Text="{Binding TempLore}" Width="100"/>
+                        <Button Content="Удалить" Command="{Binding DelLoresCommand}"/>
+                    </DockPanel>
+                    <ItemsControl ItemsSource="{Binding model.Lores}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <local:Skills/>
+
+
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                    <Label Content="Языки:" Padding="5,0,5,0"/>
+                    <DockPanel>
+                        <Button Content="Добавить" Command="{Binding AddLangCommand}"/>
+                        <TextBox Text="{Binding TempLang}" Width="100"/>
+                        <Button Content="Удалить" Command="{Binding DelLangCommand}"/>
+                    </DockPanel>
+                    <ItemsControl ItemsSource="{Binding model.Languages}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Margin="5,5,5,0"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
+                </StackPanel>
+                <StackPanel Margin="5,0,0,0" HorizontalAlignment="Right">
+                    <Label Content="Иструменты:" Padding="5,0,5,0"/>
+                    <DockPanel>
+                        <Button Content="Добавить" Command="{Binding AddInstCommand}"/>
+                        <TextBox Text="{Binding TempInst}" Width="100"/>
+                        <Button Content="Удалить" Command="{Binding DelInstCommand}"/>
+                    </DockPanel>
+                    <ItemsControl ItemsSource="{Binding model.Instruments}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Margin="5,5,5,0"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
+                </StackPanel>
+            </DockPanel>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

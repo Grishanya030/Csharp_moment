@@ -1,4 +1,5 @@
-﻿using Pathfinder2E.ViewModels;
+﻿using Pathfinder2E.Main;
+using Pathfinder2E.Main.ViewModels;
 using Pathfinder2E.Views;
 using Prism.Ioc;
 using Prism.Modularity;
@@ -16,13 +17,12 @@ namespace Pathfinder2E
     {
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry
-                .RegisterSingleton<MainWindowViewModel>();
+
         }
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
-            //moduleCatalog
+            moduleCatalog.AddModule<MainModule>();
 
         }
 

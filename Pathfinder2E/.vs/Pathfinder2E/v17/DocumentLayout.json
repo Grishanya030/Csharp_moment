@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C00E6DBB-EEE0-42B1-98E9-727DF38BEC3C}|Pathfinder2E\\Pathfinder2E.csproj|d:\\github\\csharp_moment\\pathfinder2e\\pathfinder2e\\views\\mainwindowview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C00E6DBB-EEE0-42B1-98E9-727DF38BEC3C}|Pathfinder2E\\Pathfinder2E.csproj|solutionrelative:pathfinder2e\\views\\mainwindowview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|d:\\github\\csharp_moment\\pathfinder2e\\patfinder2e.main\\components\\hpblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|solutionrelative:patfinder2e.main\\components\\hpblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C00E6DBB-EEE0-42B1-98E9-727DF38BEC3C}|Pathfinder2E\\Pathfinder2E.csproj|d:\\github\\csharp_moment\\pathfinder2e\\pathfinder2e\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C00E6DBB-EEE0-42B1-98E9-727DF38BEC3C}|Pathfinder2E\\Pathfinder2E.csproj|solutionrelative:pathfinder2e\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|d:\\github\\csharp_moment\\pathfinder2e\\patfinder2e.main\\converters\\colorconvertor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|solutionrelative:patfinder2e.main\\converters\\colorconvertor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C00E6DBB-EEE0-42B1-98E9-727DF38BEC3C}|Pathfinder2E\\Pathfinder2E.csproj|d:\\github\\csharp_moment\\pathfinder2e\\pathfinder2e\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C00E6DBB-EEE0-42B1-98E9-727DF38BEC3C}|Pathfinder2E\\Pathfinder2E.csproj|solutionrelative:pathfinder2e\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|d:\\github\\csharp_moment\\pathfinder2e\\patfinder2e.main\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|solutionrelative:patfinder2e.main\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C00E6DBB-EEE0-42B1-98E9-727DF38BEC3C}|Pathfinder2E\\Pathfinder2E.csproj|d:\\github\\csharp_moment\\pathfinder2e\\pathfinder2e\\components\\tabdice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C00E6DBB-EEE0-42B1-98E9-727DF38BEC3C}|Pathfinder2E\\Pathfinder2E.csproj|solutionrelative:pathfinder2e\\components\\tabdice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|d:\\github\\csharp_moment\\pathfinder2e\\patfinder2e.main\\dto\\modeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|solutionrelative:patfinder2e.main\\dto\\modeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C00E6DBB-EEE0-42B1-98E9-727DF38BEC3C}|Pathfinder2E\\Pathfinder2E.csproj|d:\\github\\csharp_moment\\pathfinder2e\\pathfinder2e\\components\\tabrightpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C00E6DBB-EEE0-42B1-98E9-727DF38BEC3C}|Pathfinder2E\\Pathfinder2E.csproj|solutionrelative:pathfinder2e\\components\\tabrightpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|d:\\github\\csharp_moment\\pathfinder2e\\patfinder2e.main\\components\\highblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|solutionrelative:patfinder2e.main\\components\\highblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|d:\\github\\csharp_moment\\pathfinder2e\\patfinder2e.main\\components\\leftpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|solutionrelative:patfinder2e.main\\components\\leftpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|d:\\github\\csharp_moment\\pathfinder2e\\patfinder2e.main\\models\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|solutionrelative:patfinder2e.main\\models\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|d:\\github\\csharp_moment\\pathfinder2e\\patfinder2e.main\\components\\skills.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|solutionrelative:patfinder2e.main\\components\\skills.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|d:\\github\\csharp_moment\\pathfinder2e\\patfinder2e.main\\models\\micromodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|solutionrelative:patfinder2e.main\\models\\micromodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,8 +45,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 480,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,86 +54,130 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Model.cs",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\Model\\Model.cs",
-              "RelativeDocumentMoniker": "Pathfinder2E\\Model\\Model.cs",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\Model\\Model.cs",
-              "RelativeToolTip": "Pathfinder2E\\Model\\Model.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T13:49:22.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "Pathfinder2E\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "Pathfinder2E\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwFoAAABQAAAA",
+              "Title": "ColorConvertor.cs",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Converters\\ColorConvertor.cs",
+              "RelativeDocumentMoniker": "Patfinder2E.Main\\Converters\\ColorConvertor.cs",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Converters\\ColorConvertor.cs",
+              "RelativeToolTip": "Patfinder2E.Main\\Converters\\ColorConvertor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T12:53:58.037Z",
+              "WhenOpened": "2024-05-30T17:43:56.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TabDice.xaml",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\Components\\TabDice.xaml",
-              "RelativeDocumentMoniker": "Pathfinder2E\\Components\\TabDice.xaml",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\Components\\TabDice.xaml",
-              "RelativeToolTip": "Pathfinder2E\\Components\\TabDice.xaml",
+              "DocumentIndex": 0,
+              "Title": "HpBlock.xaml",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Components\\HpBlock.xaml",
+              "RelativeDocumentMoniker": "Patfinder2E.Main\\Components\\HpBlock.xaml",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Components\\HpBlock.xaml",
+              "RelativeToolTip": "Patfinder2E.Main\\Components\\HpBlock.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-18T12:52:24.686Z",
+              "WhenOpened": "2024-05-30T17:43:05.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LeftPanel.xaml",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Components\\LeftPanel.xaml",
+              "RelativeDocumentMoniker": "Patfinder2E.Main\\Components\\LeftPanel.xaml",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Components\\LeftPanel.xaml",
+              "RelativeToolTip": "Patfinder2E.Main\\Components\\LeftPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-30T17:18:04.328Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TabRightPanel.xaml",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\Components\\TabRightPanel.xaml",
-              "RelativeDocumentMoniker": "Pathfinder2E\\Components\\TabRightPanel.xaml",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\Components\\TabRightPanel.xaml",
-              "RelativeToolTip": "Pathfinder2E\\Components\\TabRightPanel.xaml",
+              "Title": "HighBlock.xaml",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Components\\HighBlock.xaml",
+              "RelativeDocumentMoniker": "Patfinder2E.Main\\Components\\HighBlock.xaml",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Components\\HighBlock.xaml",
+              "RelativeToolTip": "Patfinder2E.Main\\Components\\HighBlock.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-18T12:49:33.59Z",
+              "WhenOpened": "2024-05-30T17:09:40.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModelDTO.cs",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\DTO\\ModelDTO.cs",
+              "RelativeDocumentMoniker": "Patfinder2E.Main\\DTO\\ModelDTO.cs",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\DTO\\ModelDTO.cs",
+              "RelativeToolTip": "Patfinder2E.Main\\DTO\\ModelDTO.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:33:45.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Patfinder2E.Main\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "Patfinder2E.Main\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAAOwAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:32:57.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model.cs",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Models\\Model.cs",
+              "RelativeDocumentMoniker": "Patfinder2E.Main\\Models\\Model.cs",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Models\\Model.cs",
+              "RelativeToolTip": "Patfinder2E.Main\\Models\\Model.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAowLUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:19:36.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MicroModels.cs",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Models\\MicroModels.cs",
+              "RelativeDocumentMoniker": "Patfinder2E.Main\\Models\\MicroModels.cs",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Models\\MicroModels.cs",
+              "RelativeToolTip": "Patfinder2E.Main\\Models\\MicroModels.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAtwCsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:12:35.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Skills.xaml",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Components\\Skills.xaml",
+              "RelativeDocumentMoniker": "Patfinder2E.Main\\Components\\Skills.xaml",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Components\\Skills.xaml",
+              "RelativeToolTip": "Patfinder2E.Main\\Components\\Skills.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-30T16:11:50.792Z",
               "EditorCaption": ""
             }
           ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "2e9e43fc-d789-4664-9d05-358c1e4c0475",
-        "Display": 1,
-        "X": 1009,
-        "Y": 548,
-        "Width": 1432,
-        "Height": 747,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
+        },
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 110,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindowView.xaml",
-              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\Views\\MainWindowView.xaml",
-              "RelativeDocumentMoniker": "Pathfinder2E\\Views\\MainWindowView.xaml",
-              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\Views\\MainWindowView.xaml",
-              "RelativeToolTip": "Pathfinder2E\\Views\\MainWindowView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-18T12:48:38.856Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
