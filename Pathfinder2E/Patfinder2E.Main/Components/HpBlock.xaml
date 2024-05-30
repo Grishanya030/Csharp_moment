@@ -13,7 +13,7 @@
                      Text="{Binding Value}" FontSize="24" FontWeight="Bold" />
                 <Label FontSize="24" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center">|</Label>
                 <TextBox Height="77" Width="75" VerticalContentAlignment="Center" 
-                     Text="{Binding MaxValue}" FontSize="24" FontWeight="Bold" IsReadOnly="True"/>
+                     Text="{Binding MaxValue}" FontSize="24" FontWeight="Bold"/>
             </DockPanel>
             <Label Background="White" 
                Content="{Binding Type}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>

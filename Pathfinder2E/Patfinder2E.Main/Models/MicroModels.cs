@@ -16,13 +16,19 @@ namespace Pathfinder2E.Main.Models
         {
             public MicroModel(string _Type, int _Value)
             {
-                Value = _Value;
+                Refresh(_Value);
                 Type = _Type;
             }
 
             [Reactive] public int Value { get; set; }
+            [Reactive] public string SkillVal { get; set; }
             public string Type { get; set; } = "";
-
+            public void Refresh(int _Value)
+            {
+                Value= _Value;
+                if (Value - 10 < 0) SkillVal = (((Value - 10) / 2)-1).ToString();
+                else SkillVal = "+" + ((Value - 10) / 2).ToString();
+            }
         }
         public class HPData : MicroModel
         {
@@ -47,7 +53,7 @@ namespace Pathfinder2E.Main.Models
             {
                 if (Train > 0) Value = + Lvl + (Train * 2)+((Ability - 10)/2);
                 else Value = (Ability - 10) / 2;
-                if (Value < 0) SkillVal = Value.ToString();
+                if (Value < 0) SkillVal = (Value-1).ToString();
                 else SkillVal = "+" + Value.ToString();
             }
         }

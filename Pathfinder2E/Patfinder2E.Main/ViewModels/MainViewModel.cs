@@ -39,8 +39,10 @@ namespace Pathfinder2E.Main.ViewModels
             AddLangCommand = new ActionCommand(AddLang);
             DelLangCommand = new DelegateCommand(DelLang);
 
-            //AddInstCommand = new ActionCommand(AddObj(TempInst, Model.Instruments));
-            //DelInstCommand = new DelegateCommand(DelObj(TempInst, Model.Instruments));
+            AddLoresCommand = new ActionCommand(AddLores);
+            DelLoresCommand = new DelegateCommand(DelLores);
+            AddInstCommand = new ActionCommand(AddInst);
+            DelInstCommand = new DelegateCommand(DelInst);
 
             SaveCommand = new DelegateCommand(Save);
             LoadCommand = new DelegateCommand(Load);
@@ -91,6 +93,8 @@ namespace Pathfinder2E.Main.ViewModels
         public ICommand DelLangCommand { get; set; }
         public ICommand AddInstCommand { get; set; }
         public ICommand DelInstCommand { get; set; }
+        public ICommand AddLoresCommand { get; set; }
+        public ICommand DelLoresCommand { get; set; }
 
         #region Повыешение понижение статы
         public ICommand StrUp { get; set; }
@@ -135,6 +139,7 @@ namespace Pathfinder2E.Main.ViewModels
 
         [Reactive] public string TempLang { get; set; } = "";
         [Reactive] public string TempInst { get; set; } = "";
+        [Reactive] public string TempLore { get; set; } = "";
 
         [Reactive] public string DiceResult { get; set; } = string.Empty;
         [Reactive] public int DiceSumm { get; set; } = 0;
@@ -188,21 +193,41 @@ namespace Pathfinder2E.Main.ViewModels
         {
             model.Languages.Remove(TempLang);
         }
-        public void AddObj(string str, ObservableCollection<string> col)
+        public void AddLores()
         {
             bool flag = true;
-            foreach(string i in col) if (i == str) flag = false;
+            foreach (var i in model.Lores) if (i.Type == TempLore) flag = false;
 
             if (flag)
             {
-                col.Add(str);
-                str = "";
+                model.Lores.Add(new SkillBlock(TempLore, model.Intelegence.Value, 1, model.Level));
+                TempLore = "";
             }
         }
-        public void DelObj(string str, ObservableCollection<string> col)
+        public void DelLores()
         {
-            col.Remove(str);
+            foreach (var i in model.Lores) if (i.Type == TempLore)
+                {
+                    model.Lores.Remove(i);
+                    break;
+                }
         }
+        public void AddInst()
+        {
+            bool flag = true;
+            foreach (string i in model.Instruments) if (i == TempInst) flag = false;
+
+            if (flag)
+            {
+                model.Instruments.Add(TempInst);
+                TempInst = "";
+            }
+        }
+        public void DelInst()
+        {
+            model.Languages.Remove(TempInst);
+        }
+
         public void ShildUpClick()
         {
             if (model.shildUp) { model.Defence.Value -= 2; model.shildUp = false; }

@@ -9,7 +9,7 @@
     <Grid Margin="10">
         <StackPanel Width="85"  >
             <TextBox Height="77" Width="85" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
-                     Text="{Binding Value}" FontSize="24" FontWeight="Bold" IsReadOnly="True"/>
+                     Text="{Binding Value}" FontSize="24" FontWeight="Bold" />
             <Label Background="White" 
                    Content="{Binding Type}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         </StackPanel>

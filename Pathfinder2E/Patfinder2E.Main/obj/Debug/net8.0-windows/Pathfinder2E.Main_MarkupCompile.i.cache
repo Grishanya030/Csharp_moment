@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\artem\Documents\GitHub\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\
+D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\
 Pathfinder2E.Main
 none
 false
@@ -13,8 +13,8 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 9-1369150321
 
 21-2061842264
-210503235704
+210824361290
 Components\HighBlock.xaml;Components\HpBlock.xaml;Components\LeftPanel.xaml;Components\Skills.xaml;Components\SmallBlock.xaml;Components\TabDice.xaml;Components\TabRightPanel.xaml;Components\TabSkills.xaml;Views\MainView.xaml;
 
-False
+True
 

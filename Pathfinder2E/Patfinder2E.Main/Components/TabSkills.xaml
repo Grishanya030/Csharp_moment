@@ -10,31 +10,30 @@
              d:DataContext="{d:DesignInstance vm:MainViewModel}">
     <StackPanel Orientation="Horizontal" Background="White" Margin="5">
         <StackPanel Width="243" Margin="0,30,0,0">
-            <local:Skills />
-            <local:Skills />
-            <local:Skills />
-            <local:Skills DataContext="{Binding model.Arcana}" />
-            <local:Skills />
-            <local:Skills />
-            <local:Skills />
-            <local:Skills />
-            <local:Skills />
-            <local:Skills />
-            <local:Skills />
-            <local:Skills />
-            <local:Skills />
-            <local:Skills />
-            <local:Skills />
-            <local:Skills />
-            <local:Skills />
-            <local:Skills />
+            <local:Skills DataContext="{Binding model.Acrobatics}"/>
+            <local:Skills DataContext="{Binding model.Athletics}"/>
+            <local:Skills DataContext="{Binding model.Arcana}"/>
+            <local:Skills DataContext="{Binding model.Crafting}" />
+            <local:Skills DataContext="{Binding model.Deception}"/>
+            <local:Skills DataContext="{Binding model.Diplomacy}"/>
+            <local:Skills DataContext="{Binding model.Intimidation}"/>
+            <local:Skills DataContext="{Binding model.Medicine}"/>
+            <local:Skills DataContext="{Binding model.Nature}"/>
+            <local:Skills DataContext="{Binding model.Occultism}"/>
+            <local:Skills DataContext="{Binding model.Perfomance}"/>
+            <local:Skills DataContext="{Binding model.Religion}"/>
+            <local:Skills DataContext="{Binding model.Society}"/>
+            <local:Skills DataContext="{Binding model.Stealth}"/>
+            <local:Skills DataContext="{Binding model.Survival}"/>
+            <local:Skills DataContext="{Binding model.Thievery}"/>
+            <local:Skills DataContext="{Binding model.Perception}"/>
         </StackPanel>
         <StackPanel  Margin="0,4,0,0">
             <DockPanel>
                 <Label>Скорсть:</Label>
-                <Label Content="{Binding model.Speed}"/>
+                <TextBox Text="{Binding model.Speed}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 <Label>Размер:</Label>
-                <Label Content="{Binding model.Size}"/>
+                <TextBox Text="{Binding model.Size}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
             </DockPanel>
             <DockPanel>
                 <local:HighBlock DataContext="{Binding model.Strengh}"/>
@@ -72,9 +71,9 @@
                 <StackPanel Margin="0,0,5,0">
                     <Label Content="Знания:" Padding="5,0,5,0"/>
                     <DockPanel>
-                        <Button Content="Добавить" Command="{Binding AddLangCommand}"/>
-                        <TextBox Text="{Binding TempLang}" Width="100"/>
-                        <Button Content="Удалить" Command="{Binding DelLangCommand}"/>
+                        <Button Content="Добавить" Command="{Binding AddLoresCommand}"/>
+                        <TextBox Text="{Binding TempLore}" Width="100"/>
+                        <Button Content="Удалить" Command="{Binding DelLoresCommand}"/>
                     </DockPanel>
                     <ItemsControl ItemsSource="{Binding model.Lores}">
                         <ItemsControl.ItemTemplate>
