@@ -75,7 +75,7 @@
                         <TextBox Text="{Binding TempLore}" Width="100"/>
                         <Button Content="Удалить" Command="{Binding DelLoresCommand}"/>
                     </DockPanel>
-                    <ItemsControl ItemsSource="{Binding model.Lores}">
+                    <ItemsControl ItemsSource="{Binding model.Lores}" Background="#FFF7F7F7">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
                                 <local:Skills/>
@@ -90,7 +90,7 @@
                         <TextBox Text="{Binding TempLang}" Width="100"/>
                         <Button Content="Удалить" Command="{Binding DelLangCommand}"/>
                     </DockPanel>
-                    <ItemsControl ItemsSource="{Binding model.Languages}">
+                    <ItemsControl ItemsSource="{Binding model.Languages}"  Background="#FFF7F7F7">
                         <ItemsControl.ItemsPanel>
                             <ItemsPanelTemplate>
                                 <StackPanel Margin="5,5,5,0"/>
@@ -105,7 +105,7 @@
                         <TextBox Text="{Binding TempInst}" Width="100"/>
                         <Button Content="Удалить" Command="{Binding DelInstCommand}"/>
                     </DockPanel>
-                    <ItemsControl ItemsSource="{Binding model.Instruments}">
+                    <ItemsControl ItemsSource="{Binding model.Instruments}" Background="#FFF7F7F7">
                         <ItemsControl.ItemsPanel>
                             <ItemsPanelTemplate>
                                 <StackPanel Margin="5,5,5,0"/>

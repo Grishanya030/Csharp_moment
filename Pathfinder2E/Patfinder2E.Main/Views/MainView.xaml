@@ -20,13 +20,14 @@
             </Border>
             <Grid Grid.Column="1">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="807*"/>
-                    <ColumnDefinition Width="155*"/>
+                    <ColumnDefinition Width="79*"/>
+                    <ColumnDefinition Width="31*"/>
                 </Grid.ColumnDefinitions>
-                <cmp:TabRightPanel Grid.ColumnSpan="2"></cmp:TabRightPanel>
-                <StackPanel Orientation="Horizontal" Margin="0,12,20,0" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Column="1">
-                    <Button Margin="2" Height="20" Content="Сохранить" Command="{Binding SaveCommand}"/>
-                    <Button Margin="2" Height="20" Content="Загрузить" Command="{Binding LoadCommand}"/>
+                <cmp:TabRightPanel Grid.ColumnSpan="2"/>
+                <StackPanel Orientation="Horizontal" Margin="0,12,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Height="24" Width="172">
+                    <Button Margin="2"  Height="20" Content="Новый" Command="{Binding NewCommand}"/>
+                    <Button Margin="2"   Height="20" Content="Сохранить" Command="{Binding SaveCommand}"/>
+                    <Button Margin="2"  Height="20" Content="Загрузить" Command="{Binding LoadCommand}"/>
                 </StackPanel>
             </Grid>
 

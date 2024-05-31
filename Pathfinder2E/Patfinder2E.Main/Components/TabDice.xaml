@@ -8,47 +8,73 @@
              d:DesignHeight="450" d:DesignWidth="800"
              xmlns:vm="clr-namespace:Pathfinder2E.Main.ViewModels"
              d:DataContext="{d:DesignInstance vm:MainViewModel}">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="\theme\dicebuttons.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
     <Grid>
         <StackPanel Orientation="Horizontal">
             <StackPanel>
                 <Label Content="Кубы:"/>
                 <DockPanel LastChildFill="False">
-                    <Button Content=" D4 " Margin="10" Command="{Binding RollD4_1Command}" FontSize="25" Padding="5"/>
-                    <Button Content="x2" Margin="10" Command="{Binding RollD4_2Command}" FontSize="25" Padding="5"/>
-                    <Button Content="x3" Margin="10" Command="{Binding RollD4_3Command}" FontSize="25" Padding="5"/>
+                    <Button Content=" D4 " Margin="10" Command="{Binding RollD4_1Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
+                    <Button Content="x2" Margin="10" Command="{Binding RollD4_2Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
+                    <Button Content="x3" Margin="10" Command="{Binding RollD4_3Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
                     <TextBlock/>
                 </DockPanel>
                 <DockPanel LastChildFill="False">
-                    <Button Content=" D6 " Margin="10" Command="{Binding RollD6_1Command}" FontSize="25" Padding="5"/>
-                    <Button Content="x2" Margin="10" Command="{Binding RollD6_2Command}" FontSize="25" Padding="5"/>
-                    <Button Content="x3" Margin="10" Command="{Binding RollD6_3Command}" FontSize="25" Padding="5"/>
+                    <Button Content=" D6 " Margin="10" Command="{Binding RollD6_1Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
+                    <Button Content="x2" Margin="10" Command="{Binding RollD6_2Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
+                    <Button Content="x3" Margin="10" Command="{Binding RollD6_3Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
                     <TextBlock/>
                 </DockPanel>
                 <DockPanel LastChildFill="False">
-                    <Button Content=" D8 " Margin="10" Command="{Binding RollD8_1Command}" FontSize="25" Padding="5"/>
-                    <Button Content="x2" Margin="10" Command="{Binding RollD8_2Command}" FontSize="25" Padding="5"/>
-                    <Button Content="x3" Margin="10" Command="{Binding RollD8_3Command}" FontSize="25" Padding="5"/>
+                    <Button Content=" D8 " Margin="10" Command="{Binding RollD8_1Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
+                    <Button Content="x2" Margin="10" Command="{Binding RollD8_2Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
+                    <Button Content="x3" Margin="10" Command="{Binding RollD8_3Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
                 </DockPanel>
                 <DockPanel LastChildFill="False">
-                    <Button Content="D10" Margin="10" Command="{Binding RollD10_1Command}" FontSize="25" Padding="5"/>
-                    <Button Content="x2" Margin="10" Command="{Binding RollD10_2Command}" FontSize="25" Padding="5"/>
-                    <Button Content="x3" Margin="10" Command="{Binding RollD10_3Command}" FontSize="25" Padding="5"/>
+                    <Button Content="D10" Margin="10" Command="{Binding RollD10_1Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
+                    <Button Content="x2" Margin="10" Command="{Binding RollD10_2Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
+                    <Button Content="x3" Margin="10" Command="{Binding RollD10_3Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
                 </DockPanel>
                 <DockPanel LastChildFill="False">
-                    <Button Content="D12" Margin="10" Command="{Binding RollD12_1Command}" FontSize="25" Padding="5" />
-                    <Button Content="x2" Margin="10" Command="{Binding RollD12_2Command}" FontSize="25" Padding="5"/>
-                    <Button Content="x3" Margin="10" Command="{Binding RollD12_3Command}" FontSize="25" Padding="5"/>
+                    <Button Content="D12" Margin="10" Command="{Binding RollD12_1Command}" FontSize="25" Padding="5" 
+                            Style="{StaticResource DiceButtons}"/>
+                    <Button Content="x2" Margin="10" Command="{Binding RollD12_2Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
+                    <Button Content="x3" Margin="10" Command="{Binding RollD12_3Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
                 </DockPanel>
                 <DockPanel LastChildFill="False">
-                    <Button Content="D20" Margin="10" Command="{Binding RollD20_1Command}" FontSize="25" Padding="5"/>
-                    <Button Content="x2" Margin="10" Command="{Binding RollD20_2Command}" FontSize="25" Padding="5"/>
-                    <Button Content="x3" Margin="10" Command="{Binding RollD20_3Command}" FontSize="25" Padding="5"/>
+                    <Button Content="D20" Margin="10" Command="{Binding RollD20_1Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
+                    <Button Content="x2" Margin="10" Command="{Binding RollD20_2Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
+                    <Button Content="x3" Margin="10" Command="{Binding RollD20_3Command}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
                 </DockPanel>
-                <Button Content="Сброс"  Margin="10" Width="167" HorizontalAlignment="Left" Command="{Binding DiceClearCommand}" FontSize="25" Padding="5"/>
+                <Button Content="Сброс"  Margin="10" Width="167" HorizontalAlignment="Center" Command="{Binding DiceClearCommand}" FontSize="25" Padding="5"
+                            Style="{StaticResource DiceButtons}"/>
             </StackPanel>
             <StackPanel>
                 <Label Content="Бросок:"/>
-                <TextBlock Text="{Binding DiceResult}" Background="White" Height="377" Width="268" VerticalAlignment="Top" Margin="10" FontSize="25" Padding="5" TextWrapping="Wrap"/>
+                <TextBlock Text="{Binding DiceResult}" Background="White" Height="600" Width="268" VerticalAlignment="Top" Margin="10" FontSize="25" Padding="5" TextWrapping="Wrap"/>
             </StackPanel>
 
             <StackPanel>
@@ -58,7 +84,7 @@
 
             <StackPanel>
                 <Label Content="История:"/>
-                <TextBlock Text="{Binding DiceHistory}" Background="White" Height="377" Width="268" VerticalAlignment="Top" Margin="10" FontSize="15" Padding="5" TextWrapping="Wrap"/>
+                <TextBlock Text="{Binding DiceHistory}" Background="White" Height="600" Width="268" VerticalAlignment="Top" Margin="10" FontSize="15" Padding="5" TextWrapping="Wrap"/>
             </StackPanel>
         </StackPanel>
 

@@ -43,6 +43,9 @@
     <Page Update="Components\TabSkills.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Theme\DiceButtons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\MainView.xaml">
       <SubType>Designer</SubType>
     </Page>

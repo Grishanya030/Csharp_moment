@@ -113,3 +113,4 @@ D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\C
 D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Components\StatBlock.baml
 D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Components\TabBio.g.cs
 D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Components\TabBio.baml
+D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Theme\DiceButtons.baml

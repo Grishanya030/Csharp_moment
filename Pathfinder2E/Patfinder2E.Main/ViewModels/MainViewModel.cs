@@ -39,7 +39,10 @@ namespace Pathfinder2E.Main.ViewModels
                 string filename = File.ReadAllText(path);
                 JSON_DTO_Converter.JSONToModel(filename, model);
             }
-            catch (Exception ex) { Console.WriteLine(ex.Message); }
+            catch (Exception ex) { 
+                Console.WriteLine(ex.Message);
+                model = _model;
+            }
 
             ShildUpClickCommand = new DelegateCommand(ShildUpClick);
             AddLangCommand = new ActionCommand(AddLang);
@@ -52,6 +55,7 @@ namespace Pathfinder2E.Main.ViewModels
 
             SaveCommand = new DelegateCommand(Save);
             LoadCommand = new DelegateCommand(Load);
+            NewCommand = new DelegateCommand(NewModel);  
 
             #region стрелки на скилах
             StrUp = new DelegateCommand(this.model.StrUp);
@@ -94,6 +98,7 @@ namespace Pathfinder2E.Main.ViewModels
 
         public ICommand SaveCommand { get; set; }
         public ICommand LoadCommand { get; set; }
+        public ICommand NewCommand { get; set; }
         public ICommand ShildUpClickCommand { get; set; }
         public ICommand AddLangCommand { get; set; }
         public ICommand DelLangCommand { get; set; }
@@ -139,7 +144,7 @@ namespace Pathfinder2E.Main.ViewModels
         public ICommand RollD20_3Command { get; set; }
         #endregion
 
-        public Model model { get; set; }
+        [Reactive] public Model model { get; set; }
 
         [Reactive] public bool ShieldCheck { get; set; } = true;
 
@@ -186,6 +191,11 @@ namespace Pathfinder2E.Main.ViewModels
                 File.WriteAllTextAsync(path, filename);
             }
 
+        }
+
+        public void NewModel()
+        {
+            model = new Model();
         }
         public void AddLang()
         {

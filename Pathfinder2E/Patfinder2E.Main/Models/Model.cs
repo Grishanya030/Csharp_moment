@@ -80,7 +80,7 @@ namespace Pathfinder2E.Main.Models
             Name = "Игорёчек";
             Level = 3;
 
-            Hp = new HPData("ХП", 22, 22);
+            Hp = new HPData("ХП", 20, 20);
             TempHp = 0;
 
             Defence = new("КД", 10);
@@ -94,9 +94,9 @@ namespace Pathfinder2E.Main.Models
 
             //щит
             ShieldName = "Cтандартный щит";
-            ShieldHp = new HPData("ХП щита", 55, 60);
-            ShieldHardness = new MicroModel("Твердость", 11);
-            ShieldBroken = new MicroModel("Сломан", 48);
+            ShieldHp = new HPData("ХП щита", 45, 50);
+            ShieldHardness = new MicroModel("Твердость", 10);
+            ShieldBroken = new MicroModel("Сломан", 30);
             // скилы
             Intelegence = new MicroModel("Интелект", 10);
             Dexterity = new MicroModel("Ловкость", 10);
