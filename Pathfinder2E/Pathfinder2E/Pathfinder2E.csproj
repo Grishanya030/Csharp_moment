@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Patfinder2E.Main\Pathfinder2E.Main.csproj" />
+    <ProjectReference Include="..\Patfinder2E.Main\Pathfinder2E.Shell.csproj" />
   </ItemGroup>
     <ItemGroup>
 	    <ProjectReference Include=" ..\Pathfinder2E.DTOSave\Pathfinder2E.DTOSave.csproj" />

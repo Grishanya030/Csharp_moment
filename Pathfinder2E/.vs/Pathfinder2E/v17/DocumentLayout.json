@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Shell.csproj|d:\\github\\csharp_moment\\pathfinder2e\\patfinder2e.main\\converters\\booleanconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Shell.csproj|solutionrelative:patfinder2e.main\\converters\\booleanconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|d:\\github\\csharp_moment\\pathfinder2e\\patfinder2e.main\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|solutionrelative:patfinder2e.main\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8E3D375-5402-4934-8E22-AEC6CDA736AA}|Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj|d:\\github\\csharp_moment\\pathfinder2e\\pathfinder2e.dtosave\\dto\\modeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8E3D375-5402-4934-8E22-AEC6CDA736AA}|Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj|D:\\Github\\Csharp_moment\\Pathfinder2E\\pathfinder2e.dtosave\\dto\\modeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8E3D375-5402-4934-8E22-AEC6CDA736AA}|Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj|solutionrelative:pathfinder2e.dtosave\\dto\\modeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|d:\\github\\csharp_moment\\pathfinder2e\\patfinder2e.main\\services\\json_dto_converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|D:\\Github\\Csharp_moment\\Pathfinder2E\\patfinder2e.main\\services\\json_dto_converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}|Patfinder2E.Main\\Pathfinder2E.Main.csproj|solutionrelative:patfinder2e.main\\services\\json_dto_converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8E3D375-5402-4934-8E22-AEC6CDA736AA}|Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj|d:\\github\\csharp_moment\\pathfinder2e\\pathfinder2e.dtosave\\services\\jsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8E3D375-5402-4934-8E22-AEC6CDA736AA}|Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj|D:\\Github\\Csharp_moment\\Pathfinder2E\\pathfinder2e.dtosave\\services\\jsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8E3D375-5402-4934-8E22-AEC6CDA736AA}|Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj|solutionrelative:pathfinder2e.dtosave\\services\\jsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BooleanConverters.cs",
+              "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Converters\\BooleanConverters.cs",
+              "RelativeDocumentMoniker": "Patfinder2E.Main\\Converters\\BooleanConverters.cs",
+              "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Converters\\BooleanConverters.cs",
+              "RelativeToolTip": "Patfinder2E.Main\\Converters\\BooleanConverters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:39:00.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "Patfinder2E.Main\\ViewModels\\MainViewModel.cs",
               "ToolTip": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "Patfinder2E.Main\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJIAAAAWAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAwJIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T10:31:30.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "JSONConverter.cs",
               "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E.DTOSave\\Services\\JSONConverter.cs",
               "RelativeDocumentMoniker": "Pathfinder2E.DTOSave\\Services\\JSONConverter.cs",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "Pathfinder2E.DTOSave\\Services\\JSONConverter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T10:27:34.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T10:27:34.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ModelDTO.cs",
               "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E.DTOSave\\DTO\\ModelDTO.cs",
               "RelativeDocumentMoniker": "Pathfinder2E.DTOSave\\DTO\\ModelDTO.cs",
@@ -68,12 +84,11 @@
               "RelativeToolTip": "Pathfinder2E.DTOSave\\DTO\\ModelDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T10:27:31.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T10:27:31.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "JSON_DTO_Converter.cs",
               "DocumentMoniker": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Services\\JSON_DTO_Converter.cs",
               "RelativeDocumentMoniker": "Patfinder2E.Main\\Services\\JSON_DTO_Converter.cs",
@@ -81,8 +96,7 @@
               "RelativeToolTip": "Patfinder2E.Main\\Services\\JSON_DTO_Converter.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAHgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T10:27:19.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T10:27:19.18Z"
             }
           ]
         },

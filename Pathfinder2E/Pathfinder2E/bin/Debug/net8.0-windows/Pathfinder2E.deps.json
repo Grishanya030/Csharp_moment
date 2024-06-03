@@ -9,7 +9,7 @@
       "Pathfinder2E/1.0.0": {
         "dependencies": {
           "Pathfinder2E.DTOSave": "1.0.0",
-          "Pathfinder2E.Main": "1.0.0",
+          "Pathfinder2E.Shell": "1.0.0",
           "Prism.Unity": "8.1.97",
           "Prism.Wpf": "8.1.97",
           "ReactiveUI.Fody": "19.5.41",
@@ -176,7 +176,7 @@
           "Pathfinder2E.DTOSave.dll": {}
         }
       },
-      "Pathfinder2E.Main/1.0.0": {
+      "Pathfinder2E.Shell/1.0.0": {
         "dependencies": {
           "Pathfinder2E.DTOSave": "1.0.0",
           "Prism.Core": "8.1.97",
@@ -188,7 +188,7 @@
           "System.Text.Json": "8.0.3"
         },
         "runtime": {
-          "Pathfinder2E.Main.dll": {}
+          "Pathfinder2E.Shell.dll": {}
         }
       }
     }
@@ -337,7 +337,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Pathfinder2E.Main/1.0.0": {
+    "Pathfinder2E.Shell/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

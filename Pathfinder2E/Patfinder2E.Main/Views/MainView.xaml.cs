@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Pathfinder2E.Main.Views
+namespace Pathfinder2E.Shell.Views
 {
     /// <summary>
     /// Логика взаимодействия для MainView.xaml

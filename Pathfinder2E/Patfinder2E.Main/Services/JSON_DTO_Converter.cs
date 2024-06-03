@@ -1,6 +1,6 @@
 ﻿
 using DynamicData;
-using Pathfinder2E.Main.Models;
+using Pathfinder2E.Shell.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -12,7 +12,7 @@ using System.Windows.Media;
 using Pathfinder2E.DTOSave.Services;
 using Pathfinder2E.DTOSave.DTO;
 
-namespace Pathfinder2E.Main.Services
+namespace Pathfinder2E.Shell.Services
 {
     internal class JSON_DTO_Converter
     {

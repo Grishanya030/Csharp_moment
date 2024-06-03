@@ -54,8 +54,6 @@ D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\Splat
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\System.Reactive.dll
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\Unity.Abstractions.dll
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\Unity.Container.dll
-D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\Pathfinder2E.Main.dll
-D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\Pathfinder2E.Main.pdb
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Pathfinder2E.csproj.AssemblyReference.cache
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Views\MainWindowView.g.cs
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\App.g.cs
@@ -118,3 +116,5 @@ D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\App.b
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\obj\Debug\net8.0-windows\Theme\DiceButtons.baml
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\Pathfinder2E.DTOSave.dll
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\Pathfinder2E.DTOSave.pdb
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\Pathfinder2E.Shell.dll
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E\bin\Debug\net8.0-windows\Pathfinder2E.Shell.pdb

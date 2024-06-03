@@ -9,10 +9,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using Pathfinder2E.Main.Models;
-using Pathfinder2E.Main.Services;
-using Pathfinder2E.Main.Components;
-using static Pathfinder2E.Main.Models.MicroModels;
+using Pathfinder2E.Shell.Models;
+using Pathfinder2E.Shell.Services;
+using Pathfinder2E.Shell.Components;
+using static Pathfinder2E.Shell.Models.MicroModels;
 using DynamicData;
 using System.Collections.ObjectModel;
 using Microsoft.Xaml.Behaviors.Core;
@@ -21,7 +21,7 @@ using System.IO;
 using System.Windows.Shapes;
 
 
-namespace Pathfinder2E.Main.ViewModels
+namespace Pathfinder2E.Shell.ViewModels
 {
     public class MainViewModel : ReactiveObject
     {

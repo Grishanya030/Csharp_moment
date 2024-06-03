@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pathfinder2E.DTOSave")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f460397a00468d35716620fea33591c71ac43c92")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7a622539234fa6fe551fc0fb2ba7f0a727fb843")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pathfinder2E.DTOSave")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pathfinder2E.DTOSave")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

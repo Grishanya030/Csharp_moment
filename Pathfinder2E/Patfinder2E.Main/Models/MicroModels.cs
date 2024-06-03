@@ -1,4 +1,4 @@
-﻿using Pathfinder2E.Main.Components;
+﻿using Pathfinder2E.Shell.Components;
 using ReactiveUI;
 using ReactiveUI.Fody.Helpers;
 using System;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Pathfinder2E.Main.Models
+namespace Pathfinder2E.Shell.Models
 {
     public class MicroModels
     {

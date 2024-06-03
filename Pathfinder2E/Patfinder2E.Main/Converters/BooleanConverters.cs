@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pathfinder2E.Main.Converters
+namespace Pathfinder2E.Shell.Converters
 {
     public class BooleanConverters<T, TMarkup> : ConverterBase<TMarkup>
         where TMarkup : BooleanConverters<T, TMarkup>, new()

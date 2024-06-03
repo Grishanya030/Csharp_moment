@@ -319,7 +319,7 @@
           "bin/placeholder/Pathfinder2E.DTOSave.dll": {}
         }
       },
-      "Pathfinder2E.Main/1.0.0": {
+      "Pathfinder2E.Shell/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -333,10 +333,10 @@
           "System.Text.Json": "8.0.3"
         },
         "compile": {
-          "bin/placeholder/Pathfinder2E.Main.dll": {}
+          "bin/placeholder/Pathfinder2E.Shell.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Pathfinder2E.Main.dll": {}
+          "bin/placeholder/Pathfinder2E.Shell.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -1060,16 +1060,16 @@
       "path": "../Pathfinder2E.DTOSave/Pathfinder2E.DTOSave.csproj",
       "msbuildProject": "../Pathfinder2E.DTOSave/Pathfinder2E.DTOSave.csproj"
     },
-    "Pathfinder2E.Main/1.0.0": {
+    "Pathfinder2E.Shell/1.0.0": {
       "type": "project",
-      "path": "../Patfinder2E.Main/Pathfinder2E.Main.csproj",
-      "msbuildProject": "../Patfinder2E.Main/Pathfinder2E.Main.csproj"
+      "path": "../Patfinder2E.Main/Pathfinder2E.Shell.csproj",
+      "msbuildProject": "../Patfinder2E.Main/Pathfinder2E.Shell.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "Pathfinder2E.DTOSave >= 1.0.0",
-      "Pathfinder2E.Main >= 1.0.0",
+      "Pathfinder2E.Shell >= 1.0.0",
       "Prism.Unity >= 8.1.97",
       "Prism.Wpf >= 8.1.97",
       "ReactiveUI.Fody >= 19.5.41",
@@ -1103,8 +1103,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj": {
-              "projectPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj"
+            "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Shell.csproj": {
+              "projectPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Shell.csproj"
             },
             "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj": {
               "projectPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj"

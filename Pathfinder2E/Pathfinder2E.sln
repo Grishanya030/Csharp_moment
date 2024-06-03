@@ -5,9 +5,9 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pathfinder2E", "Pathfinder2E\Pathfinder2E.csproj", "{C00E6DBB-EEE0-42B1-98E9-727DF38BEC3C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pathfinder2E.Main", "Patfinder2E.Main\Pathfinder2E.Main.csproj", "{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pathfinder2E.Shell", "Patfinder2E.Main\Pathfinder2E.Shell.csproj", "{5FF97328-CFFB-4F71-AC24-93DFDCD1F8FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pathfinder2E.DTOSave", "Pathfinder2E.DTOSave\Pathfinder2E.DTOSave.csproj", "{F8E3D375-5402-4934-8E22-AEC6CDA736AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pathfinder2E.DTOSave", "Pathfinder2E.DTOSave\Pathfinder2E.DTOSave.csproj", "{F8E3D375-5402-4934-8E22-AEC6CDA736AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

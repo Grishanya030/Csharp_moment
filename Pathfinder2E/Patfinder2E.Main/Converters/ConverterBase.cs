@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace Pathfinder2E.Main.Converters
+namespace Pathfinder2E.Shell.Converters
 {
     public abstract class ConverterBase<T> : MarkupExtension, IValueConverter
         where T : class, new()

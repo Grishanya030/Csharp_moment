@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Pathfinder2E.Main.Components
+namespace Pathfinder2E.Shell.Components
 {
     /// <summary>
     /// Логика взаимодействия для StatBlock.xaml
