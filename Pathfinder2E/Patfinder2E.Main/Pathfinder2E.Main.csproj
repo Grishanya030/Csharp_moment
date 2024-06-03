@@ -17,6 +17,9 @@
 		<PackageReference Include="ReactiveUI.WPF" Version="19.6.1" />
 		<PackageReference Include="System.Text.Json" Version="8.0.3" />
 	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include=" ..\Pathfinder2E.DTOSave\Pathfinder2E.DTOSave.csproj" />
+	</ItemGroup>
 	
   <ItemGroup>
     <Compile Update="Components\HighBlock.xaml.cs">

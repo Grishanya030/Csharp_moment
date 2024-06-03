@@ -300,10 +300,30 @@
           }
         }
       },
+      "Pathfinder2E.DTOSave/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Prism.Core": "8.1.97",
+          "Prism.Unity": "8.1.97",
+          "Prism.Wpf": "8.1.97",
+          "ReactiveUI": "19.6.1",
+          "ReactiveUI.Fody": "19.5.41",
+          "ReactiveUI.WPF": "19.6.1",
+          "System.Text.Json": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Pathfinder2E.DTOSave.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pathfinder2E.DTOSave.dll": {}
+        }
+      },
       "Pathfinder2E.Main/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Pathfinder2E.DTOSave": "1.0.0",
           "Prism.Core": "8.1.97",
           "Prism.Unity": "8.1.97",
           "Prism.Wpf": "8.1.97",
@@ -1035,6 +1055,11 @@
         "unity.container.nuspec"
       ]
     },
+    "Pathfinder2E.DTOSave/1.0.0": {
+      "type": "project",
+      "path": "../Pathfinder2E.DTOSave/Pathfinder2E.DTOSave.csproj",
+      "msbuildProject": "../Pathfinder2E.DTOSave/Pathfinder2E.DTOSave.csproj"
+    },
     "Pathfinder2E.Main/1.0.0": {
       "type": "project",
       "path": "../Patfinder2E.Main/Pathfinder2E.Main.csproj",
@@ -1043,6 +1068,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "Pathfinder2E.DTOSave >= 1.0.0",
       "Pathfinder2E.Main >= 1.0.0",
       "Prism.Unity >= 8.1.97",
       "Prism.Wpf >= 8.1.97",
@@ -1079,6 +1105,9 @@
           "projectReferences": {
             "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj": {
               "projectPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj"
+            },
+            "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj": {
+              "projectPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj"
             }
           }
         }

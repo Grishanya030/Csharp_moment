@@ -1,6 +1,5 @@
 ﻿
 using DynamicData;
-using Pathfinder2E.Main.DTO;
 using Pathfinder2E.Main.Models;
 using System;
 using System.Collections.Generic;
@@ -10,6 +9,8 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Media;
+using Pathfinder2E.DTOSave.Services;
+using Pathfinder2E.DTOSave.DTO;
 
 namespace Pathfinder2E.Main.Services
 {
@@ -119,38 +120,17 @@ namespace Pathfinder2E.Main.Services
         }
         
        
-        public static void DTOToJSON(ModelDTO DTO,string filepath)
-        {
-            JsonSerializerOptions serializeOptions = new JsonSerializerOptions
-        {
-            WriteIndented = true,
-            IncludeFields=true
-        };
-            string json=JsonSerializer.Serialize(DTO, options: serializeOptions);
-            File.WriteAllText(filepath, json);
-        }
-        public static ModelDTO JSONToDTO(string filepath)
-        {
-            JsonSerializerOptions serializeOptions = new JsonSerializerOptions
-            {
-                WriteIndented = true,
-                IncludeFields = true
-            };
-            string json= File.ReadAllText(filepath);
-            
-            ModelDTO DTO = JsonSerializer.Deserialize<ModelDTO>(json, options: serializeOptions);
-            return DTO;
-        }
+       
         public static void JSONToModel (string filepath,Model model) 
         {
-            DTOToModel(JSONToDTO(filepath),model);
+            DTOToModel(JSONConverter.JSONToDTO(filepath),model);
         }
 
         public static void ModelToJSON(Model model,string filepath)
         {
             ModelDTO DTO=new ModelDTO();
             ModelToDTO(model, DTO);
-            DTOToJSON(DTO,filepath);
+            JSONConverter.DTOToJSON(DTO,filepath);
         }
     }
 }

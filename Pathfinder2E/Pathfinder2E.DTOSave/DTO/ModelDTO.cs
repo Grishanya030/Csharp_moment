@@ -1,11 +1,10 @@
-﻿using ReactiveUI.Fody.Helpers;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pathfinder2E.Main.DTO
+namespace Pathfinder2E.DTOSave.DTO
 {
     public class ModelDTO
     {
@@ -25,10 +24,10 @@ namespace Pathfinder2E.Main.DTO
         public int ShieldMaxHP { get; set; }
         public int ShieldHardness { get; set; }
         public int ShieldBroken { get; set; }
-        public int Intel {  get; set; }
+        public int Intel { get; set; }
 
         public int Dex { get; set; }
-        public int Con {  get; set; }
+        public int Con { get; set; }
         public int Str { get; set; }
         public int Wis { get; set; }
         public int Cha { get; set; }

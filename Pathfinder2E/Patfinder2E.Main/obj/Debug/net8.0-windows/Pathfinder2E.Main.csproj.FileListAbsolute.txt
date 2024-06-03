@@ -114,3 +114,6 @@ D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\C
 D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Components\TabBio.g.cs
 D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Components\TabBio.baml
 D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Theme\DiceButtons.baml
+D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\bin\Debug\net8.0-windows\Pathfinder2E.DTOSave.dll
+D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\bin\Debug\net8.0-windows\Pathfinder2E.DTOSave.pdb
+D:\Github\Csharp_moment\Pathfinder2E\Patfinder2E.Main\obj\Debug\net8.0-windows\Pathfind.FF5BC565.Up2Date

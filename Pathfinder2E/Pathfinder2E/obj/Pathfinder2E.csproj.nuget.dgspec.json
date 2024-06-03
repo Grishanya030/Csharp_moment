@@ -27,7 +27,11 @@
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj": {
+                "projectPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -97,6 +101,96 @@
         }
       }
     },
+    "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj",
+        "projectName": "Pathfinder2E.DTOSave",
+        "projectPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E.DTOSave\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Prism.Core": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "Prism.Unity": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "ReactiveUI": {
+              "target": "Package",
+              "version": "[19.6.1, )"
+            },
+            "ReactiveUI.Fody": {
+              "target": "Package",
+              "version": "[19.5.41, )"
+            },
+            "ReactiveUI.WPF": {
+              "target": "Package",
+              "version": "[19.6.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E\\Pathfinder2E.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -123,6 +217,9 @@
             "projectReferences": {
               "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj": {
                 "projectPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj"
+              },
+              "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj": {
+                "projectPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Pathfinder2E.DTOSave\\Pathfinder2E.DTOSave.csproj"
               }
             }
           }

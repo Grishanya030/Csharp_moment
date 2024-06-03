@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
 12-593092176
 
-251226991480
-210824361290
+24-51616262
+2111685762123
 Components\HighBlock.xaml;Components\HpBlock.xaml;Components\LeftPanel.xaml;Components\Skills.xaml;Components\SmallBlock.xaml;Components\StatBlock.xaml;Components\TabBio.xaml;Components\TabDice.xaml;Components\TabRightPanel.xaml;Components\TabSkills.xaml;Theme\DiceButtons.xaml;Views\MainView.xaml;
 
-False
+True
 
