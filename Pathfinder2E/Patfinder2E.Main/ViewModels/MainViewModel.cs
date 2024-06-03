@@ -199,7 +199,7 @@ namespace Pathfinder2E.Main.ViewModels
         }
         public void AddLang()
         {
-            if (model.Languages.Count < 20)
+            if (model.Languages.Count < 20 && TempLang!="")
             {
                 bool flag = true;
                 foreach (string i in model.Languages) if (i == TempLang) flag = false;
@@ -218,7 +218,7 @@ namespace Pathfinder2E.Main.ViewModels
         }
         public void AddLores()
         {
-            if (model.Lores.Count < 20)
+            if (model.Lores.Count < 20 && TempLore != "")
             {
                 bool flag = true;
                 foreach (var i in model.Lores) if (i.Type == ("Знания: " + TempLore)) flag = false;
@@ -241,7 +241,7 @@ namespace Pathfinder2E.Main.ViewModels
         }
         public void AddInst()
         {
-            if (model.Instruments.Count < 20)
+            if (model.Instruments.Count < 20 && TempInst != "")
             {
                 bool flag = true;
             foreach (string i in model.Instruments) if (i == TempInst) flag = false;
