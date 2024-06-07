@@ -3,25 +3,14 @@ using Prism.Events;
 using Prism.Regions;
 using ReactiveUI.Fody.Helpers;
 using ReactiveUI;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
-using Pathfinder2E.Shell.Models;
-using Pathfinder2E.Shell.Services;
-using Pathfinder2E.Shell.Components;
-using static Pathfinder2E.Shell.Models.MicroModels;
-using DynamicData;
-using System.Collections.ObjectModel;
+using Pathfinder2E.Main.Models;
+using Pathfinder2E.Main.Services;
 using Microsoft.Xaml.Behaviors.Core;
-using Prism.Services.Dialogs;
 using System.IO;
-using System.Windows.Shapes;
 
 
-namespace Pathfinder2E.Shell.ViewModels
+namespace Pathfinder2E.Main.ViewModels
 {
     public class MainViewModel : ReactiveObject
     {

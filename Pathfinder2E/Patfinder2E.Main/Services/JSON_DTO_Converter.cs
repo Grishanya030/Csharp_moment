@@ -1,6 +1,6 @@
 ﻿
 using DynamicData;
-using Pathfinder2E.Shell.Models;
+using Pathfinder2E.Main.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -12,7 +12,7 @@ using System.Windows.Media;
 using Pathfinder2E.DTOSave.Services;
 using Pathfinder2E.DTOSave.DTO;
 
-namespace Pathfinder2E.Shell.Services
+namespace Pathfinder2E.Main.Services
 {
     internal class JSON_DTO_Converter
     {
@@ -108,7 +108,7 @@ namespace Pathfinder2E.Shell.Services
                 foreach (string value in DTO.Lores)
                 {
                     if (value != null)
-                        model.Lores.Add(new MicroModels.SkillBlock( value, DTO.Intel, 1, DTO.Level));
+                        model.Lores.Add(new SkillBlock( value, DTO.Intel, 1, DTO.Level));
                 }
             if (DTO.Instruments.Any())
                 foreach (string value in DTO.Instruments)

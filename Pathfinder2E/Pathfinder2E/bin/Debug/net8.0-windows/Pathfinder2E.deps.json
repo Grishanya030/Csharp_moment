@@ -164,12 +164,6 @@
       },
       "Pathfinder2E.DTOSave/1.0.0": {
         "dependencies": {
-          "Prism.Core": "8.1.97",
-          "Prism.Unity": "8.1.97",
-          "Prism.Wpf": "8.1.97",
-          "ReactiveUI": "19.6.1",
-          "ReactiveUI.Fody": "19.5.41",
-          "ReactiveUI.WPF": "19.6.1",
           "System.Text.Json": "8.0.3"
         },
         "runtime": {
@@ -184,8 +178,7 @@
           "Prism.Wpf": "8.1.97",
           "ReactiveUI": "19.6.1",
           "ReactiveUI.Fody": "19.5.41",
-          "ReactiveUI.WPF": "19.6.1",
-          "System.Text.Json": "8.0.3"
+          "ReactiveUI.WPF": "19.6.1"
         },
         "runtime": {
           "Pathfinder2E.Shell.dll": {}

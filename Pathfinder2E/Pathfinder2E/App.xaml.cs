@@ -1,11 +1,8 @@
-﻿using Pathfinder2E.Shell;
-using Pathfinder2E.Shell.ViewModels;
+﻿using Pathfinder2E.Main;
 using Pathfinder2E.Views;
 using Prism.Ioc;
 using Prism.Modularity;
 using System.ComponentModel;
-using System.Configuration;
-using System.Data;
 using System.Windows;
 
 namespace Pathfinder2E

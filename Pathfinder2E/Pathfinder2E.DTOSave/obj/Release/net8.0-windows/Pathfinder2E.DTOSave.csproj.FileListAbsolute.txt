@@ -1,0 +1,12 @@
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\bin\Release\net8.0-windows\Pathfinder2E.DTOSave.deps.json
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\bin\Release\net8.0-windows\Pathfinder2E.DTOSave.dll
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\bin\Release\net8.0-windows\Pathfinder2E.DTOSave.pdb
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Release\net8.0-windows\Pathfinder2E.DTOSave.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Release\net8.0-windows\Pathfinder2E.DTOSave.AssemblyInfoInputs.cache
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Release\net8.0-windows\Pathfinder2E.DTOSave.AssemblyInfo.cs
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Release\net8.0-windows\Pathfinder2E.DTOSave.csproj.CoreCompileInputs.cache
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Release\net8.0-windows\Pathfinder2E.DTOSave.sourcelink.json
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Release\net8.0-windows\Pathfinder2E.DTOSave.dll
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Release\net8.0-windows\refint\Pathfinder2E.DTOSave.dll
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Release\net8.0-windows\Pathfinder2E.DTOSave.pdb
+D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Release\net8.0-windows\ref\Pathfinder2E.DTOSave.dll

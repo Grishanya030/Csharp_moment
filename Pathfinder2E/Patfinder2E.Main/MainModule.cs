@@ -1,15 +1,11 @@
-﻿using Pathfinder2E.Shell.ViewModels;
-using Pathfinder2E.Shell.Views;
+﻿using Pathfinder2E.Main.ViewModels;
+using Pathfinder2E.Main.Views;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Pathfinder2E.Shell
+
+namespace Pathfinder2E.Main
 {
     public class MainModule : IModule
     {

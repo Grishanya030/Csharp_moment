@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 
-namespace Pathfinder2E.Shell.Converters
+namespace Pathfinder2E.Main.Converters
 {
     internal class VisibilityConvertor: BooleanConverters<Visibility, VisibilityConvertor>
     {

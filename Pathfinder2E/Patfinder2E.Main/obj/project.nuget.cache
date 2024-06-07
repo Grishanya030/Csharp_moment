@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b0KLhJLHty9YE8weU0nixgcSSArWHNkNqkcaybuJ53GO1F9yKByBo7wBGEU4BX5RX4dAGX1YgUZ1d6nb0HQ2JQ==",
+  "dgSpecHash": "zekCrbmsPqeTF2mcW6oKbvvthCl5ijdHP0Ov3+SnsL+Fo6Y2vzMkK2j7sngMdIVTw21SVMewBViNs0LpbBL3HQ==",
   "success": true,
-  "projectFilePath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Shell.csproj",
+  "projectFilePath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\dynamicdata\\8.3.27\\dynamicdata.8.3.27.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\fody\\6.8.0\\fody.6.8.0.nupkg.sha512",

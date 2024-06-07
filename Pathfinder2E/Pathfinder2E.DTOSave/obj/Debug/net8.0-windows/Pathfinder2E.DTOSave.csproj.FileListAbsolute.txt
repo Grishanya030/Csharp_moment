@@ -10,6 +10,3 @@ D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Debug\net8.0-windo
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Debug\net8.0-windows\refint\Pathfinder2E.DTOSave.dll
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Debug\net8.0-windows\Pathfinder2E.DTOSave.pdb
 D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Debug\net8.0-windows\ref\Pathfinder2E.DTOSave.dll
-D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Debug\net8.0-windows\Pathfinder2E.DTOSave.csproj.AssemblyReference.cache
-D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Debug\net8.0-windows\Pathfinder2E.DTOSave.csproj.Fody.CopyLocal.cache
-D:\Github\Csharp_moment\Pathfinder2E\Pathfinder2E.DTOSave\obj\Debug\net8.0-windows\Pathfinder2E.DTOSave.csproj.Fody.RuntimeCopyLocal.cache

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Pathfinder2E.Shell.Converters
+namespace Pathfinder2E.Main.Converters
 {
     internal class ShildUpConvertor: BooleanConverters<string, ShildUpConvertor>
     {

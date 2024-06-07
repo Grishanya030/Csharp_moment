@@ -304,12 +304,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Prism.Core": "8.1.97",
-          "Prism.Unity": "8.1.97",
-          "Prism.Wpf": "8.1.97",
-          "ReactiveUI": "19.6.1",
-          "ReactiveUI.Fody": "19.5.41",
-          "ReactiveUI.WPF": "19.6.1",
           "System.Text.Json": "8.0.3"
         },
         "compile": {
@@ -1046,8 +1040,7 @@
       "Prism.Wpf >= 8.1.97",
       "ReactiveUI >= 19.6.1",
       "ReactiveUI.Fody >= 19.5.41",
-      "ReactiveUI.WPF >= 19.6.1",
-      "System.Text.Json >= 8.0.3"
+      "ReactiveUI.WPF >= 19.6.1"
     ]
   },
   "packageFolders": {
@@ -1056,9 +1049,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Shell.csproj",
-      "projectName": "Pathfinder2E.Shell",
-      "projectPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Shell.csproj",
+      "projectUniqueName": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj",
+      "projectName": "Pathfinder2E.Main",
+      "projectPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\Pathfinder2E.Main.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "D:\\Github\\Csharp_moment\\Pathfinder2E\\Patfinder2E.Main\\obj\\",
       "projectStyle": "PackageReference",
@@ -1121,10 +1114,6 @@
           "ReactiveUI.WPF": {
             "target": "Package",
             "version": "[19.6.1, )"
-          },
-          "System.Text.Json": {
-            "target": "Package",
-            "version": "[8.0.3, )"
           }
         },
         "imports": [

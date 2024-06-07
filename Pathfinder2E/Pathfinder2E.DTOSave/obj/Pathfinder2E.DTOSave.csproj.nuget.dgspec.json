@@ -45,30 +45,6 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
-            "Prism.Core": {
-              "target": "Package",
-              "version": "[8.1.97, )"
-            },
-            "Prism.Unity": {
-              "target": "Package",
-              "version": "[8.1.97, )"
-            },
-            "Prism.Wpf": {
-              "target": "Package",
-              "version": "[8.1.97, )"
-            },
-            "ReactiveUI": {
-              "target": "Package",
-              "version": "[19.6.1, )"
-            },
-            "ReactiveUI.Fody": {
-              "target": "Package",
-              "version": "[19.5.41, )"
-            },
-            "ReactiveUI.WPF": {
-              "target": "Package",
-              "version": "[19.6.1, )"
-            },
             "System.Text.Json": {
               "target": "Package",
               "version": "[8.0.3, )"
